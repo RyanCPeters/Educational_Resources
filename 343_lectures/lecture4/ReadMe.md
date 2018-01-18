@@ -333,5 +333,5 @@ bfs(v: Vertex) {
 + Start Ass-2, fix your Ass-1 if you have any memory leaks or not passing JollyFeedback with flying colors!
 
 
-[2]:https://ryancpeters.github.io/Winter_UWB_2017/343_data-structures_n_algos/lectureNotes/lecture3/
-[3]:https://ryancpeters.github.io/Winter_UWB_2017/343_data-structures_n_algos/lectureNotes/lecture4/
+[2]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture3/
+[3]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture4/
