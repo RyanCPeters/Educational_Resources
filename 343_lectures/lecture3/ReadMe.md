@@ -472,5 +472,5 @@ Number of nodes: 8
   - Available for questions on Friday Jan 12, 1-2pm in front of UW1-260Q
 
 [1]:#table-of-contents "Back to Table of Contents"
-[2]:https://ryancpeters.github.io/Winter_UWB_2017/343_data-structures_n_algos/lectureNotes/lecture2/
-[3]:https://ryancpeters.github.io/Winter_UWB_2017/343_data-structures_n_algos/lectureNotes/lecture4/
+[2]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture2/
+[3]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture4/
