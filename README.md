@@ -36,7 +36,7 @@ As such, it will see more resources added as I get the time or as people choose 
   
   
   
-[1]:(https://ryancpeters.github.io/Winter_UWB_2017/343_data-structures_n_algos/lectureNotes/lecture1/)
-[2]:(https://ryancpeters.github.io/Winter_UWB_2017/343_data-structures_n_algos/lectureNotes/lecture2/)
-[3]:(https://ryancpeters.github.io/Winter_UWB_2017/343_data-structures_n_algos/lectureNotes/lecture3/)
-[4]:(https://ryancpeters.github.io/Winter_UWB_2017/343_data-structures_n_algos/lectureNotes/lecture4/)
+[1]:(https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture1/)
+[2]:(https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture2/)
+[3]:(https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture3/)
+[4]:(https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture4/)
