@@ -31,14 +31,14 @@ C++ is a high-level language:
 A program goes from text files (or source files) to processor instructions as follows:
 
 ```
-			  (compiler)	
+                 (compiler)	
 [Source File] ----------> [Object File] 
-					  					\ (Linker)				(OS)
-									     :--------> [Executable] ------> [Program in Memory]	
-			  (compiler)				/^ 
-[Source File] ----------> [Object File]  |
-										 |
-									(Libraries)  
+                                       \ (Linker)                (OS)
+                                        :--------> [Executable] ------> [Program in Memory]	
+                 (compiler)            /^ 
+[Source File] ----------> [Object File] |
+                                        |
+                                       (Libraries)  
 ```
 
 Object files are intermediate files that represent an incomplete copy of the program: 
@@ -55,14 +55,14 @@ C++ actually adds an extra step to the compilation process: the code is run thro
 Thus, the modified diagram is:
 
 ```
-			  (Preprocessor)	 			  (compiler)	
+              (Preprocessor)                  (compiler)	
 [Source File] -------------> [Processed Code] ----------> [Object File] 
-						  					 						    \ (Linker)				(OS)
-										      						     :--------> [Executable] ------> [Program in Memory]	
-			  (Preprocessor)	 			  (compiler)				/^ 
-[Source File] -------------> [Processed Code] ----------> [Object File]  |
-										 	  						     |
-																 		(Libraries)  
+                                                                       \ (Linker)                (OS)
+                                                                        :--------> [Executable] ------> [Program in Memory]	
+              (Preprocessor)                  (compiler)               /^ 
+[Source File] -------------> [Processed Code] ----------> [Object File] |
+                                                                        |
+                                                                       (Libraries)  
 ```
 
 #### 1.3 General Notes on C++
@@ -96,7 +96,7 @@ Tokens are the minimal chunks of program that have meaning to the compiler -- th
 Colons can be used to align columns.
 
 | Token type  		     |   Description/Purpose   | Examples |
-| ----------------------:|:-----------------------:| --------:|
+|:---------------------- |:-----------------------:|:-------- |
 | Keywords               | Words withspecial meaningto the compiler | int, double, for, auto |
 | Identifiers            | Names of things that are not built into the language | cout, std, x, myFunction |
 | Literals	             | Basic constant values whose value is specified directly in the source code | "Hello, world!", 24.3, 0, ’c’ |
