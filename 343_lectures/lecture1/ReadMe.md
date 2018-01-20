@@ -8,6 +8,9 @@ formatted to Github Markdown syntax by Ryan Peters
 
 <h2>Be sure to check the other lectures out after you finish this one! </br> [Next lecture][3]</h2>
 
+[2]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture2/
+[3]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture2/
+
 ---
 
 ### Table of Contents
@@ -269,5 +272,3 @@ Assignment 1: TurtleProgram
 
 Start programming 
 
-[2]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture2/
-[3]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture2/

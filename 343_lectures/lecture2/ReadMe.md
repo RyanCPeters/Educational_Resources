@@ -6,7 +6,10 @@ Created By: Yusuf Pisan
 
 formatted to Github Markdown syntax by Ryan Peters
 
-## Be sure to check the other lectures out after you finish this one!</br>[Previous Lecture][2]<--->[Next lecture][3]
+<h2>Be sure to check the other lectures out after you finish this one! </br>[Next lecture]</br>[Previous lecture]</h2>
+
+[Next lecture]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture1/
+[Previous lecture]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture3/
 
 ---
 
