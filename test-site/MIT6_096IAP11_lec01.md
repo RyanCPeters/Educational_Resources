@@ -6,8 +6,6 @@ Introduction to C++ January 4, 2011 Massachusetts Institute of Technology
 Lecture 1 Notes: Introduction
 ===
 
----
-
 Compiled Languages and C++
 ---
 
