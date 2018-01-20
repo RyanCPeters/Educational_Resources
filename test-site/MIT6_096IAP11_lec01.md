@@ -1,10 +1,13 @@
 <meta tag="MIT Course Number 6.096">
+Introduction to C++ January 4, 2011 Massachusetts Institute of Technology
 
-# Introduction to C++ January 4, 2011 Massachusetts Institute of Technology
+Lecture 1 Notes: Introduction
+===
 
-### Lecture 1 Notes: Introduction
+---
 
-## Compiled Languages and C++
+Compiled Languages and C++
+---
 
 #### 1.1 Why Use a Language Like C++?
 
@@ -73,7 +76,10 @@ Though you can write graphical programs in C++, it is much hairier and less port
 
 Everything in C++ is case sensitive: `someName` is not the same as `SomeName`.
 
-### 2 Hello World Program
+---
+
+2 Hello World Program
+---
 
 In the tradition of programmers everywhere, we’ll use a “Hello,world!” program as an entry point into the basic features of C++.
 
