@@ -119,30 +119,30 @@ Colons can be used to align columns.
 #### 2.3 Line-By-Line Explanation
 
 1. `//` indicates that everything following it until the end of the line is a comment
-  - It is ignored by the compiler. Another way to write a comment is to put it between `/*` and `*/` 
-    - e.g. `x = 1 + /*sneaky comment here*/ 1;` 
-    - A comment of `/*blah*/` form may span multiple lines. 
-  - Comments exist to explain non-obvious things going on in the code. Use them: document your code well!
+    - It is ignored by the compiler. Another way to write a comment is to put it between `/*` and `*/` 
+      - e.g. `x = 1 + /*sneaky comment here*/ 1;` 
+      - A comment of `/*blah*/` form may span multiple lines. 
+    - Comments exist to explain non-obvious things going on in the code. Use them: document your code well!
 2. Lines beginning with # are preprocessor commands, which usually change what code is actually being compiled. 
-  - `#include` tells thepreprocessor to dump in the contents of another file, here the iostream file, which defines the procedures for input/output.
+    - `#include` tells thepreprocessor to dump in the contents of another file, here the iostream file, which defines the procedures for input/output.
 4. int main() {...} defines the code that should execute when the program starts up. 
-  - The curly braces represent grouping of multiple commands into a block. More about this syntax in the next few lectures.
+    - The curly braces represent grouping of multiple commands into a block. More about this syntax in the next few lectures.
 5. Line 5 has multiple things that need addressing:
-  - std::cout << : This is the syntax for outputting some piece of text to the screen. 
-    - We’ll discuss how it works in Lecture 9.
-  - Namespaces: In C++, identifiers can be defined within a context – sort of a directory of names – called a namespace. 
-    - When we want to access an identifier defined in a namespace, we tell the compiler to look for it in that namespace using the scope resolution operator:
-      - `::` 
-    - Here, we’re telling the compiler to look for `cout` in the `std` namespace, in which many standard C++ identifiers are defined.
-    - A cleaner alternative is to add the following line below line 2: 
-      - `using namespace std;`
-      - This line tells the compiler that it should look in the std namespace for any identifier we haven’t defined. If we do this, we can omit the `std::`prefix when writing `cout`. This is the recommended practice.
-  - Strings: A sequence of characters such as `"Hello, world"` is known as a string. 
-    - A string that is specified explicitly in a program is a string literal.
-  - Escape sequences: 
-    - The `\n` indicates a newline character. It is an example of an escape sequence – a symbol used to represent a special character in a text literal. 
-    - Here are all the C++ escape sequences which you can include in strings:
-    
+    - std::cout << : This is the syntax for outputting some piece of text to the screen. 
+      - We’ll discuss how it works in Lecture 9.
+    - Namespaces: In C++, identifiers can be defined within a context – sort of a directory of names – called a namespace. 
+      - When we want to access an identifier defined in a namespace, we tell the compiler to look for it in that namespace using the scope resolution operator:
+        - `::` 
+      - Here, we’re telling the compiler to look for `cout` in the `std` namespace, in which many standard C++ identifiers are defined.
+      - A cleaner alternative is to add the following line below line 2: 
+        - `using namespace std;`
+        - This line tells the compiler that it should look in the std namespace for any identifier we haven’t defined. If we do this, we can omit the `std::`prefix when writing `cout`. This is the recommended practice.
+    - Strings: A sequence of characters such as `"Hello, world"` is known as a string. 
+      - A string that is specified explicitly in a program is a string literal.
+    - Escape sequences: 
+      - The `\n` indicates a newline character. It is an example of an escape sequence – a symbol used to represent a special character in a text literal. 
+      - Here are all the C++ escape sequences which you can include in strings:
+
 | Escape Sequence | Represented Character |
 |:--------------- |:--------------------- | 
 | \a | System bell (beep sound) |
