@@ -227,53 +227,31 @@ The sizes/ranges for each type are not fully standardized; those shown above are
 
 An operation can only be performed on compatible types. You can add 34 and 3, but you can’t take the remainder of an integer and a floating-point number.
 
-An operator also normally produces a value of the same type as its operands; thus, 1/4 evaluates to 0 because with two integer operands, / truncates the result to an integer. To get 0.25, you’d need to write something like 1 / 4.0.
-A text string, for reasons we will learn in Lecture 5, has the type char \*.
+An operator also normally produces a value of the same type as its operands; thus, `1/4` evaluates to `0` because with two integer operands, `/` truncates the result to an integer. To get `0.25`, you’d need to write something like `1 / 4.0`.
+
+A text string, for reasons we will learn in Lecture 5, has the type `char *` (pointer notation).
 
 
 ---
 #### 4: Variables
-We might want togive a value a name so we can refer to itlater. We do this using variables. A variable is a named location in memory.
-For example, say we wanted to use the value 4+2 multiple times. We might call it x and use it as follows:
-1
-# include
-<iostream >
-2
-using
-namespace
-std;
-3
-4
-int
-main ()
-{
-5
-int
-x;
-6
-x
-=
-4
-+ 2;
-7
-cout
-<<
-x
-/
-3
-<<
-’
-’
-<<
-x
-*
-2;
-8
-9
-return
-0;
-10
-}
+
+We might want to give a value a name so we can refer to it later. We do this using variables. _**A variable is a named location in memory.**_
+
+For example, say we wanted to use the value `4+2` multiple times. We might call it x and use it as follows:
+
+```c++
+ 1  #include <iostream>
+ 2  using namespace std;
+ 3  
+ 4  int main() {
+ 5    int x;
+ 6    x = 4 + 2;
+ 7    cout << x / 3 << ’ ’ << x * 2;
+ 8  
+ 9    return 0;
+10 }
+```
+
 (Note how we can print a sequence ofvalues by “chaining” the << symbol.)
 The name of a variable is an identifier token. Identifiers may contain numbers, letters, and underscores(_), andmay not start with a number.
 Line 5 is the declaration of the variable x. We must tell the compiler what type x will be so that it knows how much memory to reserve for it and what kinds of operations may be performed on it.
