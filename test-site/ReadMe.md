@@ -6,10 +6,10 @@ Introduction to C++ January 4, 2011 Massachusetts Institute of Technology
 Lecture 1 Notes: Introduction
 ===
 
-Compiled Languages and C++
+1: Compiled Languages and C++
 ---
 
-#### 1.1 Why Use a Language Like C++?
+#### 1.1: Why Use a Language Like C++?
 
 At its core, a computer is just a processor with some memory, capable of running tiny instructions like “store 5 in memory location 23459.” Why would we express a program as a text file in a programming language, instead of writing processor instructions?
 
@@ -30,7 +30,7 @@ C++ is a high-level language:
 *Note:* C++ *__does__* give access to some lower-level functionality than other languages (e.g. memory addresses).
 
 ---
-#### 1.2 The Compilation Process
+#### 1.2: The Compilation Process
 
 A program goes from text files (or source files) to processor instructions as follows:
 
@@ -70,7 +70,7 @@ Thus, the modified diagram is:
 ```
 
 ---
-#### 1.3 General Notes on C++
+#### 1.3: General Notes on C++
 
 C++ is immensely popular, particularly for applications that require speed and/or access to some low-level features. It was created in 1979 by Bjarne Stroustrup, at first as a set of extensions to the C programming language. C++ extends C; our first few lectures will basically be on the C parts of the language.
 
@@ -80,13 +80,13 @@ Everything in C++ is case sensitive: `someName` is not the same as `SomeName`.
 
 ===
 
-2 Hello World Program
+2: Hello World Program
 ---
 
 In the tradition of programmers everywhere, we’ll use a “Hello,world!” program as an entry point into the basic features of C++.
 
 ---
-#### 2.1 The code
+#### 2.1: The code
 
 ```C++
 1 // A Hello World program 
@@ -100,7 +100,7 @@ In the tradition of programmers everywhere, we’ll use a “Hello,world!” pro
 ```
 
 ---
-#### 2.2 Tokens
+#### 2.2: Tokens
 
 Tokens are the minimal chunks of program that have meaning to the compiler -- the smallest meaningful symbols in the language. Our code displays all 6 kinds of tokens, though the usual use of operators is not present here:
 Colons can be used to align columns.
@@ -116,7 +116,7 @@ Colons can be used to align columns.
 
 
 ---
-#### 2.3 Line-By-Line Explanation
+#### 2.3: Line-By-Line Explanation
 
 _See the code listed in subsection 2.1 above._
 
@@ -165,13 +165,13 @@ Note that every statement ends with a semicolon (except preprocessor commands an
 
 ===
 
-3 Basic Language Features
+3: Basic Language Features
 ---
 
 So far our program doesn’t do very much. Let’s tweak it in various ways to demonstrate some more interesting constructs.
 
 ---
-#### 3.1 Values and Statements
+#### 3.1: Values and Statements
 
 First, a few definitions:
 •
@@ -181,7 +181,7 @@ An expression is a statement that has a value – for instance, a number, a stri
 Not every statement is an expression. It makes no sense to talk about the value of an #include statement, for instance.
 
 ---
-#### 3.2 Operators
+#### 3.2: Operators
 
 We can perform arithmetic calculations with operators. 
 
@@ -194,7 +194,7 @@ Operator types:
 - Bitwise: used to manipulate thebinary representations of numbers. We will notfocus on these.
 
 ---
-#### 3.3 Data Types
+#### 3.3: Data Types
 
 Every expression has a type – a formal description of what kind of data its value is. 
 
@@ -232,7 +232,7 @@ A text string, for reasons we will learn in Lecture 5, has the type char \*.
 
 
 ---
-####4 Variables
+#### 4: Variables
 We might want togive a value a name so we can refer to itlater. We do this using variables. A variable is a named location in memory.
 For example, say we wanted to use the value 4+2 multiple times. We might call it x and use it as follows:
 1
