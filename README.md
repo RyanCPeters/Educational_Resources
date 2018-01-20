@@ -34,9 +34,9 @@ As such, it will see more resources added as I get the time or as people choose 
   
   
   
+  Educational_Resources/343_lectures/lecture1/
   
-  
-[1]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture1/
-[2]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture2/
-[3]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture3/
-[4]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture4/
+[1]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture1/TimeMachineTheme/
+[2]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture2/TimeMachineTheme/
+[3]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture3/TimeMachineTheme/
+[4]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture4/TimeMachineTheme/
