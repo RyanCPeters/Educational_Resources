@@ -152,10 +152,10 @@ _See the code listed in subsection 2.1 above._
 | \n | Newline (line break) |
 | \r | “Carriage return” (returns cursor to start of line) |
 | \t | Tab |
-| \\ | Backslash |
+| \\\\ | Backslash |
 | \’ | Single quote character |
 | \" | Double quote character |
-| \some integer x | The character represented by x |
+| \\_some integer x_ | The character represented by x eg. `\0` is the NULL character|
 
 7. `return 0` indicates that the program should tell the operating system it has completed successfully. 
    - This syntax will be explained in the context of functions; for now, just include it as the last line in the main block.
