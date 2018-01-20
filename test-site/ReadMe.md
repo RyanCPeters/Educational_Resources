@@ -189,9 +189,24 @@ Operators act on expressions to form a new expression. For example, we could rep
 
 Operator types:
 
-- Mathematical: +, -, *, /, and parentheses have their usual mathematical meanings, including using -for negation. % (the modulus operator) takes the remainder of two numbers: 6%5 evaluates to 1.
-- Logical: used for “and,” “or,” and so on. More on those in the next lecture.
+- Mathematical: the mathematical operators have their usual mathematical meanings, including using -for negation. 
+  - `+`
+  - `-`
+  - `*`
+  - `/`
+  - `()` (parenthesis) 
+  - `%` (the modulus operator) takes the remainder of two numbers: `6%5` evaluates to `1`.
+- Logical: used for “AND,” “OR,” and so on. More on those in the next lecture.
+  - `&&` : the short-circuit "AND"
+  - `||` : the short-circuit "OR"
 - Bitwise: used to manipulate thebinary representations of numbers. We will notfocus on these.
+  - `&`  : the bit-wise "AND"
+  - `|`  : the bit-wise "OR"
+  - `^`  : the bit-wise "XOR", does not have a non-bitwise couterpart
+  - `<<` : the bit-wise "shift bits left" used as such: 
+    - `int x = 1;      // now x stores the value 1, which is stored as (0000 0000 0000 0000 0000 0000 0000 0001) in binary`
+    - `int y = x << 1; // now y stores the value 2, which is stored as (0000 0000 0000 0000 0000 0000 0000 0010) in binary` 
+      - _**Note** that the difference between x and y is simply the shift of the long toggled bit from the 2^0 position to the 2^1 position._
 
 ---
 #### 3.3: Data Types
