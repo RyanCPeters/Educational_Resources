@@ -142,6 +142,7 @@ Colons can be used to align columns.
   - Escape sequences: 
     - The `\n` indicates a newline character. It is an example of an escape sequence – a symbol used to represent a special character in a text literal. 
     - Here are all the C++ escape sequences which you can include in strings:
+    
 | Escape Sequence | Represented Character |
 |:--------------- |:--------------------- | 
 | \a | System bell (beep sound) |
