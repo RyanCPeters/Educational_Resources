@@ -6,9 +6,7 @@ Created By: Yusuf Pisan
 
 formatted to Github Markdown syntax by Ryan Peters
 
-## Be sure to check the other lectures out after you finish this one!
-
------------------------------------------------------------------------------------------------>[Next lecture][3]
+## Be sure to check the other lectures out after you finish this one!</br>[Next lecture][3]
 
 ---
 
