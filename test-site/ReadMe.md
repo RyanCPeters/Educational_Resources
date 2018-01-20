@@ -299,24 +299,40 @@ This form of declaration/initialization is cleaner, and easier to read, so it is
 Now that we know how to give names to values, we can have the user of the program input values. This is demonstrated in line 6 below:
 
 ```c
- 1 #include<iostream>
- 2 usingnamespacestd;
+ 1 #include <iostream>
+ 2 using namespace std;
  3 
- 4 intmain(){
- 5   intx;
- 6   cin>>x;
+ 4 int main() {
+ 5   int x;
+ 6   cin >> x;
  7   
- 8   cout<<x/3<<’’<<x*2;
+ 8   cout << x / 3 << ’ ’ << x * 2;
  9   
-10   return0;
+10   return 0;
 11 }
 ```
 
-Justas cout << isthe syntaxfor outputtingvalues, cin >> (line6)isthe syntaxforinputting values.
+Just as `cout <<` is the syntax for outputting values, `cin >>` (line6) is the syntax for inputting values.
+
 Memory trick: ifyouhavetrouble remembering which way the anglebracketsgofor cout and cin, think of them as arrows pointing in the direction of data flow. cin represents the terminal, with data flowing from it to your variables; cout likewise represents the terminal, and your data flows to it.
-6 Debugging
-There are two kinds of errors you’ll run into when writing C++ programs: compilation errors and runtime errors. Compilation errors areproblems raisedbythe compiler,generally resulting from violations of the syntax rules or misuse of types. These are often caused by typos and the like. Runtime errors are problems that you only spot when you run the program: you did specify a legal program, but it doesn’t do what you wanted it to. These are usually more tricky to catch, since the compiler won’t tell you about them.
-8
+
+---
+---
+
+6: Debugging
+---
+
+There are two kinds of errors you’ll run into when writing C++ programs: _compilation errors_ and _runtime errors_. 
+
+- Compilation errors areproblems raisedbythe compiler, generally resulting from violations of the syntax rules or misuse of types. 
+  - These are often caused by typos and the like. 
+- Runtime errors are problems that you only spot when you run the program: you did specify a legal program, but it doesn’t do what you wanted it to. 
+  - These are usually more tricky to catch, since the compiler won’t tell you about them.
+
+
+Citation Details
+===
+
 MIT OpenCourseWare
 http://ocw.mit.edu
 6.096 Introduction to C++ January (IAP) 2011
