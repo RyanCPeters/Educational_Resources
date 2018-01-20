@@ -78,7 +78,8 @@ Though you can write graphical programs in C++, it is much hairier and less port
 
 Everything in C++ is case sensitive: `someName` is not the same as `SomeName`.
 
-===
+---
+---
 
 2: Hello World Program
 ---
@@ -163,7 +164,8 @@ _See the code listed in subsection 2.1 above._
 
 Note that every statement ends with a semicolon (except preprocessor commands and blocks using {} ). Forgetting these semicolons is a common mistake among new C++ programmers.
 
-===
+---
+---
 
 3: Basic Language Features
 ---
@@ -190,12 +192,12 @@ Operators act on expressions to form a new expression. For example, we could rep
 Operator types:
 
 - Mathematical: the mathematical operators have their usual mathematical meanings, including using -for negation. 
-  - `+`
-  - `-`
-  - `*`
-  - `/`
-  - `()` (parenthesis) 
-  - `%` (the modulus operator) takes the remainder of two numbers: `6%5` evaluates to `1`.
+  - `+` addition
+  - `-` subtraction
+  - `*` multiplication
+  - `/` division
+  - `()` parenthesis, used for establishing precidence in order of operations. 
+  - `%` "the modulus operator" takes the remainder of two numbers: `6%5` evaluates to `1`.
 - Logical: used for “AND,” “OR,” and so on. More on those in the next lecture.
   - `&&` : the short-circuit "AND"
   - `||` : the short-circuit "OR"
@@ -247,7 +249,8 @@ An operator also normally produces a value of the same type as its operands; thu
 A text string, for reasons we will learn in Lecture 5, has the type `char *` (pointer notation).
 
 
-===
+---
+---
 
 4: Variables
 ---
@@ -287,10 +290,12 @@ We could replace lines 5 and 6 with a single statement that does both declaratio
 
 This form of declaration/initialization is cleaner, and easier to read, so it is the preferred practice.
 
-===
+---
+---
 
 5: Input
 ---
+
 Now that we know how to give names to values, we can have the user of the program input values. This is demonstrated in line 6 below:
 
 ```c
