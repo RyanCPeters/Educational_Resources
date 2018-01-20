@@ -29,6 +29,7 @@ C++ is a high-level language:
 
 *Note:* C++ *__does__* give access to some lower-level functionality than other languages (e.g. memory addresses).
 
+---
 #### 1.2 The Compilation Process
 
 A program goes from text files (or source files) to processor instructions as follows:
@@ -68,6 +69,7 @@ Thus, the modified diagram is:
                                                                        (Libraries)  
 ```
 
+---
 #### 1.3 General Notes on C++
 
 C++ is immensely popular, particularly for applications that require speed and/or access to some low-level features. It was created in 1979 by Bjarne Stroustrup, at first as a set of extensions to the C programming language. C++ extends C; our first few lectures will basically be on the C parts of the language.
@@ -76,13 +78,14 @@ Though you can write graphical programs in C++, it is much hairier and less port
 
 Everything in C++ is case sensitive: `someName` is not the same as `SomeName`.
 
----
+===
 
 2 Hello World Program
 ---
 
 In the tradition of programmers everywhere, we’ll use a “Hello,world!” program as an entry point into the basic features of C++.
 
+---
 #### 2.1 The code
 
 ```C++
@@ -96,6 +99,7 @@ In the tradition of programmers everywhere, we’ll use a “Hello,world!” pro
 8 }
 ```
 
+---
 #### 2.2 Tokens
 
 Tokens are the minimal chunks of program that have meaning to the compiler -- the smallest meaningful symbols in the language. Our code displays all 6 kinds of tokens, though the usual use of operators is not present here:
@@ -110,19 +114,28 @@ Colons can be used to align columns.
 | Punctuation/Separators | Punctuation defining the structure of a program | { } ( ) , ; |
 | Whitespace			 | Spaces of various sorts; ignored by the compiler | Spaces, tabs, newlines, comments |
 
-2.3 Line-By-Line Explanation
-1.
-// indicates that everything following it until the end of the line is a comment: it is ignoredby thecompiler. Anotherway towriteacommentistoputitbetween /* and */ (e.g. x = 1 + /*sneaky comment here*/ 1;). A comment of this form may span multiple lines. Comments exist to explain non-obvious things going on in the code. Use them: document your code well!
-2.
-Lines beginning with # are preprocessor commands, which usually change what code is actually being compiled. #include tells thepreprocessor to dump in the contents of another file, here the iostream file, which defines the procedures for input/output.
-3
-4.
-int main() {...}defines the code that should execute when the program starts up. The curly braces represent grouping of multiple commands into a block. More about this syntax in the next few lectures.
-5.
-• cout << : This is the syntax for outputting some piece of text to the screen. We’ll discuss how it works in Lecture 9.
-• Namespaces: In C++, identifiers can be defined within a context – sort of a directory of names – called a namespace. When we want to access an identifier definedin a namespace, we tell the compiler tolookforitin that namespace using the scope resolution operator (::). Here, we’re telling the compiler to look for cout in the std namespace, in which many standard C++ identifiers are defined.
-A cleaner alternative is to add the following line below line 2:
-using namespace std;
+
+---
+#### 2.3 Line-By-Line Explanation
+
+1. `//` indicates that everything following it until the end of the line is a comment
+  - It is ignored by the compiler. Another way to write a comment is to put it between `/*` and `*/` 
+    - e.g. `x = 1 + /*sneaky comment here*/ 1;` 
+    - A comment of `/*blah*/` form may span multiple lines. 
+  - Comments exist to explain non-obvious things going on in the code. Use them: document your code well!
+2. Lines beginning with # are preprocessor commands, which usually change what code is actually being compiled. 
+  - `#include` tells thepreprocessor to dump in the contents of another file, here the iostream file, which defines the procedures for input/output.
+4. int main() {...} defines the code that should execute when the program starts up. 
+  - The curly braces represent grouping of multiple commands into a block. More about this syntax in the next few lectures.
+5. Line 5 has multiple things that need addressing:
+  - std::cout << : This is the syntax for outputting some piece of text to the screen. 
+    - We’ll discuss how it works in Lecture 9.
+  - Namespaces: In C++, identifiers can be defined within a context – sort of a directory of names – called a namespace. 
+    - When we want to access an identifier defined in a namespace, we tell the compiler to look for it in that namespace using the scope resolution operator:
+      - `::` 
+    - Here, we’re telling the compiler to look for `cout` in the `std` namespace, in which many standard C++ identifiers are defined.
+    - A cleaner alternative is to add the following line below line 2: 
+      - `using namespace std;`
 This line tells the compiler that it should look in the std namespace for any identifier we haven’t defined. If we do this, we can omit the std:: prefix when writing cout. This is the recommended practice.
 •
 Strings: A sequence of characters such as Hello, world isknown as a string.A string that is specified explicitly in a program is a string literal.
@@ -153,7 +166,10 @@ The character represented by x
 7. return 0 indicates that theprogram should tell the operating systemithas completed successfully. Thissyntax willbeexplainedinthecontext offunctions;fornow,just include it as the last line in the main block.
 4
 Note that every statement ends with a semicolon(exceptpreprocessor commands andblocks using {}). Forgetting these semicolonsis a common mistake among newC++programmers.
-3 Basic Language Features
+
+---
+####3 Basic Language Features
+
 So far our program doesn’t do very much. Let’s tweak it in various ways to demonstrate some more interesting constructs.
 3.1 Values and Statements
 First, a few definitions:
@@ -195,6 +211,7 @@ double
 “Doubly” precise floating point number.
 8 bytes
 +/-1.7e +/-308 ( 15 digits)
+
 Notes on this table:
 •
 A signed integer is one that can represent a negative number; an unsigned integer will never beinterpreted as negative, so it can represent a wider range ofpositive numbers. Most compilers assume signed if unspecified.
@@ -205,8 +222,9 @@ The sizes/ranges for each type are not fully standardized; those shown above are
 An operation can only be performed on compatible types. You can add 34 and 3, but you can’t take the remainder of an integer and a floating-point number.
 An operator also normally produces a value of the same type as its operands; thus, 1/4 evaluates to 0 because with two integer operands, / truncates the result to an integer. To get 0.25, you’d need to write something like 1 / 4.0.
 A text string, for reasons we will learn in Lecture 5, has the type char *.
-6
-4 Variables
+
+---
+####4 Variables
 We might want togive a value a name so we can refer to itlater. We do this using variables. A variable is a named location in memory.
 For example, say we wanted to use the value 4+2 multiple times. We might call it x and use it as follows:
 1
