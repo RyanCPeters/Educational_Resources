@@ -1,4 +1,4 @@
-<meta tag="MIT Course Number 6.096">
+<meta tag="MIT Course Number 6.096" url="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/">
 Introduction to C++ January 4, 2011 Massachusetts Institute of Technology
 
 ---
