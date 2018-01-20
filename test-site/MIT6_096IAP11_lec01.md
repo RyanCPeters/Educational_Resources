@@ -160,10 +160,12 @@ _See the code listed in subsection 2.1 above._
 7. `return 0` indicates that the program should tell the operating system it has completed successfully. 
    - This syntax will be explained in the context of functions; for now, just include it as the last line in the main block.
 
-Note that every statement ends with a semicolon(exceptpreprocessor commands andblocks using {}). Forgetting these semicolonsis a common mistake among newC++programmers.
+Note that every statement ends with a semicolon (except preprocessor commands and blocks using {} ). Forgetting these semicolons is a common mistake among new C++ programmers.
 
+===
+
+3 Basic Language Features
 ---
-####3 Basic Language Features
 
 So far our program doesn’t do very much. Let’s tweak it in various ways to demonstrate some more interesting constructs.
 3.1 Values and Statements
