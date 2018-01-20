@@ -88,7 +88,7 @@ In the tradition of programmers everywhere, we’ll use a “Hello,world!” pro
 ---
 #### 2.1: The code
 
-```C++
+```c
 1 // A Hello World program 
 2 #include <iostream> 
 3 
@@ -232,14 +232,18 @@ An operator also normally produces a value of the same type as its operands; thu
 A text string, for reasons we will learn in Lecture 5, has the type `char *` (pointer notation).
 
 
----
-#### 4: Variables
+===
 
-We might want to give a value a name so we can refer to it later. We do this using variables. _**A variable is a named location in memory.**_
+4: Variables
+---
+
+We might want to give a value a name so we can refer to it later. We do this using variables. 
+
+_**A variable is a named location in memory.**_
 
 For example, say we wanted to use the value `4+2` multiple times. We might call it x and use it as follows:
 
-```c++
+```c
  1  #include <iostream>
  2  using namespace std;
  3  
@@ -252,55 +256,42 @@ For example, say we wanted to use the value `4+2` multiple times. We might call 
 10 }
 ```
 
-(Note how we can print a sequence ofvalues by “chaining” the << symbol.)
-The name of a variable is an identifier token. Identifiers may contain numbers, letters, and underscores(_), andmay not start with a number.
-Line 5 is the declaration of the variable x. We must tell the compiler what type x will be so that it knows how much memory to reserve for it and what kinds of operations may be performed on it.
-Line 6 is the initialization of x, where we specify an initial value for it. This introduces a new operator: =, the assignment operator. We can also change the value of x later on in the code using this operator.
+(Note how we can print a sequence of values by “chaining” the `<<` operator.)
+
+The name of a variable is an identifier token: 
+
+  - Identifiers may contain numbers, letters, and underscores(`_`), and may not start with a number.
+
+Line 5 is the declaration of the variable x. We must tell the compiler what data-type x will be, so that it knows how much memory to reserve for that variable and what kinds of operations may be performed on it.
+
+Line 6 is the initialization of x, where we specify an initial value for the variable. This introduces the assignment operator: `=`. Not to be confused with the equality operator ('==') which will be seen later. We can also change the value of x later on in the code using `=`.
+
 We could replace lines 5 and 6 with a single statement that does both declaration and initialization:
-int x = 4 + 2;
-This form of declaration/initialization is cleaner, so it is to be preferred.
-5 Input
+
+  - `int x = 4 + 2;`
+
+This form of declaration/initialization is cleaner, and easier to read, so it is the preferred practice.
+
+===
+
+5: Input
+---
 Now that we know how to give names to values, we can have the user of the program input values. This is demonstrated in line 6 below:
-7
-1
-# include
-<iostream >
-2
-using
-namespace
-std;
-3
-4
-int
-main ()
-{
-5
-int
-x;
-6
-cin
->>
-x;
-7
-8
-cout
-<<
-x
-/
-3
-<<
-’
-’
-<<
-x
-*
-2;
-9
-10
-return
-0;
-11
-}
+
+```c
+ 1 #include<iostream>
+ 2 usingnamespacestd;
+ 3 
+ 4 intmain(){
+ 5   intx;
+ 6   cin>>x;
+ 7   
+ 8   cout<<x/3<<’’<<x*2;
+ 9   
+10   return0;
+11 }
+```
+
 Justas cout << isthe syntaxfor outputtingvalues, cin >> (line6)isthe syntaxforinputting values.
 Memory trick: ifyouhavetrouble remembering which way the anglebracketsgofor cout and cin, think of them as arrows pointing in the direction of data flow. cin represents the terminal, with data flowing from it to your variables; cout likewise represents the terminal, and your data flows to it.
 6 Debugging
