@@ -1,4 +1,7 @@
 <meta tag="MIT Course Number 6.096">
+
+---
+
 Introduction to C++ January 4, 2011 Massachusetts Institute of Technology
 
 Lecture 1 Notes: Introduction
