@@ -136,33 +136,25 @@ Colons can be used to align columns.
     - Here, we’re telling the compiler to look for `cout` in the `std` namespace, in which many standard C++ identifiers are defined.
     - A cleaner alternative is to add the following line below line 2: 
       - `using namespace std;`
-This line tells the compiler that it should look in the std namespace for any identifier we haven’t defined. If we do this, we can omit the std:: prefix when writing cout. This is the recommended practice.
-•
-Strings: A sequence of characters such as Hello, world isknown as a string.A string that is specified explicitly in a program is a string literal.
-•
-Escape sequences: The \n indicates a newline character. Itis an example of an escape sequence – a symbol used to represent a special character in a text literal. Here are all the C++ escape sequences which you can include in strings:
-Escape Sequence
-Represented Character
-\a
-System bell (beep sound)
-\b
-Backspace
-\f
-Formfeed (page break)
-\n
-Newline (line break)
-\r
-“Carriage return” (returns cursor to start of line)
-\t
-Tab
-\\
-Backslash
-\’
-Single quote character
-\"
-Double quote character
-\some integer x
-The character represented by x
+      - This line tells the compiler that it should look in the std namespace for any identifier we haven’t defined. If we do this, we can omit the `std::`prefix when writing `cout`. This is the recommended practice.
+  - Strings: A sequence of characters such as `"Hello, world"` is known as a string. 
+    - A string that is specified explicitly in a program is a string literal.
+  - Escape sequences: 
+    - The `\n` indicates a newline character. It is an example of an escape sequence – a symbol used to represent a special character in a text literal. 
+    - Here are all the C++ escape sequences which you can include in strings:
+| Escape Sequence | Represented Character |
+|:--------------- |:--------------------- | 
+| \a | System bell (beep sound) |
+| \b | Backspace |
+| \f | Formfeed (page break) |
+| \n | Newline (line break) |
+| \r | “Carriage return” (returns cursor to start of line) |
+| \t | Tab |
+| \\ | Backslash |
+| \’ | Single quote character |
+| \" | Double quote character |
+| \some integer x | The character represented by x |
+
 7. return 0 indicates that theprogram should tell the operating systemithas completed successfully. Thissyntax willbeexplainedinthecontext offunctions;fornow,just include it as the last line in the main block.
 4
 Note that every statement ends with a semicolon(exceptpreprocessor commands andblocks using {}). Forgetting these semicolonsis a common mistake among newC++programmers.
