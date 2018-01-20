@@ -117,6 +117,7 @@ Colons can be used to align columns.
 
 ---
 #### 2.3 Line-By-Line Explanation
+
 _See the code listed in subsection 2.1 above._
 
 1. `//` indicates that everything following it until the end of the line is a comment
@@ -168,57 +169,67 @@ Note that every statement ends with a semicolon (except preprocessor commands an
 ---
 
 So far our program doesn’t do very much. Let’s tweak it in various ways to demonstrate some more interesting constructs.
-3.1 Values and Statements
+
+---
+#### 3.1 Values and Statements
+
 First, a few definitions:
 •
 Astatement isaunitof codethatdoessomething –abasicbuildingblock of aprogram.
 •
 An expression is a statement that has a value – for instance, a number, a string, the sum of two numbers, etc. 4+2, x-1, and "Hello, world!\n" are all expressions.
 Not every statement is an expression. It makes no sense to talk about the value of an #include statement, for instance.
-3.2 Operators
-We canperform arithmetic calculations with operators. Operators act on expressions toform a new expression. For example, we could replace "Hello, world!\n" with (4 + 2) / 3, which would cause the program to print the number 2. In this case, the + operator acts on the expressions 4 and 2 (itsoperands).
+
+---
+#### 3.2 Operators
+
+We can perform arithmetic calculations with operators. 
+
+Operators act on expressions to form a new expression. For example, we could replace "Hello, world!\n" with (4 + 2) / 3, which would cause the program to print the number 2. In this case, the + operator acts on the expressions 4 and 2 (its operands).
+
 Operator types:
-•
-Mathematical: +, -, *, /, and parentheses have their usual mathematical meanings, including using -for negation. % (the modulus operator) takes the remainder of two numbers: 6%5 evaluates to 1.
-•
-Logical: used for “and,” “or,” and so on. More on those in the next lecture.
-•
-Bitwise: used to manipulate thebinary representations of numbers. We will notfocus on these.
-3.3 Data Types
-Every expression has a type – a formal description of what kind of data its value is. For instance,0 is aninteger,3.142 is afloating-point (decimal)number, and "Hello, world!\n"
-5
-is a string value(a sequence of characters). Data ofdifferenttypestake adifferent amounts of memory to store. Here are the built-in datatypes we will use most often:
-Type Names
-Description
-Size
-Range
-char
-Single text character or small integer. Indicated with single quotes (’a’, ’3’).
-1 byte
-signed: -128 to 127 unsigned: 0 to 255
-int
-Larger integer.
-4 bytes
-signed: -2147483648 to 2147483647 unsigned: 0 to 4294967295
-bool
-Boolean (true/false). Indicated with the keywords true and false.
-1 byte
-Just true (1)or false (0).
-double
-“Doubly” precise floating point number.
-8 bytes
-+/-1.7e +/-308 ( 15 digits)
+
+- Mathematical: +, -, *, /, and parentheses have their usual mathematical meanings, including using -for negation. % (the modulus operator) takes the remainder of two numbers: 6%5 evaluates to 1.
+- Logical: used for “and,” “or,” and so on. More on those in the next lecture.
+- Bitwise: used to manipulate thebinary representations of numbers. We will notfocus on these.
+
+---
+#### 3.3 Data Types
+
+Every expression has a type – a formal description of what kind of data its value is. 
+
+For instance, `0` is an integer, `3.142` is a floating-point (decimal) number, and `"Hello, world!\n"` is a string value (a sequence of characters). 
+
+Data of different types take adifferent amounts of memory to store. Here are the built-in data-types we will use most often:
+
+| Type Names | Description | Size | Range |
+|:---------- |:---------------- |:------- |:---------------- |
+| char | Single text character or small integer. Indicated with single quotes (’a’, ’3’). | 1 byte | signed: -128 to 127 unsigned: 0 to 255 |
+| int | Larger integer. | 4 bytes | signed: -2147483648 to 2147483647 unsigned: 0 to 4294967295 |
+| bool | Boolean (true/false). Indicated with the keywords true and false. | 1 byte | Just true (1)or false (0). |
+| double | “Doubly” precise floating point number. | 8 bytes | +/-1.7e +/-308 ( 15 digits) |
 
 Notes on this table:
-•
-A signed integer is one that can represent a negative number; an unsigned integer will never beinterpreted as negative, so it can represent a wider range ofpositive numbers. Most compilers assume signed if unspecified.
-•
-There are actually 3 integer types: short, int, and long, in non-decreasing order of size(int is usually a synonym for one of the other two). You generally don’t need to worry about which kind to use unless you’re worried about memory usage or you’re using reallyhugenumbers. Thesamegoesforthe3floatingpointtypes,float, double, and long double, which arein non-decreasing order ofprecision(thereis usually some imprecision in representing real numbers on a computer).
-•
+
+- A signed integer is one that can represent a negative number; an unsigned integer will never be interpreted as negative, so it can represent a wider range of positive numbers. Most compilers assume signed if your code leaves the variable unspecified.
+- There are 3 integer types; in non-decreasing order of size (int is usually a synonym for one of the other two): 
+    - short
+    - int
+    - long 
+  - You generally don’t need to worry about which kind to use unless you’re worried about memory usage or you’re using really huge numbers.
+- There are also 3 floating point types; in non-decreasing order of precision: 
+    - float
+    - double 
+    - long double
+  - _Note:_ there is usually some imprecision in representing real numbers on a computer.
+
 The sizes/ranges for each type are not fully standardized; those shown above are the ones used on most 32-bit computers.
+
 An operation can only be performed on compatible types. You can add 34 and 3, but you can’t take the remainder of an integer and a floating-point number.
+
 An operator also normally produces a value of the same type as its operands; thus, 1/4 evaluates to 0 because with two integer operands, / truncates the result to an integer. To get 0.25, you’d need to write something like 1 / 4.0.
-A text string, for reasons we will learn in Lecture 5, has the type char *.
+A text string, for reasons we will learn in Lecture 5, has the type char \*.
+
 
 ---
 ####4 Variables
