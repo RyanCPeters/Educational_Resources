@@ -40,9 +40,9 @@ As such, it will see more resources added as I get the time or as people choose 
   
   
   
-[1]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture1/
-[2]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture2/
-[3]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture3/
-[4]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture4/
+[1]:https://github.com/RyanCPeters/Educational_Resources/tree/master/343/lecture1/
+[2]:https://github.com/RyanCPeters/Educational_Resources/tree/master/343/lecture2/
+[3]:https://github.com/RyanCPeters/Educational_Resources/tree/master/343/lecture3/
+[4]:https://github.com/RyanCPeters/Educational_Resources/tree/master/343/lecture4/
 [1: TurtleProgram]
 [2: BinarySearchTree]
