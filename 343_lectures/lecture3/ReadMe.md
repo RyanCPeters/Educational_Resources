@@ -12,6 +12,7 @@ formatted to Github Markdown syntax by Ryan Peters
 
 [Previous lecture]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture2/
 [Next lecture]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture4/
+[1]:#lecture-3-bst-add---remove---save "Back to Table of Contents"
 
 ---
 
@@ -473,6 +474,4 @@ Number of nodes: 8
 - Grader: Thomas Kercheval kercht@uw.edu
   - Available for questions on Friday Jan 12, 1-2pm in front of UW1-260Q
 
-[1]:#table-of-contents "Back to Table of Contents"
-[2]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture2/
-[3]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture4/
+

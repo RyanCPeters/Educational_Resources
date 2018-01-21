@@ -11,6 +11,7 @@ formatted to Github Markdown syntax by Ryan Peters
 
 [Previous lecture]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture1/
 [Next lecture]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture3/
+[1]:#lecture-2-huffman-coding "Back to Table of Contents"
 
 ---
 
@@ -367,6 +368,4 @@ How much wood would a woodchuck chuck if a woodchuck could chuck wood?
 - Grader: Thomas Kercheval kercht@uw.edu
   - Available for questions on Friday Jan 12, 1-2pm in front of UW1-260Q
     
-[1]:#table-of-contents "Back to Table of Contents"
-[2]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture1/
-[3]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture3/
+

@@ -11,6 +11,7 @@ formatted to Github Markdown syntax by Ryan Peters
 
 [Previous lecture]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture2/
 [Next lecture]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture2/
+[1]:#lecture-1-notes-introduction--trees "Back to Table of Contents"
 
 ---
 
@@ -29,7 +30,7 @@ formatted to Github Markdown syntax by Ryan Peters
   11. [Binary Search Tree](#binary-search-tree)
   12. [After Class](#after-class)
 
-[1]:#table-of-contents "Back to Table of Contents"
+
 
 
 ---

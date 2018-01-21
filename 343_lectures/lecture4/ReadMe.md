@@ -13,6 +13,7 @@ formatted to Github Markdown syntax by Ryan Peters
 
 [Previous lecture]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture3/
 [Next lecture]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture1/
+[1]:#lecture-4-binary-heaps--graphs "Back to Table of Contents"
 
 ---
 
@@ -37,7 +38,7 @@ formatted to Github Markdown syntax by Ryan Peters
   - [Graphs - Group Exercise](#graphs---group-exercise)
 - [After Class](#after-class)
 
-[1]:#toc "Back To ToC"
+
 
 
 ---
@@ -337,5 +338,3 @@ bfs(v: Vertex) {
 + Start Ass-2, fix your Ass-1 if you have any memory leaks or not passing JollyFeedback with flying colors!
 
 
-[2]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture3/
-[3]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture4/
