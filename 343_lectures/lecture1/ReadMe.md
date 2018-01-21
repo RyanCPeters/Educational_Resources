@@ -75,7 +75,7 @@ https://pollev.com/pisan
 
 Somebody forgot to write comments! 
 
-```C++
+```C
 int foo(int n)
 {
    if (n  0)
@@ -93,7 +93,7 @@ What is its complexity? Why?
 ### [Reading Code (2)][1]
 
   
-```C++
+```C
 int mystery(const int anArray[], int first, int last, int target)
 {
    int index;
@@ -122,7 +122,7 @@ What is its complexity? Why?
 ### [Reading Code (3)][1]
 
   
-```C++
+```C
 template<class ItemType>
 bool Grouch<ItemType>::mumble(const ItemType& newEntry)
 {
@@ -147,7 +147,7 @@ What is its complexity? Why?
 
 SomeInterface, but what?
   
-```C++
+```C
 template<class ItemType>
 class SomeInterface
 {
@@ -167,7 +167,7 @@ public:
 ### [Reading Code (5)][1]
 
   
-```C++
+```C
 template<class ItemType>
 void someSort(ItemType theArray[], int n)
 {
@@ -235,7 +235,7 @@ Group Exercise: `((a + b) * (c + d)) / (e * f) - g`
 ### [Binary Search Tree][1]
 
 
-```C++
+```C
 search(BST, target)
   if (BST is empy)
     item not found

@@ -66,7 +66,7 @@ Automated tests Wednesday 10pm and Friday 10pm
 
 Make sure `getLength()` is defined (number of strings in array)
 
-```
+```UML
 Multiple criteria. 
 -5 for partially correct, -10 for not working or missing - see comments
 
@@ -122,7 +122,7 @@ See example at http://courses.washington.edu/css343/zander/NotesProbs/huffmanexa
 Also some good BST information on http://courses.washington.edu/css343/zander/notes.html
 
 Let's do an example
-```C++
+```C
 d:4, r:6, s:6, h:6, i:7, n:7, a:8, t:9, o:8, e:13, 
 ```
 
@@ -134,7 +134,7 @@ d:4, r:6, s:6, h:6, i:7, n:7, a:8, t:9, o:8, e:13,
 
 `add` calls private function `placeNode`
 
-```C++
+```C
 placeNode(subTreePtr, newNodePtr)
   Search tree for newNodePtr
   if search terminates at the left subtree of the parentNode
@@ -144,7 +144,7 @@ placeNode(subTreePtr, newNodePtr)
 ```
 
 refining it (see textbook)
-```C++
+```C
 placeNode(subTreePtr, newNodePtr)
   if subTreePtr is nullptr
     return newNodePtr
@@ -165,7 +165,7 @@ If visiting all tree nodes, recursion is probably needed.
 
 Add should not visit all tree nodes!
 
-```C++
+```C
   if the rootPtr is nullptr
     set rootPtr, return
   else
@@ -329,8 +329,7 @@ Not a binary search tree!
   - left: 2 * i + 1
   - right: 2* i + 2
   - parent: (i - 1) / 2
-    
-    
+ 
 ![](./images/heap-as-array.png)
 
 Keep track of `itemcount` and `maxItems`
@@ -401,7 +400,7 @@ Implement a BST
 - Adding any ItemType, using Templates. BUT, build your BST for string first and then convert!
 - I will provide the menu and some basic code
 
-```
+```UML
 1. Add
 2. Search
 3. Inorder traverse

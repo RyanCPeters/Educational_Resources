@@ -101,7 +101,7 @@ Assignment #2 will use Trees.
     
 ### [Binary Search Tree][1]
 
-```C++
+```C
 search(BST, target)
   if (BST is empy)
     item not found
@@ -208,13 +208,13 @@ Insert the letters in "Huffman Coding" to create a binary search tree
 
 Not the most natural or common, but important
 
-```C++
+```C
 TreeNode<ItemType> tree[MAX_NODES]; // array of nodes
 int root; // index of root
 int free; // index of free list
 ```
 
-```C++
+```C
 class TreeNode
 {   
 private:
@@ -239,7 +239,7 @@ Represent "Huffman Coding" tree as an array
 ### [Tree as Linked Nodes][1]
 
 ![](./images/ch16-2-link-based.png)
-```C++
+```C
 class BinaryNode
 {
 private:
@@ -249,7 +249,7 @@ private:
 }
 ```
 
-```C++
+```C
 template<class ItemType>
 class BinaryNode
 {
@@ -260,7 +260,7 @@ private:
 }
 ```
 
-```C++
+```C
 template<class ItemType>
 class BinaryNode
 {
@@ -281,7 +281,7 @@ unique_ptr - unique ownership, nobody else can reference it
 
 weak_ptr - observer of the object, cannot be used to delete, does not add to reference count
 
-```C++
+```C
 Box<string> myptr = new Box<string>();
 shared_ptr<Box<string>> mysharedptr(new Box<string>());
 ...

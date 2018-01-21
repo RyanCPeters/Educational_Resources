@@ -59,22 +59,22 @@ formatted to Github Markdown syntax by Ryan Peters
 ### [const][1]
 
 + const to indicate that variable value does not change
-```C++
+```C
 const int MAX{100};
 ```
 
 + const to indicate that a class member function does not modify the object
-```C++
+```C
 void inorderTraverse(void visit(ItemType&)) const;
 ```
 
 + const to indicate that the parameter passed by reference will not be modified
-```C++
+```C
 bool add(const ItemType& item);
 ```
 
 + const to indicate that the parameter returned is by reference, but cannot be changed
-```C++
+```C
 // assume getName is a member function and returning a reference
 // to a private variable in the class
 const string& getName() const;
@@ -83,7 +83,7 @@ const string& getName() const;
 * Do not return a reference or pointer to a local variable
 
 + const for pointer
-```C++
+```C
 // read backwards: ptr is a pointer to an integer constant
 // ptr cannot be used to change the value
 const int * ptr;
@@ -138,8 +138,8 @@ Not a binary search tree!
       - left: 2 * i + 1
       - right: 2 * i + 2
       - parent: (i - 1) / 2
-    
-    
+
+
 ![](./images/heap-as-array.png?raw=true)
 
 Keep track of `itemcount` and `maxItems`
@@ -150,7 +150,7 @@ Keep track of `itemcount` and `maxItems`
 ### [Heap - Array into a Heap][1]
 
 + Start from rightmost leaf up to root, call heapRebuild
-```C++
+```C
 void heapCreate()
 {
    // can simplify as itemCount / 2
@@ -161,7 +161,7 @@ void heapCreate()
 }  // end heapCreate
 ```
 
-```C++
+```C
 void heapRebuild(const int subTreeNodeIndex)
 {
    if (!isLeaf(subTreeNodeIndex))
@@ -288,7 +288,7 @@ Start with array [25 30 20 80 40 60]
 ### [Graphs - Searching][1]
 
 + DFS - Depth-First Search
-```C++
+```C
 dfs(v: Vertex) {
       s = a new stack
       s.push(v)
@@ -304,7 +304,7 @@ dfs(v: Vertex) {
 ```
 
 + BFS - Breadth-First Search
-```C++
+```C
 bfs(v: Vertex) {
   q = new queue
   q.enqueue(v)
