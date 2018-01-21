@@ -17,7 +17,7 @@ formatted to Github Markdown syntax by Ryan Peters
 
 ---
 
-#### ToC
+#### Table of Contents
 
 - [overview](#Overview)
   - [const](#const)
