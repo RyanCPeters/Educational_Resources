@@ -1,12 +1,13 @@
 Lecture 1 notes: Introduction & Trees
 ===
 
-Created By: Yusuf Pisan
+Created By: [Yusuf Pisan](http://courses.washington.edu/css343/pisan/)
 ---
 
 formatted to Github Markdown syntax by Ryan Peters
 
-## Be sure to check the other lectures out after you finish this one! [Next lecture]
+#### Be sure to check the other lectures out after you finish this one! 
+[Next lecture]
 
 [Next lecture]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture2/
 [Previous lecture]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture2/
