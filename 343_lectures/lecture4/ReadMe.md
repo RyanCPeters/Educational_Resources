@@ -13,6 +13,7 @@ formatted to Github Markdown syntax by Ryan Peters
 
 [Next lecture]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture1/
 [Previous lecture]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture3/
+
 ---
 
 #### ToC
