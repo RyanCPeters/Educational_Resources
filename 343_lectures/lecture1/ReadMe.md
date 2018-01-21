@@ -75,7 +75,7 @@ https://pollev.com/pisan
 
 Somebody forgot to write comments! 
 
-```C++++
+```C++
 int foo(int n)
 {
    if (n  0)
