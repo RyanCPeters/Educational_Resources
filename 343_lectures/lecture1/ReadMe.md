@@ -217,7 +217,7 @@ What is its complexity? Why?
 
 ![Algebraic Expression](./images/ch15-3-algebraic-tree.png)
 
-Representing ``` (a - b) x c```
+Representing `(a - b) x c`
 
 + Traversal
   + *preorder* - root, left, right  
