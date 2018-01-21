@@ -10,8 +10,8 @@ formatted to Github Markdown syntax by Ryan Peters
 [Previous lecture] | [Next lecture] 
 
 
-[Next lecture]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture2/
 [Previous lecture]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture4/
+[Next lecture]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture2/
 
 ---
 

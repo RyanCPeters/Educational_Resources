@@ -9,8 +9,8 @@ formatted to Github Markdown syntax by Ryan Peters
 #### Be sure to check the other lectures out after you finish this one!
 [Previous lecture] | [Next lecture] 
 
-[Next lecture]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture1/
 [Previous lecture]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture3/
+[Next lecture]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture1/
 
 ---
 
