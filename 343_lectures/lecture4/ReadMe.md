@@ -61,33 +61,33 @@ formatted to Github Markdown syntax by Ryan Peters
 
 + const to indicate that variable value does not change
 ```C
-const int MAX{100};
+    const int MAX{100};
 ```
 
 + const to indicate that a class member function does not modify the object
 ```C
-void inorderTraverse(void visit(ItemType&)) const;
+    void inorderTraverse(void visit(ItemType&)) const;
 ```
 
 + const to indicate that the parameter passed by reference will not be modified
 ```C
-bool add(const ItemType& item);
+    bool add(const ItemType& item);
 ```
 
 + const to indicate that the parameter returned is by reference, but cannot be changed
 ```C
-// assume getName is a member function and returning a reference
-// to a private variable in the class
-const string& getName() const;
+    // assume getName is a member function and returning a reference
+    // to a private variable in the class
+    const string& getName() const;
 ```
 
 * Do not return a reference or pointer to a local variable
 
 + const for pointer
 ```C
-// read backwards: ptr is a pointer to an integer constant
-// ptr cannot be used to change the value
-const int * ptr;
+    // read backwards: ptr is a pointer to an integer constant
+    // ptr cannot be used to change the value
+    const int * ptr;
 ```
 
 https://isocpp.org/wiki/faq/const-correctness
