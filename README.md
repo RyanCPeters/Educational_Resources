@@ -9,10 +9,14 @@ As such, it will see more resources added as I get the time or as people choose 
 </p>
 
 - CSS 343
-  - [Lecture 1][1]
-  - [Lecture 2][2]
-  - [Lecture 3][3]
-  - [Lecture 4][4]
+  - Lectures
+    - [1]
+    - [2]
+    - [3]
+    - [4]
+  - Assignments
+    - [1: TurtleProgram]
+    - [2: BinarySearchTree]
   
   
   
@@ -40,3 +44,5 @@ As such, it will see more resources added as I get the time or as people choose 
 [2]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture2/
 [3]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture3/
 [4]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture4/
+[1: TurtleProgram]
+[2: BinarySearchTree]
