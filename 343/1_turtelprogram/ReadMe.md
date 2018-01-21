@@ -8,7 +8,7 @@ Assignment 1: turtleprogram
 [Turtle Graphics](https://en.wikipedia.org/wiki/Turtle_graphics) as part of [Logo](https://en.wikipedia.org/wiki/Logo_(programming_language)) was one of the first languages explicitly designed for teaching beginning programming.
 
 A `TurtleProgram` is a set of instructions directing the on-screen *turtle* to draw graphics. To draw a square, one would execute:
-```
+```UML
 Forward 10 Right 90 Forward 10 Right 90 Forward 10 Right 90 Forward 10 Right 90 
 ```
 
@@ -31,7 +31,7 @@ __As explained in class: getLength() returns the number of strings in the progra
 The data for the TurtleProgram must be in a *private dynamically allocated array* of just the right size. Normally, we would allocate a much larger array, but for this exercise, we are practicing dynamically resizing our data array.
 
 
-```C++
+```C
 int main()
 {
     TurtleProgram tp1;
@@ -62,7 +62,7 @@ int main()
 ```
 
 output:
-```
+```UML
 tp1: []
 tp2: [F 10]
 tp1 now as tp2+tp3: [F 10 R 90]
@@ -123,7 +123,7 @@ the linux machines (you have been testing incrementally and using
 labs](http://faculty.washington.edu/pisan/cpp/linux-labs.html)
 
 Under unix, compile your code using
-```
+```sh
 g++ -std=c++14 -g -Wall -Wextra ass1.cpp TurtleProgram.cpp -o ass1
 ```
 
@@ -139,7 +139,7 @@ file. See the sample program on Assignments on how to properly document your cod
 I will run automated tests on Wednesday 10pm and Friday 10pm. If you submit your assignment before that you will get an email from "JollyFeedback" The tests are not exhaustive, but should help you.
 
 Multiple criteria. -5 for partially correct, -10 for not working or missing 
-```
+```UML
 1. private dynamically allocated array of correct size (-20)
 2. Constructors: Empty, 2 parameter and Copy Constructor
 3. Destructor

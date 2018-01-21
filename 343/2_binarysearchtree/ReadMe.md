@@ -88,7 +88,7 @@ labs](http://faculty.washington.edu/pisan/cpp/linux-labs.html)
 ##### Recomended command set for linux testing
 
 Under unix, compile your code using
-```
+```UML
 g++ -std=c++14 -g -Wall -Wextra ass2.cpp -o ass2
 ```
 
@@ -116,7 +116,7 @@ file. See the sample program on Assignments on how to properly document your cod
 Pisan will run automated tests on Wednesday 10pm and Friday 10pm. If you submit your assignment before that you will get an email from "JollyFeedback" The tests are not exhaustive, but should help you.
 
 Multiple criteria. -5 for partially correct, -10 for not working or missing 
-```
+```UML
 1. Constructors: Empty, 1 parameter and Copy Constructor
 2. Destructor, clear
 3. isEmpty, getHeight, numberOfNodes, contains
