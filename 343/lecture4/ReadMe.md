@@ -1,15 +1,14 @@
 Lecture 4: Binary Heaps & Graphs
 ===
 
-
 Created By: [Yusuf Pisan](http://courses.washington.edu/css343/pisan/)
 ---
 
 formatted to Github Markdown syntax by Ryan Peters
 
-#### Be sure to check the other lectures out after you finish this one!
+#### Be sure to check the other lectures out after you finish this one! 
 
-<div style="text-align:center"><a href="https://ryancpeters.github.io/Educational_Resources/343/lecture2/" style="text-align:center-16em">Previous lecture </a></div>
+<div style="text-align:center"><a href="https://ryancpeters.github.io/Educational_Resources/343/lecture3/" style="text-align:center-24em">Previous lecture </a></div>
 
 
 [Previous lecture]:https://ryancpeters.github.io/Educational_Resources/343/lecture3/
