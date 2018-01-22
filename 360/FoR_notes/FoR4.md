@@ -32,26 +32,41 @@ The text distinguishes between them by using the term `user requirements` to mea
 <table>
     <tr>
         <th>User Requirements</th>
-        <th>User Requirements</th>
+        <th>System Requirements</th>
     </tr>
     <tr>
-        <th>Client managers</th>
-        
+        <th>Client managers</th> 
+        <td>X</td>  
+        <td></td>     
     </tr>
     <tr>
-        <th>System end-users</th>
+        <th>System end-users</th> 
+        <td>X</td>  
+        <td>X</td>
     </tr>
-
+    <tr>
+        <th>Contractor managers</th> 
+        <td>X</td>  
+        <td></td>
+    </tr>
+    <tr>
+        <th>System architects</th> 
+        <td>X</td>  
+        <td>X</td>
+    </tr>
+    <tr>
+        <th>Client engineers</th> 
+        <td>X</td>  
+        <td>X</td>
+    </tr>
+    <tr>
+        <th>Software developers</th> 
+        <td></td>  
+        <td>X</td>
+    </tr>
+    
 </table>
 
-
-Client engineers
-Contractor managers
-System architects
-System end-users
-Client engineers
-System architects
-Software developers
 ###### Footnotes
 >†Davis, A. M. 1993. Software Requirements: Objects, Functions and States. Englewood Cliffs, NJ: Prentice-Hall.
 
