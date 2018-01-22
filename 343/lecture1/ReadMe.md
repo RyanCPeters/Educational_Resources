@@ -8,7 +8,7 @@ formatted to Github Markdown syntax by Ryan Peters
 
 #### Be sure to check the other lectures out after you finish this one! 
 
-<div><a href="https://ryancpeters.github.io/Educational_Resources/343/lecture2/" style="position: absolute; right: 37em"> Next lecture</a></div>
+<div><a href="https://ryancpeters.github.io/Educational_Resources/343/lecture2/" style="position: relative; right: 37em"> Next lecture</a></div>
 
 [Previous lecture]:https://ryancpeters.github.io/Educational_Resources/343/lecture2/
 [Next lecture]:https://ryancpeters.github.io/Educational_Resources/343/lecture2/
