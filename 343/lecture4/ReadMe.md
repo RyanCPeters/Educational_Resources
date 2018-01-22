@@ -11,8 +11,8 @@ formatted to Github Markdown syntax by Ryan Peters
 [Previous lecture]
 
 
-[Previous lecture]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture3/
-[Next lecture]:https://ryancpeters.github.io/Educational_Resources/343_lectures/lecture1/
+[Previous lecture]:https://ryancpeters.github.io/Educational_Resources/343/lecture3/
+[Next lecture]:https://ryancpeters.github.io/Educational_Resources/343/lecture1/
 [1]:#lecture-4-binary-heaps--graphs "Back to Table of Contents"
 
 ---
