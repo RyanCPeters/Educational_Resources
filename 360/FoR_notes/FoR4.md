@@ -22,7 +22,7 @@ Davis (Davis 1993) explains why these differences exist:
 
 Some of the problems that arise during the requirements engineering process are a result of failing to make a clear separation between these different levels of description.
 
-The text distinguishes between them by using the term `user requirements` to mean the high-level abstract requirements and `system requirements` to mean the detailed description of what the system should do.
+The text distinguishes between them by using the term ==user requirements== to mean the high-level abstract requirements and `system requirements` to mean the detailed description of what the system should do.
 
 - `User requirements` are defined as: 
   - Statements, in a natural language plus diagrams, of what services the system is expected to provide to system users and the constraints under which it must operate. The user requirements may vary from broad statements of the system features required to detailed, precise descriptions of the system functionality.
