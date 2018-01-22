@@ -7,7 +7,7 @@ Created By: [Yusuf Pisan](http://courses.washington.edu/css343/pisan/)
 formatted to Github Markdown syntax by Ryan Peters
 
 #### Be sure to check the other lectures out after you finish this one! 
-[Next lecture]
+<div style="text-align:center"><a href="https://ryancpeters.github.io/Educational_Resources/343/lecture2/" style="text-align:center+15em">Next lecture</a></div>
 
 [Previous lecture]:https://ryancpeters.github.io/Educational_Resources/343/lecture2/
 [Next lecture]:https://ryancpeters.github.io/Educational_Resources/343/lecture2/
