@@ -10,6 +10,7 @@ formatted to Github Markdown syntax by Ryan Peters
 
 <div><a href="https://ryancpeters.github.io/Educational_Resources/343/lecture3/" style="position: relative; left: 20em"> Next lecture</a><a href="https://ryancpeters.github.io/Educational_Resources/343/lecture1/" style="position: relative; left: 5em">Previous lecture </a></div>
 
+
 [Previous lecture]:https://ryancpeters.github.io/Educational_Resources/343/lecture1/
 [Next lecture]:https://ryancpeters.github.io/Educational_Resources/343/lecture3/
 [1]:#lecture-2-huffman-coding "Back to Table of Contents"
