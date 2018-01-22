@@ -18,7 +18,7 @@ Davis (Davis 1993) explains why these differences exist:
 >needs. Once a contract has been awarded, the contractor must write a
 >system definition for the client in more detail so that the client understands
 >and can validate what the software will do. Both of these documents may be
->called the requirements document for the system[†](#†).
+>called the requirements document for the system[†](#).
 
 Some of the problems that arise during the requirements engineering process are a result of failing to make a clear separation between these different levels of description.
 
