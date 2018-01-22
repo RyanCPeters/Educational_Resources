@@ -18,7 +18,7 @@ Davis (Davis 1993) explains why these differences exist:
 >needs. Once a contract has been awarded, the contractor must write a
 >system definition for the client in more detail so that the client understands
 >and can validate what the software will do. Both of these documents may be
->called the requirements document for the system[†](#).
+>called the requirements document for the system[†](#footnotes).
 
 Some of the problems that arise during the requirements engineering process are a result of failing to make a clear separation between these different levels of description.
 
@@ -31,11 +31,28 @@ The text distinguishes between them by using the term `user requirements` to mea
 
 <table>
     <tr>
-        <td>Foo</td>
+        <th>User Requirements</th>
+        <th>User Requirements</th>
     </tr>
+    <tr>
+        <th>Client managers</th>
+        
+    </tr>
+    <tr>
+        <th>System end-users</th>
+    </tr>
+
 </table>
 
-###### †
+
+Client engineers
+Contractor managers
+System architects
+System end-users
+Client engineers
+System architects
+Software developers
+###### Footnotes
 >†Davis, A. M. 1993. Software Requirements: Objects, Functions and States. Englewood Cliffs, NJ: Prentice-Hall.
 
 
