@@ -10,8 +10,7 @@ formatted to Github Markdown syntax by Ryan Peters
 
 <div><a href="https://ryancpeters.github.io/Educational_Resources/343/lecture2/" style="position: relative; left: 20em"> Next lecture</a></div>
 
-[Previous lecture]:https://ryancpeters.github.io/Educational_Resources/343/lecture2/
-[Next lecture]:https://ryancpeters.github.io/Educational_Resources/343/lecture2/
+
 [1]:#lecture-1-notes-introduction--trees "Back to Table of Contents"
 
 ---
@@ -30,9 +29,6 @@ formatted to Github Markdown syntax by Ryan Peters
   10. [Algebraic Expression](#algebraic-expression)
   11. [Binary Search Tree](#binary-search-tree)
   12. [After Class](#after-class)
-
-
-
 
 ---
 

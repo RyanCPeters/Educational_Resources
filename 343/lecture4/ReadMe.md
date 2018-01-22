@@ -11,8 +11,6 @@ formatted to Github Markdown syntax by Ryan Peters
 <div><a href="https://ryancpeters.github.io/Educational_Resources/343/lecture3/" style="position: relative; left: 5em">Previous lecture </a></div>
 
 
-[Previous lecture]:https://ryancpeters.github.io/Educational_Resources/343/lecture3/
-[Next lecture]:https://ryancpeters.github.io/Educational_Resources/343/lecture1/
 [1]:#lecture-4-binary-heaps--graphs "Back to Table of Contents"
 
 ---
@@ -37,9 +35,6 @@ formatted to Github Markdown syntax by Ryan Peters
   - [Graphs - Searching](#graphs---searching)
   - [Graphs - Group Exercise](#graphs---group-exercise)
 - [After Class](#after-class)
-
-
-
 
 ---
 

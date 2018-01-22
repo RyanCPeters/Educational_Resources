@@ -11,8 +11,6 @@ formatted to Github Markdown syntax by Ryan Peters
 <div><a href="https://ryancpeters.github.io/Educational_Resources/343/lecture4/" style="position: relative; left: 20em"> Next lecture</a><a href="https://ryancpeters.github.io/Educational_Resources/343/lecture2/" style="position: relative; left: 5em">Previous lecture </a></div>
 
 
-[Previous lecture]:https://ryancpeters.github.io/Educational_Resources/343/lecture2/
-[Next lecture]:https://ryancpeters.github.io/Educational_Resources/343/lecture4/
 [1]:#lecture-3-bst-add---remove---save "Back to Table of Contents"
 
 ---
