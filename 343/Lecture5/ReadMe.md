@@ -18,8 +18,9 @@ formatted to Github Markdown syntax by Ryan Peters
 
 #### Table of Contents
 
+---
 Overview <meta name="copyright" content="Yusuf Pisan | pisan@uw.edu | http://courses.washington.edu/css343/" /> <meta name="duration" content="120" />
-===========
+---
 
 + Review: Ass1, Ass2
 
@@ -30,8 +31,9 @@ Overview <meta name="copyright" content="Yusuf Pisan | pisan@uw.edu | http://cou
 + Big O Reading / Exercises
 
 
+---
 Ass1: Initial Feedback
-=========
+---
 
 - memory leaks
 - multiplication is repeated addition, BUT ...
@@ -41,8 +43,9 @@ Ass1: Initial Feedback
 - indentation
 - incorrect friend definition for operator+, operator+=
 
+---
 Ass2: BinarySearchTree
-=========
+---
 
 ```C
 template<class ItemType>
@@ -60,8 +63,9 @@ void itemDisplay(string& anItem) {
 // bst.inorderTraverse(itemDisplay);
 ```
 
+---
 Graph Algorithms: DFS + BFS
-==================
+---
 
 + DFS - Depth-First Search, use stack. 
     - if no unvisited vertices adjacent to the vertex at top of stack, pop stack.
@@ -81,14 +85,15 @@ Group Exercise: Looking for a path from `e` to `i`. List the order of vertices v
 - DFS (worst case scenario)
 - BFS
 
+---
 Graph Algorithms: Djikstra's Shortest Path
-==================
+---
 
 ![](./images/ch20-26-shortest-path.png)
 
 To find the shortest path from one vertex to **all** other vertices
 
-```C
+```python
 // finding shortest-paths from vertex 0
 weight[v] = matrix[0][v] for all v
 // weight[0] = "-", [1] = 8, [2] = -, [3] = 9, [4] = 4
@@ -107,8 +112,9 @@ while there are still vertices not in vertexset (do this n-2 times)
 
 Group Exercise: Find the shortest-distance from node-3 to all other nodes. Write out your vertexSet at each step.
 
+---
 Graph Algorithms: Uniform Cost Search (UCS)
-==================
+---
 
 Maintain a priority queue
 
@@ -146,8 +152,9 @@ If all edges have a cost of `1`, UCS is the same as BFS
 
 If the priority is set to the `numberOfNodesInPath`, UCS is the same as DFS
 
+---
 Graph Algorithms: A* 
-==================
+---
 
 Maintain a priority queue with a heuristic
 
@@ -173,8 +180,9 @@ If h(n) is 0, A* is the same as UCS
     - 15-puzzle: 10^13^ states
 
 
+---
 Topological Sort
-==================
+---
 
 Directed graph without cycles has a topological order.
 
@@ -204,8 +212,9 @@ If all pairs of consecutive vertices in the sorted order are connected by edges,
 
 Exercise: Draw a square without lifting pen, draw a house, ...
 
+---
 Travelling Salesman Problem (TSP)
-===============
+---
 
 Given a set of cities and distance between every pair of cities, the problem is to find the shortest possible route that visits every city exactly once and returns to the starting point. 
 
@@ -225,8 +234,9 @@ The total running time is therefore O(n^2^ * 2^n^)
 
 https://www.geeksforgeeks.org/travelling-salesman-problem-set-1/
 
+---
 xkcd: Travelling Salesman
-=======================
+---
 
 
 ![](./images/travelling_salesman_problem.png)
@@ -235,8 +245,9 @@ xkcd: Travelling Salesman
 https://xkcd.com/399/
 
 
+---
 Spanning Trees
-=================
+---
 
 A tree is a psecial kind of undirected graph, connected but no cycles
 
@@ -256,8 +267,9 @@ Minimum spanning tree: A spanning tree that where the sum of the edges is minima
 
 Group Exercise: Construct DFS, BFS and minimum spanning tree (starting from `e` for DFS and BFS)
 
+---
 Prim's Algorithm
-=================
+---
 
 ![](./images/ch20-24-mst.png)
 
@@ -270,9 +282,9 @@ while (there are unvisited vertices)
     Add the vertex u and the edge (v, u) to minimum spanning tree
 ```
 
-
+---
 Big O
-==========
+---
 
 ![](./images/big-o-complexity.png)
 
@@ -290,9 +302,9 @@ Big O
 
 > -  O(2^n+1^) is still O(2^n^)
 
-
+---
 Big O (2)
-==========
+---
 
 - B1: You say your birthday, and ask whether anyone in the room has the same birthday. If anyone does have the same birthday, they answer yes.
 
@@ -306,8 +318,9 @@ How many questions will be asked?
 > - B2: linear time, nobody has your birthday, you ask everybody, O(n)
 > - B3: The number of questions is 1 + 2 + 3 + ... + N-1 + N, quadratic time, O(n^2^)
 
+---
 Big O (3)
-==========
+---
 
 ```
 Two loops in a row:
@@ -347,8 +360,9 @@ for	(int	i	=	0;	i	<	n;	i++)	{
 > - O(n^2^)
 > - O(n^3^)
 
+---
 Big O (4)
-==========
+---
 
 ```
 f takes constant time, g takes time linear based on the value of its parameter.
@@ -365,8 +379,9 @@ f takes constant time, g takes time linear based on the value of its parameter.
 > - O(n^2^), 1 + 2 + 3 ... N - 1
 > - O(n * k), we don't now the relative size of k
 
+---
 Big O (5)
-==========
+---
 
 Dynamicc programming stores and reuses results
 
@@ -374,8 +389,9 @@ RE-writing fibonacci, so it is not recurive.
 
 What is the complexity?
 
+---
 Big O (6)
-==========
+---
 
 Knapsack problem: Objects with given size and value, maximize value taht can be stored in capacity C
 
@@ -383,8 +399,9 @@ Knapsack problem: Objects with given size and value, maximize value taht can be 
 
 > - 2^n^ possible combinations
 
+---
 Big O (7)
-==========
+---
 
 - V(k, A) - maximum value choosing among the first k objects in a knapsack of capacity A
 
@@ -403,8 +420,9 @@ Big O (7)
 - To find which objects are included, need to keep a separate table of size n * C
 
 
+---
 Big O (8)
-==========
+---
 
 Shortest Path: Djikstra's algorithm to find shortest path for all nodes
 
@@ -428,8 +446,9 @@ while there are still vertices not in vertexset (do this n-2 times)
 >- Complexity: O(n^2^)
 
 
+---
 Big O (9)
-==========
+---
 
 Sort each tring in an array and then sort the array (Example 8 from Cracking)
 
@@ -446,8 +465,9 @@ Sort each tring in an array and then sort the array (Example 8 from Cracking)
 > - Adding it all up: O(a * s(log a + log s))
 
 
+---
 After Class
-=============
+---
 
 + Work on Ass2
 
