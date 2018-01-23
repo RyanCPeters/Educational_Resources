@@ -90,6 +90,16 @@ properly implemented.
 
 This early-stage RE establishes a high-level view of what the system might do and the benefits that it might provide. These may then be considered in a feasibility study, which tries to assess whether or not the system is technically and financially feasible.
 
+##### Early Stage RE use scenarios
+For the majority of large systems, it is still the case that there is a clearly identifiable requirements engineering phase before implementation of the system begins. The outcome is a requirements document, which may be part of the system development contract. Of course, subsequent changes are made to the requirements, and user requirements may be expanded into Feasibility studies A feasibility study is a short, focused study that should take place early in the RE process. It should answer three
+key questions: (1) Does the system contribute to the overall objectives of the organization? (2) Can the system
+be implemented within schedule and budget using current technology? and (3) Can the system be integrated
+with other systems that are used?
+If the answer to any of these questions is no, you should probably not go ahead with the project.more detailed system requirements. Sometimes an agile approach of concurrently
+eliciting the requirements as the system is developed may be used to add detail and
+to refine the user requirements.
+
+
 ###### Footnotes
 >†Davis, A. M. 1993. Software Requirements: Objects, Functions and States. Englewood Cliffs, NJ: Prentice-Hall.
 

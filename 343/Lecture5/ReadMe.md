@@ -1,8 +1,22 @@
+Lecture 5: Graph Algorithms
+===
+
+Created By: [Yusuf Pisan](http://courses.washington.edu/css343/pisan/)
 ---
-title: "Graph Algorithms"
-author: Yusuf Pisan
-output: slidy_presentation
+
+formatted to Github Markdown syntax by Ryan Peters
+
+#### Be sure to check the other lectures out after you finish this one! 
+
+<div><a href="https://ryancpeters.github.io/Educational_Resources/343/lecture4/" style="position: relative; left: 5em">Previous lecture </a>
+  <a href="https://ryancpeters.github.io/Educational_Resources/343/lecture6/" style="position: relative; left: 20em"><!--- Next lecture--></a></div>
+
+
+[1]:#lecture-4-binary-heaps--graphs "Back to Table of Contents"
+
 ---
+
+#### Table of Contents
 
 Overview <meta name="copyright" content="Yusuf Pisan | pisan@uw.edu | http://courses.washington.edu/css343/" /> <meta name="duration" content="120" />
 ===========
