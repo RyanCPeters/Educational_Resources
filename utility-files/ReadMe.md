@@ -1,1 +1,0 @@
-This folder, ~/utility-files/, is meant to be a place for the convenient storage and sharing of config files (and other similar-purposed files) for various text-editors, IDE settings, or simply workflow modification tools.  
