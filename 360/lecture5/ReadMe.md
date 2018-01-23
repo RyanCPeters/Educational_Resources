@@ -285,4 +285,11 @@ Team Time
 - Write down a description of a typical user for your product, wy you think they would want to use it (their goals and what would cause them to use it), and the context in which you would expect them to use it.
 - Submit the completed descriptions to instructor, and by Noon on Wednesday Jan 24, 2017, and bring paper copies to class later that day.
 
+groups fuzzy deicsion for product options
+ 
+- A gameplay recording feature similar to "OBS"
+  + OBS is: 
 
+> "Free and open source software for video recording and live streaming. Download and start streaming quickly and easily on Windows, Mac or Linux."
+
+  + we'd be be building an api that allows streamlined incorporation of OBS into steam games, with an external tool for management of content.
