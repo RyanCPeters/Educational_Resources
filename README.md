@@ -14,6 +14,7 @@ As such, it will see more resources added as I get the time or as people choose 
     - [2]
     - [3]
     - [4]
+    - [5]
   - Assignments
     - [1: TurtleProgram]
     - [2: BinarySearchTree]
@@ -44,5 +45,6 @@ As such, it will see more resources added as I get the time or as people choose 
 [2]:https://ryancpeters.github.io/Educational_Resources/343/lecture2/
 [3]:https://ryancpeters.github.io/Educational_Resources/343/lecture3/
 [4]:https://ryancpeters.github.io/Educational_Resources/343/lecture4/
+[5]:https://ryancpeters.github.io/Educational_Resources/343/lecture5/
 [1: TurtleProgram]:https://github.com/RyanCPeters/Educational_Resources/tree/master/343/1_turtelprogram
 [2: BinarySearchTree]:https://github.com/RyanCPeters/Educational_Resources/tree/master/343/2_binarysearchtree
