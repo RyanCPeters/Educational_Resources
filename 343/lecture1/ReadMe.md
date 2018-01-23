@@ -8,7 +8,8 @@ formatted to Github Markdown syntax by Ryan Peters
 
 #### Be sure to check the other lectures out after you finish this one! 
 
-<div><a href="https://ryancpeters.github.io/Educational_Resources/343/lecture2/" style="position: relative; left: 20em"> Next lecture</a></div>
+<div><a href="https://ryancpeters.github.io/Educational_Resources/343/lecture1/" style="position: relative; left: 5em"><!--Previous lecture --></a>
+  <a href="https://ryancpeters.github.io/Educational_Resources/343/lecture2/" style="position: relative; left: 20em">Next lecture</a></div>
 
 
 [1]:#lecture-1-notes-introduction--trees "Back to Table of Contents"
