@@ -29,6 +29,8 @@ The text distinguishes between them by using the term `user requirements` to mea
 - `System requirements` are defined as:
   - Detailed descriptions of the software system’s functions, services, and operational constraints. The system requirements document (sometimes called a functional specification) should define exactly what is to be implemented. It may be part of the contract between the system buyer and the software developers.
 
+#### Identifying reader groups for User and System Reqs.
+
 <table>
     <tr>
         <th>User Requirements</th>
@@ -63,9 +65,30 @@ The text distinguishes between them by using the term `user requirements` to mea
         <th>Software developers</th> 
         <td></td>  
         <td>X</td>
-    </tr>
-    
+    </tr>    
 </table>
+
+---
+#### system stakeholders example
+For the Mentcare system include:
+
+1. Patients whose information is recorded in the system and relatives of these patients.
+2. Doctors who are responsible for assessing and treating patients.
+3. Nurses who coordinate the consultations with doctors and administer some
+treatments.
+4. Medical receptionists who manage patients’ appointments.
+5. IT staff who are responsible for installing and maintaining the system.
+6. A medical ethics manager who must ensure that the system meets current ethical
+guidelines for patient care.
+7. Health care managers who obtain management information from the system.
+8. Medical records staff who are responsible for ensuring that system information
+can be maintained and preserved, and that record keeping procedures have been
+properly implemented.
+
+---
+#### Early Stage Requirements engineering (RE) 
+
+This early-stage RE establishes a high-level view of what the system might do and the benefits that it might provide. These may then be considered in a feasibility study, which tries to assess whether or not the system is technically and financially feasible.
 
 ###### Footnotes
 >†Davis, A. M. 1993. Software Requirements: Objects, Functions and States. Englewood Cliffs, NJ: Prentice-Hall.
