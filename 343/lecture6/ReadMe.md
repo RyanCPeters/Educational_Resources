@@ -62,7 +62,7 @@ formatted to Github Markdown syntax by Ryan Peters
 
 ---
 
-priority_queue - 1
+[priority_queue - 1][1]
 ---
 ```C
 void testPQ1() {
@@ -81,7 +81,7 @@ void testPQ1() {
 
 ---
 
-priority_queue - 2
+[priority_queue - 2][1]
 ---
 ```C
 void testPQ2() {
@@ -102,7 +102,7 @@ void testPQ2() {
 
 ---
 
-priority_queue - 3
+[priority_queue - 3][1]
 ---
 ```C
 // store a pair of objects in priority queue
@@ -135,7 +135,7 @@ void testPQ3() {
 
 ---
 
-Improvements to Dijkstra
+[Improvements to Dijkstra][1]
 ---
 ```C
 // finding shortest-paths from vertex 0
@@ -156,7 +156,7 @@ while there are still vertices not in vertexset (do this n-2 times)
 
 ---
 
-STL dtatastructure for Dijkstra
+[STL dtatastructure for Dijkstra][1]
 ---
 ```C
 // weight to node, use INT_MAX for not connected/infinity
@@ -184,7 +184,7 @@ Looking for specific examples...
 
 ---
 
-Topological Sort
+[Topological Sort][1]
 ---
 
 Directed graph without cycles has a topological order.
@@ -225,7 +225,7 @@ Euler Path: Travel each edge
 
 ---
 
-Travelling Salesman Problem (TSP)
+[Travelling Salesman Problem (TSP)][1]
 ---
 
 Given a set of cities and distance between every pair of cities, the problem is to find the shortest possible route that visits every city exactly once and returns to the starting point. 
@@ -251,7 +251,7 @@ https://www.geeksforgeeks.org/travelling-salesman-problem-set-1/
 
 ---
 
-xkcd: Travelling Salesman
+[xkcd: Travelling Salesman][1]
 ---
 
 
@@ -264,7 +264,7 @@ https://xkcd.com/399/
 
 ---
 
-Spanning Trees
+[Spanning Trees][1]
 ---
 
 A tree is a psecial kind of undirected graph, connected but no cycles
@@ -288,7 +288,7 @@ Group Exercise: Construct DFS, BFS and minimum spanning tree (starting from `e` 
 
 ---
 
-Prim's Algorithm
+[Prim's Algorithm][1]
 ---
 
 ![](./images/ch20-24-mst.png)
@@ -306,7 +306,7 @@ while (there are unvisited vertices)
 
 ---
 
-Big O
+[Big O][1]
 ---
 
 O(n) represents upper bound. (Big-O)  
@@ -333,7 +333,7 @@ O(n) represents upper bound. (Big-O)
 
 ---
 
-Big O (2)
+[Big O (2)][1]
 ---
 
 - B1: You say your birthday, and ask whether anyone in the room has the same birthday. If anyone does have the same birthday, they answer yes.
@@ -350,7 +350,7 @@ How many questions will be asked?
 
 ---
 
-Big O (3)
+[Big O (3)][1]
 ---
 
 ```
@@ -393,7 +393,7 @@ for	(int	i	=	0;	i	<	n;	i++)	{
 
 ---
 
-Big O (4)
+[Big O (4)][1]
 ---
 
 ```
@@ -413,7 +413,7 @@ f takes constant time, g takes time linear based on the value of its parameter.
 
 ---
 
-Big O (5)
+[Big O (5)][1]
 ---
 
 Dynamicc programming stores and reuses results
@@ -424,7 +424,7 @@ What is the complexity?
 
 ---
 
-Big O (6)
+[Big O (6)][1]
 ---
 
 Knapsack problem: Objects with given size and value, maximize value taht can be stored in capacity C
@@ -435,7 +435,7 @@ Knapsack problem: Objects with given size and value, maximize value taht can be 
 
 ---
 
-Big O (7)
+[Big O (7)][1]
 ---
 
 - V(k, A) - maximum value choosing among the first k objects in a knapsack of capacity A
@@ -457,7 +457,7 @@ Big O (7)
 
 ---
 
-Big O (8)
+[Big O (8)][1]
 ---
 
 Shortest Path: Djikstra's algorithm to find shortest path for all nodes
@@ -484,7 +484,7 @@ while there are still vertices not in vertexset (do this n-2 times)
 
 ---
 
-Big O (9)
+[Big O (9)][1]
 ---
 
 Sort each string in an array and then sort the array (Example 8 from Cracking)
@@ -503,7 +503,7 @@ Sort each string in an array and then sort the array (Example 8 from Cracking)
 
 ---
 
-Big O (10)
+[Big O (10)][1]
 ---
 
 Binary Search Tree: add, remove, search, traverse
@@ -514,7 +514,7 @@ Binary Search Tree: add, remove, search, traverse
 
 ---
 
-Big O (11)
+[Big O (11)][1]
 ---
 
 Binary Heap: add, remove, search, traverse
@@ -527,7 +527,7 @@ Binary Heap: add, remove, search, traverse
 
 ---
 
-After Class
+[After Class][1]
 ---
 
 + Work on Ass2
