@@ -1,4 +1,4 @@
-Lecture 5: Graph Algorithms
+Lecture 6: Big O
 ===
 
 Created By: [Yusuf Pisan](http://courses.washington.edu/css343/pisan/)
@@ -8,16 +8,40 @@ formatted to Github Markdown syntax by Ryan Peters
 
 #### Be sure to check the other lectures out after you finish this one! 
 
-<div><a href="https://ryancpeters.github.io/Educational_Resources/343/lecture4/" style="position: relative; left: 5em">Previous lecture </a>
-  <a href="https://ryancpeters.github.io/Educational_Resources/343/lecture6/" style="position: relative; left: 20em">Next lecture</a></div>
+<div><a href="https://ryancpeters.github.io/Educational_Resources/343/lecture5/" style="position: relative; left: 5em">Previous lecture </a>
+  <a href="https://ryancpeters.github.io/Educational_Resources/343/lecture7/" style="position: relative; left: 20em"><!--- Next lecture--></a></div>
 
 
-[1]:#lecture-5-graph-algorithms "Back to Table of Contents"
+[1]:#lecture-6-big-o "Back to Table of Contents"
 
 ---
 
 #### Table of Contents
 
+1. Overview 
+2. priority_queue - 1
+3. priority_queue - 2
+4. priority_queue - 3
+5. Improvements to Dijkstra
+6. STL dtatastructure for Dijkstra
+7. Dijkstra Applications
+8. Topological Sort
+9. Travelling Salesman Problem (TSP)
+10. xkcd: Travelling Salesman
+11. Spanning Trees
+12. Prim’s Algorithm
+13. Big O
+14. Big O (2)
+15. Big O (3)
+16. Big O (4)
+17. Big O (5)
+18. Big O (6)
+19. Big O (7)
+20. Big O (8)
+21. Big O (9)
+22. Big O (10)
+23. Big O (11)
+24. After Class
 
 ---
 
@@ -25,7 +49,9 @@ formatted to Github Markdown syntax by Ryan Peters
 
 <meta name="copyright" content="Yusuf Pisan | pisan@uw.edu | http://courses.washington.edu/css343/" /> <meta name="duration" content="120" />
 
-+ Review: Ass1, Ass2
++ Review: Ass2
+
++ Priority Queue
 
 + Automated tests on Wednesday & Friday 11pm
 
@@ -35,68 +61,83 @@ formatted to Github Markdown syntax by Ryan Peters
 
 
 ---
-Ass1: Initial Feedback
----
 
-- memory leaks
-- multiplication is repeated addition, BUT ...
-- file names should be lowercase
-- output format
-- initialize all data members
-- indentation
-- incorrect friend definition for operator+, operator+=
-
+priority_queue - 1
 ---
-Ass2: BinarySearchTree
----
-
 ```C
-template<class ItemType>
-void BinarySearchTree<ItemType>::inorderTraverse(void visit(ItemType&)) const {
-}  // end inorder
-```
-
-visit is a function that takes a single argument of ItemType
-
-```C
-void itemDisplay(string& anItem) {
-    cout << anItem << " ";
+void testPQ1() {
+    priority_queue<int> pq;
+    pq.push(27);
+    pq.push(35);
+    pq.push(5);
+    // should get us 35 27 5
+    while(!pq.empty()) {
+        cout << pq.top() << " ";
+        pq.pop();
+    }
+    cout << endl;
 }
-
-// bst.inorderTraverse(itemDisplay);
 ```
 
 ---
-Graph Algorithms: DFS + BFS
+
+priority_queue - 2
+---
+```C
+void testPQ2() {
+    // use greater rather than less,
+    // sorted from smallest to largest
+    priority_queue<string, vector<string>, greater<string>> pq;
+    pq.push("apple");
+    pq.push("orange");
+    pq.push("banana");
+    // should get us apple banana orange
+    while(!pq.empty()) {
+        cout << pq.top() << " ";
+        pq.pop();
+    }
+    cout << endl;;
+}
+```
+
 ---
 
-+ DFS - Depth-First Search, use stack. 
-    - if no unvisited vertices adjacent to the vertex at top of stack, pop stack.
-    - else push an unvisited adjacent vertex to stack and mark it as visited
+priority_queue - 3
+---
+```C
+// store a pair of objects in priority queue
+typedef pair<string*, int> strPint;
 
-+ BFS - Breadth-First Search, use queue. 
-    - dequeue top element
-    - mark as visited
-    - enqueue all unvisited vertices
+// comparing strPint objects based on the int value
+class StrPintCompare {
+public:
+    bool operator() (const strPint& lhs, const strPint&rhs) const {
+        return lhs.second > rhs.second;
+    }
+};
 
-![](./images/ch20-12-graph.png)
-
-
-Group Exercise: Looking for a path from `e` to `i`. List the order of vertices visited and stack/queue at each iteration
-
-- DFS (best case scenario)
-- DFS (worst case scenario)
-- BFS
+void testPQ3() {
+    priority_queue<strPint, vector<strPint>, StrPintCompare> pq;
+    pq.push(make_pair(new string("apple"), 27));
+    pq.push(make_pair(new string("orange"), 35));
+    pq.push(make_pair(new string("banana"), 5));
+    // should get us banana(5) apple(27) orange(35)
+    // when StrPintCompare is >
+    while(!pq.empty()) {
+        string * strPtr = pq.top().first;
+        cout << *strPtr << "(" << pq.top().second << ")" << " ";
+        delete pq.top().first;
+        pq.pop();
+    }
+    cout << endl;;
+}
+```
 
 ---
-Graph Algorithms: Djikstra's Shortest Path
+
+Improvements to Dijkstra
 ---
-
-![](./images/ch20-26-shortest-path.png)
-
-To find the shortest path from one vertex to **all** other vertices
-
-```python
+```C
 // finding shortest-paths from vertex 0
 weight[v] = matrix[0][v] for all v
 // weight[0] = "-", [1] = 8, [2] = -, [3] = 9, [4] = 4
@@ -110,80 +151,39 @@ while there are still vertices not in vertexset (do this n-2 times)
         if (weight[u] > weight[v] + matrix[v][u])
             weight[u] = weight[v] + matrix[v][u])
 ```
-
-![](./images/ch20-27-trace-shortest-path.png)
-
-Group Exercise: Find the shortest-distance from node-3 to all other nodes. Write out your vertexSet at each step.
+> - Instead of `for all u not in vertexSet`, just look at v's neighbors instead
+> - To keep the path to node, maintain a map `previous[u] = v` every time we update
 
 ---
-Graph Algorithms: Uniform Cost Search (UCS)
+
+STL dtatastructure for Dijkstra
 ---
-
-Maintain a priority queue
-
 ```C
-Insert the root into the queue
-While the queue is not empty
-      Dequeue the maximum priority element from the queue
-      If the path is ending in the goal state
-            Print the path and exit
-      Else
-            Insert all the children of the dequeued element, 
-            with the cumulative costs as priority
+// weight to node, use INT_MAX for not connected/infinity
+// beware of overflow, don't att anything to INT_MAX
+map<string, int> weight;     
+// only one copy in vertexSet
+set<string> vertexSet;
+// pq of weights
+priority_queue< pair<string, int>, vector<pair<string, int>>, LessWeight> pq;
+// keeping path to vertex, best way to get to thsi vertex
+map<string, string> previous
 ```
 
-![](./images/ch20-26-partial.png)
+Dijkstra Applications
+====================
 
+- Google Maps
 
-```
-Path from 0 to 1
+- IP routing to find Open Shortest Path First (OSPF)
 
-    node = 0
-    queue = { {0->4, 4}, {0->1, 8}, {0->3, 9} }
+- Telephone network
 
-    path = {0->4, 4}
-    queue = { {0->4->2, 5}, {0->1, 8}, {0->3, 9} }
-    
-    path = {0->4->2, 5}
-    queue = { {0->4->2->1, 7}, {0->4->2-3, 8}, {0->1, 8}, {0->3, 9} }
-    
-    path = {0->4->2->1, 7}
-    reached goal 1, minimum path cost is 7
-```
-
-If all edges have a cost of `1`, UCS is the same as BFS
-
-If the priority is set to the `numberOfNodesInPath`, UCS is the same as DFS
-
----
-Graph Algorithms: A* 
----
-
-Maintain a priority queue with a heuristic
-
-```
-f(n) = g(n) + h(n)
-g(n) actual cost of getting to node n
-h(n) heuristic cost of getting from n to goal
-```
-
-The quality of the heuristic determines how much better A* is from UCS
-
-If h(n) is 0, A* is the same as UCS
-
-- Where do we get h(n)? 
-    - Straight line distance between given coordinates
-    - Manhattan-distance for sliding puzzle
-    - Some other domain knowledge
-
-*Admissable* heuristic: Must underestimate, must be less than actual possible cost
-
-- Without heuristics, it is a long long road
-    - Rubic's Cube: 10^19^ states
-    - 15-puzzle: 10^13^ states
+Looking for specific examples...
 
 
 ---
+
 Topological Sort
 ---
 
@@ -191,6 +191,7 @@ Directed graph without cycles has a topological order.
 
 x precedes y if there is a an edge from x to y
 
+```
 142 -> 143 -> 342 -> 343
 143 -> 295
 143 -> 340 -> 385
@@ -204,6 +205,7 @@ x precedes y if there is a an edge from x to y
 301 -> 370
 342 -> 421
 ENGL 182 -> 301
+```
 
 We cannot represent AND prerequisites (MATH 125 AND CSS 340)
 
@@ -215,7 +217,14 @@ If all pairs of consecutive vertices in the sorted order are connected by edges,
 
 Exercise: Draw a square without lifting pen, draw a house, ...
 
+Applications: optimizing triangle meshes in computer graphics, circuit design, package delivery problems, multiple vehicles servicing multiple customers, ...
+
+Hamiltonian Path: Visit each vertex
+
+Euler Path: Travel each edge
+
 ---
+
 Travelling Salesman Problem (TSP)
 ---
 
@@ -225,7 +234,9 @@ Given a set of cities and distance between every pair of cities, the problem is 
 
 Paths: ABCDE, ABCED, ABDCE, ABDEC, .
 
-Complexity: O(n-1)! based on the number of paths
+Complexity: O(n!) based on (n - 1)! paths with a naive approach
+
+100! would be 158 digits long, only 10^82^ atoms in universe
 
 but we can do better with dynamic programming
 
@@ -237,7 +248,9 @@ The total running time is therefore O(n^2^ * 2^n^)
 
 https://www.geeksforgeeks.org/travelling-salesman-problem-set-1/
 
+
 ---
+
 xkcd: Travelling Salesman
 ---
 
@@ -248,7 +261,9 @@ xkcd: Travelling Salesman
 https://xkcd.com/399/
 
 
+
 ---
+
 Spanning Trees
 ---
 
@@ -270,7 +285,9 @@ Minimum spanning tree: A spanning tree that where the sum of the edges is minima
 
 Group Exercise: Construct DFS, BFS and minimum spanning tree (starting from `e` for DFS and BFS)
 
+
 ---
+
 Prim's Algorithm
 ---
 
@@ -285,9 +302,16 @@ while (there are unvisited vertices)
     Add the vertex u and the edge (v, u) to minimum spanning tree
 ```
 
+
+
 ---
+
 Big O
 ---
+
+O(n) represents upper bound. (Big-O)  
+Î©(n) represents lower bound. (Omega)  
+Î˜(n) means tight bound. (Theta)
 
 ![](./images/big-o-complexity.png)
 
@@ -305,7 +329,10 @@ Big O
 
 > -  O(2^n+1^) is still O(2^n^)
 
+
+
 ---
+
 Big O (2)
 ---
 
@@ -322,6 +349,7 @@ How many questions will be asked?
 > - B3: The number of questions is 1 + 2 + 3 + ... + N-1 + N, quadratic time, O(n^2^)
 
 ---
+
 Big O (3)
 ---
 
@@ -364,6 +392,7 @@ for	(int	i	=	0;	i	<	n;	i++)	{
 > - O(n^3^)
 
 ---
+
 Big O (4)
 ---
 
@@ -383,6 +412,7 @@ f takes constant time, g takes time linear based on the value of its parameter.
 > - O(n * k), we don't now the relative size of k
 
 ---
+
 Big O (5)
 ---
 
@@ -393,6 +423,7 @@ RE-writing fibonacci, so it is not recurive.
 What is the complexity?
 
 ---
+
 Big O (6)
 ---
 
@@ -403,6 +434,7 @@ Knapsack problem: Objects with given size and value, maximize value taht can be 
 > - 2^n^ possible combinations
 
 ---
+
 Big O (7)
 ---
 
@@ -424,6 +456,7 @@ Big O (7)
 
 
 ---
+
 Big O (8)
 ---
 
@@ -450,10 +483,11 @@ while there are still vertices not in vertexset (do this n-2 times)
 
 
 ---
+
 Big O (9)
 ---
 
-Sort each tring in an array and then sort the array (Example 8 from Cracking)
+Sort each string in an array and then sort the array (Example 8 from Cracking)
 
 > - Not O(N * NlogN)
 
@@ -467,14 +501,38 @@ Sort each tring in an array and then sort the array (Example 8 from Cracking)
 
 > - Adding it all up: O(a * s(log a + log s))
 
+---
+
+Big O (10)
+---
+
+Binary Search Tree: add, remove, search, traverse
+
+> - Average case: O(log n), O(log n), O(log n), O(n)
+
+> - Worst case: O(n)
 
 ---
+
+Big O (11)
+---
+
+Binary Heap: add, remove, search, traverse
+
+> - Average case: O(1), O(log n), O(n), O(n)
+
+> - Worst case: O(log n), O(log n), O(n), O(n)
+
+> - See Resources and http://bigocheatsheet.com/ 
+
+---
+
 After Class
 ---
 
 + Work on Ass2
 
-+ Review Chapter 20
++ Read Chapter 19 - balanced trees
 
-+ Read Resources: Cracking the Coding Interview - VI Big O
++ Sample exam and new assignment over the weekend
 
