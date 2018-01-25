@@ -18,30 +18,30 @@ formatted to Github Markdown syntax by Ryan Peters
 
 #### Table of Contents
 
-1. Overview 
-2. priority_queue - 1
-3. priority_queue - 2
-4. priority_queue - 3
-5. Improvements to Dijkstra
-6. STL dtatastructure for Dijkstra
-7. Dijkstra Applications
-8. Topological Sort
-9. Travelling Salesman Problem (TSP)
-10. xkcd: Travelling Salesman
-11. Spanning Trees
-12. Prim’s Algorithm
-13. Big O
-14. Big O (2)
-15. Big O (3)
-16. Big O (4)
-17. Big O (5)
-18. Big O (6)
-19. Big O (7)
-20. Big O (8)
-21. Big O (9)
-22. Big O (10)
-23. Big O (11)
-24. After Class
+1. [Overview][#overview] 
+2. [priority_queue - 1][#priority_queue---1]
+3. [priority_queue - 2][#priority_queue---2]
+4. [priority_queue - 3][#priority_queue---3]
+5. [Improvements to Dijkstra][#Improvements-to-Dijkstra]
+6. [STL dtatastructure for Dijkstra][#STL-dtatastructure-for-Dijkstra]
+7. [Dijkstra Applications][#Dijkstra-Applications]
+8. [Topological Sort][#Topological-Sort]
+9. [Travelling Salesman Problem (TSP)][#Travelling-Salesman-Problem-(TSP)]
+10. [xkcd: Travelling Salesman][#xkcd-Travelling-Salesman]
+11. [Spanning Trees][#Spanning-Trees]
+12. [Prim’s Algorithm][#Prim’s-Algorithm]
+13. [Big O][#Big-O]
+14. [Big O (2)][#Big-O-(2)]
+15. [Big O (3)][#Big-O-(3)]
+16. [Big O (4)][#Big-O-(4)]
+17. [Big O (5)][#Big-O-(5)]
+18. [Big O (6)][#Big-O-(6)]
+19. [Big O (7)][#Big-O-(7)]
+20. [Big O (8)][#Big-O-(8)]
+21. [Big O (9)][#Big-O-(9)]
+22. [Big O (10)][#Big-O-(10)]
+23. [Big O (11)][#Big-O-(11)]
+24. [After Class][#After-Class]
 
 ---
 
@@ -399,11 +399,11 @@ for	(int	i	=	0;	i	<	n;	i++)	{
 ```
 f takes constant time, g takes time linear based on the value of its parameter.
 
-1. for (j = 0; j < N; j++) f(j);
 
-2. for (j = 0; j < N; j++) g(j);
 
-3. for (j = 0; j < N; j++) g(k);
+
+
+
 
 ```
 
