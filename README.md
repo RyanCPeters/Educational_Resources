@@ -7,7 +7,8 @@ As such, it will see more resources added as I get the time or as people choose 
 <p>
 <strong>I will be attempting to present the newest course material first</strong>, with the material under each course being presented in chronological order from the start of the cours's term to the end of term.
 </p>
-
+<!-- side note, on optimizing program for effective tail recursion, use 
+     `g++ -o2 -stuffs...` -->
 + CSS 337
   - Lectures
     + [1][1-337]

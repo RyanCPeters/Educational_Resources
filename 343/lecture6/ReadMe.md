@@ -310,8 +310,8 @@ Big O
 ---
 
 O(n) represents upper bound. (Big-O)  
-Î©(n) represents lower bound. (Omega)  
-Î˜(n) means tight bound. (Theta)
+Ω(n) represents lower bound. (Omega)  
+Θ(n) means tight bound. (Theta)
 
 ![](./images/big-o-complexity.png)
 
@@ -323,7 +323,7 @@ O(n) represents upper bound. (Big-O)
 
 > - O(2^n^) for recursive fibonacci
 
-> - O(2^n^) for fibonacci4 O(4^n^) is still O(2^n^)
+> - O(2^n^) for fibonacci(4) O(4^n^) is still O(2^n^)
 
 > - Sum of 2^1^ +  2^2^ +  2^13^ +  2^4^ +  ... +  2^n^ for printing
 
