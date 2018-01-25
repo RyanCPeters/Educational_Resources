@@ -22,7 +22,7 @@ formatted to Github Markdown syntax by Ryan Peters
 2. [priority_queue - 1](#priority_queue---1)
 3. [priority_queue - 2](#priority_queue---2)
 4. [priority_queue - 3](#priority_queue---3)
-5. [Improvements to Dijkstra](#Improvements-to-Dijkstra)
+5. [Improvements to Dijkstra](#improvements-to-dijkstra)
 6. [STL dtatastructure for Dijkstra](#STL-dtatastructure-for-Dijkstra)
 7. [Dijkstra Applications](#Dijkstra-Applications)
 8. [Topological Sort](#Topological-Sort)
