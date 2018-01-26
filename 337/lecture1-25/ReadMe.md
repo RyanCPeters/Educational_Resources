@@ -172,6 +172,6 @@ dns RECON TOOLS
 - look into web address `exploit-db.com/google-hacking-database`
 - Fierce
 
-| Operator | Purpose | Mixes with Other Operators | Can be used alone? | Does search work in: |
-|          |         |                            |                    | Web | Images | Groups | News |
+|                                                                      | Does search work in: |
+| Operator | Purpose | Mixes with Other Operators | Can be used alone? | Web | Images | Groups | News |
 |:-------- |:------- |:-------------------------- |:------------------ |:---:|:------:|:------:|:----:|
