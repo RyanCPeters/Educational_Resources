@@ -175,3 +175,19 @@ dns RECON TOOLS
 |                                                                      | Does search work in: |
 | Operator | Purpose | Mixes with Other Operators | Can be used alone? | Web | Images | Groups | News |
 |:-------- |:------- |:-------------------------- |:------------------ |:---:|:------:|:------:|:----:|
+
+
+
+
+---
+
+WireShark
+---
+
+in class activity: following step instructions on wireshark pdf downloaded from 337 course site's `pages` page... :P
+
+
+---
+
+sdf
+--- 
