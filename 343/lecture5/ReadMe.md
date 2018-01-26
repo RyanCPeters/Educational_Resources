@@ -17,6 +17,32 @@ formatted to Github Markdown syntax by Ryan Peters
 ---
 
 #### Table of Contents
+<!-- MarkdownTOC -->
+
+    - [][Overview1]
+- Ass1: Initial Feedback
+- Ass2: BinarySearchTree
+- Graph Algorithms: DFS + BFS
+- Graph Algorithms: Djikstra's Shortest Path
+- Graph Algorithms: Uniform Cost Search \(UCS\)
+- Graph Algorithms: A*
+- Topological Sort
+- Travelling Salesman Problem \(TSP\)
+- xkcd: Travelling Salesman
+- Spanning Trees
+- Prim's Algorithm
+- Big O
+- Big O \(2\)
+- Big O \(3\)
+- Big O \(4\)
+- Big O \(5\)
+- Big O \(6\)
+- Big O \(7\)
+- Big O \(8\)
+- Big O \(9\)
+- After Class
+
+<!-- /MarkdownTOC -->
 
 
 ---
