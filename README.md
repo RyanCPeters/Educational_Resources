@@ -43,16 +43,19 @@ As such, it will see more resources added as I get the time or as people choose 
   
 
 <!-- 337 -->
-    <!-- 337 lectures -->
-        [1-337]:https://ryancpeters.github.io/Educational_Resources/337/lecture1/
-        [2-337]:https://ryancpeters.github.io/Educational_Resources/337/lecture2/
-        [3-337]:https://ryancpeters.github.io/Educational_Resources/337/lecture3/
-        [4-337]:https://ryancpeters.github.io/Educational_Resources/337/lecture4/
-        [5-337]:https://ryancpeters.github.io/Educational_Resources/337/lecture5/
-        [6-337]:https://ryancpeters.github.io/Educational_Resources/337/lecture6/
-    <!-- 337 assignments -->
+<!-- 337 lectures -->
 
-<!-- 343 --><!-- 343 lectures -->
+[1-337]:https://ryancpeters.github.io/Educational_Resources/337/lecture1/
+[2-337]:https://ryancpeters.github.io/Educational_Resources/337/lecture2/
+[3-337]:https://ryancpeters.github.io/Educational_Resources/337/lecture3/
+[4-337]:https://ryancpeters.github.io/Educational_Resources/337/lecture4/
+[5-337]:https://ryancpeters.github.io/Educational_Resources/337/lecture5/
+[6-337]:https://ryancpeters.github.io/Educational_Resources/337/lecture6/
+
+<!-- 337 assignments -->
+
+<!-- 343 -->
+<!-- 343 lectures -->
 
 [1-343]:https://ryancpeters.github.io/Educational_Resources/343/lecture1/
 [2-343]:https://ryancpeters.github.io/Educational_Resources/343/lecture2/
