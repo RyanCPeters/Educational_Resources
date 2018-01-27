@@ -1,6 +1,6 @@
 Lecture 5: Requirement Design
+===
 
----
 Requirements
 ---
 
@@ -13,11 +13,14 @@ Requirements
 >A requirement is a need, expectation, or obligation. It can be stated or implied by an organiztion, its customers, or other interested parties. A specified requirement is one that has been stated ( in a document for example), ...
 
 ---
+
 Misunderstandings
 ---
 ![](./images/misunderstanding-cartoon.png)<!-- cartoon slide -->
 
+
 ---
+
 The Waterfall Model
 ---
 ![](./images/waterfall-model.png)<!-- Waterfall model diagram goes here -->
@@ -29,6 +32,7 @@ The Waterfall Model
         - bah, missed it :P
 
 ---
+
 Kano Model
 ---
 ![](./images/kano-model.png) <!-- Kano Model image of design flow -->
@@ -39,6 +43,7 @@ Terms
 I missed the deets here
 
 ---
+
 Requirement: Analysis-Discovery-Engineering
 ---
 
@@ -73,6 +78,7 @@ Requirement: Analysis-Discovery-Engineering
 </table>
 
 ---
+
 Requirements Specification
 ---
 
@@ -85,6 +91,7 @@ Process of "writing down" the user and system requirements in a requirements doc
   - Detailed descriptions of the software system’s functions, services, and operational constraints. The system requirements document (sometimes called a functional specification) should define exactly what is to be implemented. It may be part of the contract between the system buyer and the software developers.
 
 ---
+
 User Req. Examples
 ---
 
@@ -94,6 +101,7 @@ On the first try, within 15 minutes, 75% of govt employees should be able to fig
 
 
 ---
+
 System Req Examples
 ---
 
@@ -107,11 +115,13 @@ System Req Examples
     -
 
 ---
+
 Business, domain, Regulatory, and other Reqs and Constraints
 ---
 ![](./images/biz-reqs.png)
 
 ---
+
 Requirements Exercise
 ---
 Group exercise:
@@ -142,6 +152,7 @@ Interviewing person A:
   - needs to provide integration api for easy adaptation to systems like Canvas. 
 
 ---
+
 Shall is not Should
 --
 
