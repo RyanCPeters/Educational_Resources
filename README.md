@@ -10,34 +10,34 @@ As such, it will see more resources added as I get the time or as people choose 
 
 + CSS 337
   - Lectures
-    + [1][1-337]
-    + [2][2-337]
-    + [3][3-337]
-    + [4][4-337]
-    + [5][5-337]
-    + [6][6-337]
+    + [January 4][1-337]
+    + [January 9][2-337]
+    + [January 11][3-337]
+    + [January 16][4-337]
+    + [January 18][5-337]
+    + [January 23][6-337]
   - Assignments
     + 
 
 + CSS 343
   - Lectures
-    + [1][1-343]
-    + [2][2-343]
-    + [3][3-343]
-    + [4][4-343]
-    + [5][5-343]
-    + [6][6-343]
+    + [January 3][1-343]
+    + [January 8][2-343]
+    + [January 10][3-343]
+    + [January 15][4-343]
+    + [January 17][5-343]
+    + [January 22][6-343]
   - Assignments
     + [1: TurtleProgram]
     + [2: BinarySearchTree]
 + CSS 360
   - Lectures
-    + [1][1-360]
-    + [2][2-360]
-    + [3][3-360]
-    + [4][4-360]
-    + [5][5-360]
-    + [6][6-360]
+    + [January 3][1-360]
+    + [January 8][2-360]
+    + [January 10][3-360]
+    + [January 15][4-360]
+    + [January 17][5-360]
+    + [January 22][6-360]
   - Assignments
     +
   
