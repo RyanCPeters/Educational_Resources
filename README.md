@@ -45,12 +45,12 @@ As such, it will see more resources added as I get the time or as people choose 
 <!-- 337 -->
 <!-- 337 lectures -->
 
-[1-337]:https://ryancpeters.github.io/Educational_Resources/337/lecture1/
-[2-337]:https://ryancpeters.github.io/Educational_Resources/337/lecture2/
-[3-337]:https://ryancpeters.github.io/Educational_Resources/337/lecture3/
-[4-337]:https://ryancpeters.github.io/Educational_Resources/337/lecture4/
-[5-337]:https://ryancpeters.github.io/Educational_Resources/337/lecture5/
-[6-337]:https://ryancpeters.github.io/Educational_Resources/337/lecture6/
+[1-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-04
+[2-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-09
+[3-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-11
+[4-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-16
+[5-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-18
+[6-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-23
 
 <!-- 337 assignments -->
 
