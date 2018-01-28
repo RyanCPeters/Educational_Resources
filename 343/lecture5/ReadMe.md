@@ -12,7 +12,7 @@ formatted to Github Markdown syntax by Ryan Peters
   <a href="https://ryancpeters.github.io/Educational_Resources/343/lecture6/" style="position: relative; left: 20em">Next lecture</a></div>
 
 
-[1]:(#lecture-5-graph-algorithms "Back to Table of Contents")
+[1]:#lecture-5-graph-algorithms
 
 ---
 
