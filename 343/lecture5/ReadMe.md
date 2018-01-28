@@ -18,8 +18,7 @@ formatted to Github Markdown syntax by Ryan Peters
 
 #### Table of Contents
 <!-- MarkdownTOC -->
-
-    - [][Overview1]
+Overview
 - Ass1: Initial Feedback
 - Ass2: BinarySearchTree
 - Graph Algorithms: DFS + BFS
