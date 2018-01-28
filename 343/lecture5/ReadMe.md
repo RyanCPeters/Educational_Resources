@@ -19,27 +19,27 @@ formatted to Github Markdown syntax by Ryan Peters
 #### Table of Contents
 <!-- MarkdownTOC -->
 Overview
-- Ass1: Initial Feedback
-- Ass2: BinarySearchTree
-- Graph Algorithms: DFS + BFS
-- Graph Algorithms: Djikstra's Shortest Path
-- Graph Algorithms: Uniform Cost Search \(UCS\)
-- Graph Algorithms: A*
-- Topological Sort
-- Travelling Salesman Problem \(TSP\)
-- xkcd: Travelling Salesman
-- Spanning Trees
-- Prim's Algorithm
-- Big O
-- Big O \(2\)
-- Big O \(3\)
-- Big O \(4\)
-- Big O \(5\)
-- Big O \(6\)
-- Big O \(7\)
-- Big O \(8\)
-- Big O \(9\)
-- After Class
+- [Ass1: Initial Feedback](#ass1-initial-feedback)
+- [Ass2: BinarySearchTree](#ass2-binarysearchtree)
+- [Graph Algorithms: DFS + BFS](#graph-algorithms-dfs--bfs)
+- [Graph Algorithms: Djikstra's Shortest Path](#graph-algorithms-djikstras-shortest-path)
+- [Graph Algorithms: Uniform Cost Search \(UCS\)](#graph-algorithms-uniform-cost-search-ucs)
+- [Graph Algorithms: A*](#graph-algorithms-a)
+- [Topological Sort](#topological-sort)
+- [Travelling Salesman Problem \(TSP\)](#travelling-salesman-problem-tsp)
+- [xkcd: Travelling Salesman](#xkcd-travelling-salesman)
+- [Spanning Trees](#spanning-trees)
+- [Prim's Algorithm](#prims-algorithm)
+- [Big O](#big-o)
+- [Big O \(2\)](#big-o-2)
+- [Big O \(3\)](#big-o-3)
+- [Big O \(4\)](#big-o-4)
+- [Big O \(5\)](#big-o-5)
+- [Big O \(6\)](#big-o-6)
+- [Big O \(7\)](#big-o-7)
+- [Big O \(8\)](#big-o-8)
+- [Big O \(9\)](#big-o-9)
+- [After Class](#after-class)
 
 <!-- /MarkdownTOC -->
 
