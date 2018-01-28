@@ -60,7 +60,7 @@ Overview
 
 
 ---
-Ass1: Initial Feedback
+[Ass1: Initial Feedback][1]
 ---
 
 - memory leaks
@@ -72,7 +72,7 @@ Ass1: Initial Feedback
 - incorrect friend definition for operator+, operator+=
 
 ---
-Ass2: BinarySearchTree
+[Ass2: BinarySearchTree][1]
 ---
 
 ```C
@@ -92,7 +92,7 @@ void itemDisplay(string& anItem) {
 ```
 
 ---
-Graph Algorithms: DFS + BFS
+[Graph Algorithms: DFS + BFS][1]
 ---
 
 + DFS - Depth-First Search, use stack. 
@@ -114,7 +114,7 @@ Group Exercise: Looking for a path from `e` to `i`. List the order of vertices v
 - BFS
 
 ---
-Graph Algorithms: Djikstra's Shortest Path
+[Graph Algorithms: Djikstra's Shortest Path][1]
 ---
 
 ![](./images/ch20-26-shortest-path.png)
@@ -141,7 +141,7 @@ while there are still vertices not in vertexset (do this n-2 times)
 Group Exercise: Find the shortest-distance from node-3 to all other nodes. Write out your vertexSet at each step.
 
 ---
-Graph Algorithms: Uniform Cost Search (UCS)
+[Graph Algorithms: Uniform Cost Search (UCS)][1]
 ---
 
 Maintain a priority queue
@@ -181,7 +181,7 @@ If all edges have a cost of `1`, UCS is the same as BFS
 If the priority is set to the `numberOfNodesInPath`, UCS is the same as DFS
 
 ---
-Graph Algorithms: A* 
+[Graph Algorithms: A* ][1]
 ---
 
 Maintain a priority queue with a heuristic
@@ -209,7 +209,7 @@ If h(n) is 0, A* is the same as UCS
 
 
 ---
-Topological Sort
+[Topological Sort][1]
 ---
 
 Directed graph without cycles has a topological order.
@@ -241,7 +241,7 @@ If all pairs of consecutive vertices in the sorted order are connected by edges,
 Exercise: Draw a square without lifting pen, draw a house, ...
 
 ---
-Travelling Salesman Problem (TSP)
+[Travelling Salesman Problem (TSP)][1]
 ---
 
 Given a set of cities and distance between every pair of cities, the problem is to find the shortest possible route that visits every city exactly once and returns to the starting point. 
@@ -263,7 +263,7 @@ The total running time is therefore O(n^2^ * 2^n^)
 https://www.geeksforgeeks.org/travelling-salesman-problem-set-1/
 
 ---
-xkcd: Travelling Salesman
+[xkcd: Travelling Salesman][1]
 ---
 
 
@@ -274,7 +274,7 @@ https://xkcd.com/399/
 
 
 ---
-Spanning Trees
+[Spanning Trees][1]
 ---
 
 A tree is a psecial kind of undirected graph, connected but no cycles
@@ -296,7 +296,7 @@ Minimum spanning tree: A spanning tree that where the sum of the edges is minima
 Group Exercise: Construct DFS, BFS and minimum spanning tree (starting from `e` for DFS and BFS)
 
 ---
-Prim's Algorithm
+[Prim's Algorithm][1]
 ---
 
 ![](./images/ch20-24-mst.png)
@@ -311,7 +311,7 @@ while (there are unvisited vertices)
 ```
 
 ---
-Big O
+[Big O][1]
 ---
 
 ![](./images/big-o-complexity.png)
@@ -331,7 +331,7 @@ Big O
 > -  O(2^n+1^) is still O(2^n^)
 
 ---
-Big O (2)
+[Big O (2)][1]
 ---
 
 - B1: You say your birthday, and ask whether anyone in the room has the same birthday. If anyone does have the same birthday, they answer yes.
@@ -347,7 +347,7 @@ How many questions will be asked?
 > - B3: The number of questions is 1 + 2 + 3 + ... + N-1 + N, quadratic time, O(n^2^)
 
 ---
-Big O (3)
+[Big O (3)][1]
 ---
 
 ```
@@ -376,10 +376,10 @@ for (i = 0; i < N; i++) {
 }
 
 // nested loop is n*n
-for	(int	i	=	0;	i	<	n;	i++)	{
-		for	(int	j	=	0;	j	<	n*n;	j++)	{
-				cout	<<	â€œtricky!â€	<<	endl;
-		}
+for (int    i   =   0;  i   <   n;  i++)    {
+        for (int    j   =   0;  j   <   n*n;    j++)    {
+                cout    <<  â€œtricky!â€   <<  endl;
+        }
 }
 ```
 
@@ -389,7 +389,7 @@ for	(int	i	=	0;	i	<	n;	i++)	{
 > - O(n^3^)
 
 ---
-Big O (4)
+[Big O (4)][1]
 ---
 
 ```
@@ -408,7 +408,7 @@ f takes constant time, g takes time linear based on the value of its parameter.
 > - O(n * k), we don't now the relative size of k
 
 ---
-Big O (5)
+[Big O (5)][1]
 ---
 
 Dynamicc programming stores and reuses results
@@ -418,7 +418,7 @@ RE-writing fibonacci, so it is not recurive.
 What is the complexity?
 
 ---
-Big O (6)
+[Big O (6)][1]
 ---
 
 Knapsack problem: Objects with given size and value, maximize value taht can be stored in capacity C
@@ -428,7 +428,7 @@ Knapsack problem: Objects with given size and value, maximize value taht can be 
 > - 2^n^ possible combinations
 
 ---
-Big O (7)
+[Big O (7)][1]
 ---
 
 - V(k, A) - maximum value choosing among the first k objects in a knapsack of capacity A
@@ -449,7 +449,7 @@ Big O (7)
 
 
 ---
-Big O (8)
+[Big O (8)][1]
 ---
 
 Shortest Path: Djikstra's algorithm to find shortest path for all nodes
@@ -475,7 +475,7 @@ while there are still vertices not in vertexset (do this n-2 times)
 
 
 ---
-Big O (9)
+[Big O (9)][1]
 ---
 
 Sort each tring in an array and then sort the array (Example 8 from Cracking)
@@ -494,7 +494,7 @@ Sort each tring in an array and then sort the array (Example 8 from Cracking)
 
 
 ---
-After Class
+[After Class][1]
 ---
 
 + Work on Ass2
