@@ -12,4 +12,4 @@
 
 
 
-[TwoFactor_Auth:_Case_Study]:https://www.newamerica.org/in-depth/getting-internet-companies-do-right-thing/case-study-2-offering-two-factor-authentication/
+[TwoFactor Auth: Case Study]:https://www.newamerica.org/in-depth/getting-internet-companies-do-right-thing/case-study-2-offering-two-factor-authentication/
