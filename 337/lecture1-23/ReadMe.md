@@ -48,33 +48,35 @@ Encryption and decryption are of the following form for some plaintext block `M`
 5 Example
 ---
 
-1. Select two prime numbers, p 17 and q 11.
-2. Calculate n = pq = 17 × 11 = 187
-3. Calculate $$\phi(n) = (p -1)(q -1) = 16 × 10 = 160 $$
-4. Select e such that e is relatively prime to Ø (n) = 160 and less than Ø (n); we choose e = 7.
-5. Determine d such that de mod 160 = 1 and d < 160.
-The correct value is d 23, because 23 × 7 =161 =(1 × 160) + 1
+1. Select two prime numbers, `p = 17` and `q = 11`.
+2. Calculate `n = p*q = 17 * 11 = 187`
+3. Calculate `Ø(n) = (p -1)(q -1) = 16 * 10 = 160`.
+4. Select `e` such that `1 < e < Ø(n)`, and is relatively prime to `Ø(n) = 160;` we choose `e = 7`.
+5. Determine `d` such that `d*e mod 160 = 1` and `d < 160`.
+The correct value is `d = 23`, because `23 * 7 = 161 = (1 * 160) + 1`
 
-The resulting keys are public key PU {7, 187} and private key PR {23, 187}.
+The resulting keys are public key `PU {7, 187}` and private key `PR {23, 187}`.
 
 ---
-Example: plaintext input of M = 88
+6 Example: plaintext input of M = 88
 ---
 
 ![](./images/slide6_example.png)
 
 ---
-Example: Encryption
+7 Example: Encryption
 ---
 
+```
 887 mod 187 [(884 mod 187) × (882 mod 187) × (881 mod 187)] mod 187
 881 mod 187 = 88
 882 mod 187 =7744 mod 187 = 77
 884 mod 187 = 59,969,536 mod 187 =132
 887 mod 187 =(88 × 77 × 132) mod 187 =894,432 mod 187 =11
+```
 
 ---
-Example: Decryption
+8 Example: Decryption
 ---
 
 For decryption, we calculate M =1123 mod 187:
@@ -88,7 +90,7 @@ For decryption, we calculate M =1123 mod 187:
 79,720,245 mod 187 = 88
 
 ---
-Diffie-Hellman Key Exchange
+9 Diffie-Hellman Key Exchange
 ---
 
 The purpose of the algorithm is to enable two users to exchange a secret key securely that then can be used for subsequent encryption of messages. 
