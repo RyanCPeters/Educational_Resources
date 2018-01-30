@@ -1,4 +1,4 @@
-Public-key Cryptography:RSA and Diffie-Hellman Key Exchange Algorithms
+Public-key Cryptography: RSA and Diffie-Hellman Key Exchange Algorithms
 ===
 
 
