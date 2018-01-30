@@ -8,3 +8,8 @@
 | 5 | January 18, 2017 |  [Encryption_and_Hashing_Algorithms](./lecture1-18/) | [Chapter:_Cryptography](./lecture1-18/Cryptography.pdf) | 
 | 6 | January 23, 2017 | [Number Theory Basics](./lecture1-23/)</br>[Public Key Cryptography](./lecture1-23/)</br>[Basics of Networking ](./lecture1-23/) | -- | 
 | 7 | January 25, 2017 | [Network Reconnaissance](./lecture1-23/)</br>[Packet sniffing with Wireshark - an Introduction ](./lecture1-23/) | [Google Hacking for Penetration Testers](http://www.mrjoeyjohnson.com/Google.Hacking.Filters.pdf)|
+
+
+
+
+[TwoFactor_Auth:_Case_Study]:https://www.newamerica.org/in-depth/getting-internet-companies-do-right-thing/case-study-2-offering-two-factor-authentication/
