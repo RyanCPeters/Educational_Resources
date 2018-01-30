@@ -53,7 +53,7 @@ Encryption and decryption are of the following form for some plaintext block `M`
 3. Calculate `Ø(n) = (p -1)(q -1) = 16 * 10 = 160`.
 4. Select `e` such that `1 < e < Ø(n)`, and is relatively prime to `Ø(n) = 160;` we choose `e = 7`.
 5. Determine `d` such that `d*e mod 160 = 1` and `d < 160`.
-The correct value is `d = 23`, because `23 * 7 = 161 = (1 * 160) + 1`
+6. The correct value is `d = 23`, because `23 * 7 = 161 = (1 * 160) + 1`
 
 The resulting keys are public key `PU {7, 187}` and private key `PR {23, 187}`.
 
