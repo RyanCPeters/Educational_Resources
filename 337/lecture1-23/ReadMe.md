@@ -50,7 +50,7 @@ In other words, d*e mod 160 = 1 mod 160.
 6 Example 1 contd.
 ---
 
-This also can be read as “d is the multiplicative inverse of e = 7-1 mod 160.” 
+This also can be read as “d is the multiplicative inverse of e = 7-1 mod 160.” 
 This can  also be written as d = e-1 mod 160. 
 Use Euclid:
 160 = 7 x 22 +6
