@@ -50,7 +50,7 @@ Encryption and decryption are of the following form for some plaintext block `M`
 
 1. Select two prime numbers, p 17 and q 11.
 2. Calculate n = pq = 17 × 11 = 187
-3. Calculate Ø(n) = (p -1)(q -1) = 16 × 10 = 160.
+3. Calculate $$\phi(n) = (p -1)(q -1) = 16 × 10 = 160 $$
 4. Select e such that e is relatively prime to Ø (n) = 160 and less than Ø (n); we choose e = 7.
 5. Determine d such that de mod 160 = 1 and d < 160.
 The correct value is d 23, because 23 × 7 =161 =(1 × 160) + 1
