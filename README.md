@@ -45,12 +45,12 @@ As such, it will see more resources added as I get the time or as people choose 
 <!-- 337 -->
 <!-- 337 lectures -->
 
-[1-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-04
-[2-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-09
-[3-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-11
-[4-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-16
-[5-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-18
-[6-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-23
+[1-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-04/Introduction_slides/
+[2-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-09/Authentication_slides/
+[3-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-09/
+[4-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-16/IntroToCryptography_slides/
+[5-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-18/EncriptionHashing_slides/
+[6-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-23/public_key_cryptography_slides/
 
 <!-- 337 assignments -->
 
