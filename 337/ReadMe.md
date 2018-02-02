@@ -12,7 +12,7 @@
 
 
 [Course Overview, introduction to Security]:./lecture1-04/Introduction_slides/
-[User Authentication ppt]:./lecture1-09/Authentication_slides/
+[User Authentication]:./lecture1-09/Authentication_slides/
 [Two-Factor Auth: Case Study]:https://www.newamerica.org/in-depth/getting-internet-companies-do-right-thing/case-study-2-offering-two-factor-authentication/
 [Chapter: User Authentication]:./lecture1-09/readings/
 [User Authentication (Contd.)]:./lecture1-09/Authentication_slides/
