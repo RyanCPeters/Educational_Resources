@@ -9,7 +9,6 @@ Lecture by: [Dr. Geethapriya Thamilarasu](http://faculty.washington.edu/geetha/)
 
 
 ---
-
 Reconnaissance
 ---
 - active recon -- actively interact with tharget
@@ -23,7 +22,6 @@ Reconnaissance
 
 
 ---
-
 Real Example
 ---
 
@@ -39,7 +37,6 @@ Real Example
 
 
 ---
-
 Google Hacking
 ---
 
@@ -50,7 +47,6 @@ Google Hacking
 
 
 ---
-
 Google Hacking Example:  Searching within a domain
 ---
 
@@ -69,7 +65,6 @@ Google Hacking Example:  Searching within a domain
     - missed
 
 ---
-
 Example: email harvesting
 ---
 <!-- 2 x images for email harversting -->
@@ -78,7 +73,6 @@ Example: email harvesting
 
 
 ---
-
 Recon Tools
 ---
 
@@ -88,7 +82,6 @@ Recon Tools
 
 
 ---
-
 theHarvester demo image
 ---
 <!-- 1 x image -->
@@ -96,7 +89,6 @@ theHarvester demo image
 
 
 ---
-
 Netcraft
 ---
 
@@ -106,7 +98,6 @@ Netcraft
 
 
 ---
-
 Whois Reconnaissance
 --- 
 
@@ -118,8 +109,6 @@ Whois Reconnaissance
 - missed
 
 ---
-
-
 Whois Recon contd.
 ---
 
@@ -127,7 +116,6 @@ Whois Recon contd.
 
 
 ---
-
 DNS REcon.
 ---
 
@@ -139,7 +127,6 @@ DNS REcon.
         * often misconfigured and unpatched
 
 ---
-
 DNS Recon
 ---
 
@@ -151,8 +138,7 @@ DNS Recon
     -   missed 
 
 ---
-
-dns RECON TOOLS
+DNS Recon Tools
 ---
 
 - hOST missed
@@ -180,7 +166,6 @@ dns RECON TOOLS
 
 
 ---
-
 WireShark
 ---
 
@@ -188,6 +173,5 @@ in class activity: following step instructions on wireshark pdf downloaded from 
 
 
 ---
-
 sdf
 --- 
