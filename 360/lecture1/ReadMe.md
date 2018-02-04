@@ -286,12 +286,16 @@ My goal is for you to get these core objectives, and so I’ll adapt as needed t
 ---
 
 “Keep up with readings and lectures--and you will be fine!”
-“A good group dynamic goes a long way.  I really enjoyed my team.”
-“STUDY!!!”
-“Start the assignments early, even if they seem small. Life can get in the way quite quickly.”
-“Don't miss a class.  Discussions contribute as much to the learning process as the slides themselves do.”
-“Study in groups for tests is very effective.”
 
+“A good group dynamic goes a long way.  I really enjoyed my team.”
+
+“STUDY!!!”
+
+“Start the assignments early, even if they seem small. Life can get in the way quite quickly.”
+
+“Don't miss a class.  Discussions contribute as much to the learning process as the slides themselves do.”
+
+“Study in groups for tests is very effective.”
 
 ---
 25 INTRODUCTION TO SOFTWARE ENGINEERING
@@ -299,12 +303,15 @@ My goal is for you to get these core objectives, and so I’ll adapt as needed t
 
 
 ---
-26
+26 What comes to mind when you hear the term software industry?
 ---
+
+[Word cloud exercise]
+https://pollev.com/arnoldmlund907
 
 
 ---
-27
+27 CLASS POLL ON TERMS
 ---
 
 
@@ -312,19 +319,23 @@ My goal is for you to get these core objectives, and so I’ll adapt as needed t
 28 CHANGING ROLE OF SOFTWARE
 ---
 
-Increasing role of software in all systems
-Increase of heterogeneous, networked, distributed, interdependent systems
-Implications of failure in these systems
-Pervasive collection, manipulation, and use of digital data and information
-Importance of software and intellectual property to the economy
+- Increasing role of software in all systems
+- Increase of heterogeneous, networked, distributed, interdependent systems
+- Implications of failure in these systems
+- Pervasive collection, manipulation, and use of digital data and information
+- Importance of software and intellectual property to the economy
 
-
----
-29
----
+![](../bulb.png)
 
 ---
-30
+29 The Internet of Things
+---
+![](./images/slide29_image.png)
+
+![](../keyword.png)
+
+---
+30 Different things need to be protected
 ---
 
 ---
@@ -332,12 +343,17 @@ Importance of software and intellectual property to the economy
 ---
 
 ---
-32
+32 SOFTWARE INDUSTRY
 ---
+
+The software industry includes businesses for development, maintenance and publication of software that are using different business models, mainly either “license/maintenance based” (on-premises) or “service based” (such as SaaS, PaaS, IaaS, etc. – usually “Cloud base”).
+
 
 ---
 33
 ---
+
+
 
 ---
 34
@@ -352,34 +368,81 @@ Importance of software and intellectual property to the economy
 ---
 
 How do you define software engineering?
-Write your definition down and discuss this with 1 or 2 of your neighbors in the class.  Do they agree with you?
+
+- Write your definition down and discuss this with 1 or 2 of your neighbors in the class.  Do they agree with you?
+
+![](./images/slide36_image.png)
 
 ---
 37 EXERCISE
 ---
 Does software programming equal software engineering?  Why or why not?
 
+Discuss this with 1 or 2 students in the class.
+
+https://www.thocp.net/software/software_reference/introduction_to_software_history.htm
+
 ---
 38 CONTRASTS
 ---
-
+![](./images/slide38_image.png)
+Source: RN Taylor - UCI
 
 ---
 39 WHAT IS SOFTWARE ENGINEERING?
 ---
 
-“A discipline that deals with the building of software systems that are so large or so complex that they are built by a team or teams of engineers” [Ghezzi, Jazayeri, Mandrioli]
-“Multi-person construction of multi-version software” [Parnas]
-“Software engineering is an engineering discipline that is concerned with all aspects of software production from the early stages of system specification through to maintaining the system after it has gone into use.”  — Sommerville Ch.1
+“A discipline that deals with the building of software systems that are so large or so complex that they are built by a team or teams of engineers” (Ghezzi, Jazayeri, Mandrioli)
+
+“Multi-person construction of multi-version software” (Parnas)
+
+“Software engineering is an engineering discipline that is concerned with all aspects of software production from the early stages of system specification through to maintaining the system after it has gone into use.”  — (Sommerville Ch.1)
 
 ---
 40 
 ---
 
 ---
-41 
+41 SE JOB TITLES AND SALARIES
 ---
+Google:
+Software engineer: $128k base, $168k total
+Project manager: $117k base, $151k total
+Technical project manager: $142k base, $158k total
+Product manager: $150k base, $203k total
+Program manager: $116k base, $161k total
 
+Microsoft:
+Software development engineer: $105k base, $118k total
+Project manager: $102k base, $107k total
+Program manager: $106k base, $122k total
+Technical program manager: $109k base, $120k total
+Product manager: $116k base, $131k total
+
+Amazon:
+Software development engineer: $101k base, $124k total
+Project manager: $87k base, $104k total
+Technical project manager: $108k base, $145k total
+Program manager: $97k base, $120k total
+Technical program manager: $119k base, $132k total
+Product manager: $118k base, $159k total
+
+Facebook:
+Software engineer: $125k base, $185k total
+Project manager: $111k base, $117k total
+Technical project manager: $124k base, $147k total
+Program manager: $125k
+Technical program manager: $150k base, $181k total
+Product manager: $148k base, $257k total
+
+Apple:
+Software engineer: $122k base, $134k total
+Project manager: $110k base, $115k total
+Engineering project manager: $130k base, $157k total
+Technical project manager: $133k base, $145k total
+Program manager: $119k base, $155k total
+Engineering program manager: $138k base, $164k total
+Product manager: $131k base, $141k total
 
 
 ---
@@ -388,34 +451,36 @@ Does software programming equal software engineering?  Why or why not?
 
 What questions do you have about software engineering?
 
-Think silently [1 min]
-Share with pair [2 mins]
+- Think silently [1 min]
+- Share with pair [2 mins]
 
 ---
 43 TYPICAL QUESTIONS
 ---
 
-How do you estimate how long something will take?
-How do you know who should work on what?
-How do you know what needs to be done?
-How do you know if you are building the right thing?  The most important thing?
-How do you know if you’re building the thing right?
-How do you know if what you are working on is “done”?
-How do you know what is the most important thing to work on next?
-How do you know by when something needs to be done?
-How do you know when to no longer support some aspect of a system?
-How do you know when to work individually, and when to work in a group?
-How do you make the best possible team?
-How does the context and environment in which you are operating change the way in which you answer these questions?
+<ul>
+  <li>How do you estimate how long something will take?</li>
+  <li>How do you know who should work on what?</li>
+  <li>How do you know what needs to be done?</li>
+  <li>How do you know if you are building the right thing?  The most important thing?</li>
+  <li>How do you know if you’re building the thing right?</li>
+  <li>How do you know if what you are working on is “done”?</li>
+  <li>How do you know what is the most important thing to work on next?</li>
+  <li>How do you know by when something needs to be done?</li>
+  <li>How do you know when to no longer support some aspect of a system?</li>
+  <li>How do you know when to work individually, and when to work in a group?</li>
+  <li>How do you make the best possible team?</li>
+  <li>How does the context and environment in which you are operating change the way in which you answer these questions?</li>
+</ul>
 
 ---
 44 A BRIEF HISTORY
 ---
 
-Software engineering – late 1960s
-Goal is to address the problems of building large software systems
-Software crisis - software projects that are over budget, behind schedule and that missed the mark
-But this is not a temporary problem, but an inherent difficulty in building new and complex applications 
+- Software engineering – late 1960s
+- Goal is to address the problems of building large software systems
+- Software crisis - software projects that are over budget, behind schedule and that missed the mark
+  - But this is not a temporary problem, but an inherent difficulty in building new and complex applications 
 
 ---
  45
@@ -428,16 +493,51 @@ But this is not a temporary problem, but an inherent difficulty in building new 
 
 
 ---
- 47
+ 47 NEXT WEEK
 ---
+<ul>
+  
+  <li>
+    Topics
+    <ul>
+        <li>Profession</li>
+        <li>Roles and Responsibilities, Ethics</li>
+        <li>Exploring Quality and Scale (System Failure)</li>
+        <li>Software Development Lifecycle</li>
+    </ul>
+  </li>
+  <li>
+      Reading
+      <ul>
+        <li>Sommerville Ch. 1 (Mon)</li>
+        <li>Brooks Tarpit (Mon)</li>
+        <li>Software Error Article (Mon, post with 1 sentence summary)</li>
+        <li>Sommerville Ch. 2 (Wed)</li>
+        <li>No Silver Bullet and No Silver Bullet Reloaded (Wed)</li>
+      </ul>
+  </li>
+  <li>    
+      Due
+      <ul>
+        <li>FoR1 – Reflections on Reading (Mon)</li>
+        <li>Post Error Article and 1 sentence summary on Discussion Board (Mon)</li>
+        <li>Group Selection (Tue)</li>
+        <li>Class Customization Survey (Tue, optional extra credit)</li>
+        <li>FoR2 – Reflections on Reading (Wed)</li>
+        <li>Industry Comparisons and Company Adoption (Frid)</li>
+      </ul>
+  </li>
+  <li>Note: Canvas Discussion Thread with Questions and Observations</li>
+</ul>
+
 
 
 ---
 48 EXERCISE: GROUP FORMING
 ---
 
-4 Students per Group
-Please POST on the class discussion board:
-One posting per group
-Group Name
-Names (Last Name, First Name) of Your Group Members
+- 4 Students per Group
+- Please POST on the class discussion board:
+  - One posting per group
+  - Group Name
+  - Names (Last Name, First Name) of Your Group Members
