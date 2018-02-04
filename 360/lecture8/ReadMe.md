@@ -1,10 +1,10 @@
 Lecture 8: Architecture Contd.
 ===
+#### Winter 2017
 
 Dr. Arnold (Arnie) Lund
 ---
 
-#### Winter 2017
 
 ---
 2
