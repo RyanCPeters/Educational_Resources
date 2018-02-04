@@ -16,6 +16,15 @@ As such, it will see more resources added as I get the time or as people choose 
     + [January 16][4-337]
     + [January 18][5-337]
     + [January 23][6-337]
+    + [January 25][7-337]
+    + [January 30][8-337]
+    + [February 1][9-337]
+    + February 6 
+    + February 8
+    + February 13
+    + February 15
+    + February 20
+    + February 22
   - Assignments
     + 
 
@@ -27,6 +36,15 @@ As such, it will see more resources added as I get the time or as people choose 
     + [January 15][4-343]
     + [January 17][5-343]
     + [January 22][6-343]
+    + [January 24][7-343]
+    + [January 29][8-343]
+    + [January 31][9-343]
+    + February 5 
+    + February 7
+    + February 12
+    + February 14
+    + February 19
+    + February 21
   - Assignments
     + [1: TurtleProgram]
     + [2: BinarySearchTree]
@@ -38,6 +56,15 @@ As such, it will see more resources added as I get the time or as people choose 
     + [January 15][4-360]
     + [January 17][5-360]
     + [January 22][6-360]
+    + [January 24][7-360]
+    + [January 29][8-360]
+    + [January 31][9-360]
+    + February 5 
+    + February 7
+    + February 12
+    + February 14
+    + February 19
+    + February 21
   - Assignments
     +
   
@@ -63,6 +90,15 @@ As such, it will see more resources added as I get the time or as people choose 
 [4-343]:https://ryancpeters.github.io/Educational_Resources/343/lecture4/
 [5-343]:https://ryancpeters.github.io/Educational_Resources/343/lecture5/
 [6-343]:https://ryancpeters.github.io/Educational_Resources/343/lecture6/
+[7-343]:https://ryancpeters.github.io/Educational_Resources/343/lecture7/
+[8-343]:https://ryancpeters.github.io/Educational_Resources/343/lecture8/
+[9-343]:https://ryancpeters.github.io/Educational_Resources/343/lecture9/
+[10-343]:https://ryancpeters.github.io/Educational_Resources/343/lecture10/
+[11-343]:https://ryancpeters.github.io/Educational_Resources/343/lecture11/
+[12-343]:https://ryancpeters.github.io/Educational_Resources/343/lecture12/
+[13-343]:https://ryancpeters.github.io/Educational_Resources/343/lecture13/
+[14-343]:https://ryancpeters.github.io/Educational_Resources/343/lecture14/
+[15-343]:https://ryancpeters.github.io/Educational_Resources/343/lecture15/
 
 <!-- 343 assignments -->
     
@@ -78,5 +114,14 @@ As such, it will see more resources added as I get the time or as people choose 
 [4-360]:https://ryancpeters.github.io/Educational_Resources/360/lecture4/
 [5-360]:https://ryancpeters.github.io/Educational_Resources/360/lecture5/
 [6-360]:https://ryancpeters.github.io/Educational_Resources/360/lecture6/
+[7-360]:https://ryancpeters.github.io/Educational_Resources/360/lecture7/
+[8-360]:https://ryancpeters.github.io/Educational_Resources/360/lecture8/
+[9-360]:https://ryancpeters.github.io/Educational_Resources/360/lecture9/
+[10-360]:https://ryancpeters.github.io/Educational_Resources/360/lecture10/
+[11-360]:https://ryancpeters.github.io/Educational_Resources/360/lecture11/
+[12-360]:https://ryancpeters.github.io/Educational_Resources/360/lecture12/
+[13-360]:https://ryancpeters.github.io/Educational_Resources/360/lecture13/
+[14-360]:https://ryancpeters.github.io/Educational_Resources/360/lecture14/
+[15-360]:https://ryancpeters.github.io/Educational_Resources/360/lecture15/
   
 <!-- 360 assignments -->
