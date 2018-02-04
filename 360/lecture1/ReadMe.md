@@ -241,15 +241,23 @@ My goal is for you to get these core objectives, and so I’ll adapt as needed t
 20 CLASS ATTENDANCE AND THE BOOK
 ---
 
-Topics covered in class are not necessarily in the book
-Other reading materials assigned
-Class time focusing on the core ideas
-The book has detail, and key is to know when and where to find it
-Come to class prepared to discuss what you have read
+- Topics covered in class are not necessarily in the book
+  + Other reading materials assigned
+- Class time focusing on the core ideas
+  + The book has detail, and key is to know when and where to find it
+- Come to class prepared to discuss what you have read
+
+![](./images/slide20_image.png)
 
 ---
-21 
+21 EVALUATION AND GRADING
 ---
+- Quizzes – 5%
+- Midterm and Final – 45%
+- Group Project – 20%
+- Individual Research – 15%
+- Class Activities – 10%
+- Class Participation – 5%
 
 
 
@@ -257,21 +265,21 @@ Come to class prepared to discuss what you have read
 22 OTHER EXPECTATIONS
 ---
 
-Students are expected to spend an average of 10 to 15 hours a week outside of class time for CSS 360.
-All University of Washington students are expected to conduct themselves as responsible members of the academic community. Among the standards of conduct for UW students includes the responsibility to practice "high standards of academic and professional honesty and integrity."  WAC 478-120-020(2) (a).
-Please read the student conduct code at:
-http://www.uwb.edu/academic/policies/academic-conduct
+- Students are expected to spend an average of 10 to 15 hours a week outside of class time for CSS 360.
+- All University of Washington students are expected to conduct themselves as responsible members of the academic community. Among the standards of conduct for UW students includes the responsibility to practice "high standards of academic and professional honesty and integrity."  WAC 478-120-020(2) (a).
+- Please read the student conduct code at:
+  + http://www.uwb.edu/academic/policies/academic-conduct
 
 ---
 23 IN THE CLASSROOM
 ---
 
-If you attend class, please pay attention to the class.
-If you want to pay attention to other things, please go elsewhere.
-Please be respectful and courteous to others.
-No social networking, games, videos, non-class related mobile phone use.
-Practice non-violent communication (online and offline).
-Cell Phones in airplane mode.
+- If you attend class, please pay attention to the class.
+- If you want to pay attention to other things, please go elsewhere.
+- Please be respectful and courteous to others.
+  + No social networking, games, videos, non-class related mobile phone use.
+  + Practice non-violent communication (online and offline).
+- **Cell Phones in airplane mode.**
 
 ---
 24 ADVICE FROM PAST STUDENTS
