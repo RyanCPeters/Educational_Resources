@@ -196,23 +196,45 @@ Note:  Transferable for successful careers, learning how to learn the rules of t
 ---
 18 SYLLABUS, STRUCTURE AND SCHEDULE
 ---
+![](./images/slide18_image.png)
 
+“Hands-on” class:  Combination of lecture, group work, and exams
+
+
+##### Extra Slide Notes
+
+Working with the other faculty to tweak in real-time to share best practices and pivot as needed.
+
+My goal is for you to get these core objectives, and so I’ll adapt as needed to make sure that happens.
 
 ---
 19 OF NOTE
 ---
 
-Syllabus and Schedule will Evolve
-Focus on Reading Check-ins, and prepare for class discussion
-Icon Coding and Supplemental Content
-Group Project – Software Engineering Simulation
-Class Time + Outside
-360 Process
-Individual Research Project
-Importance of a Personal and Team Workback Schedule
-Discussion Forum
-Class Q&A
+<ul>
+  <li>Syllabus and Schedule will Evolve</li>
+  <li>Focus on Reading Check-ins, and prepare for class discussion</li>
+  <li>Icon Coding and Supplemental Content</li>
+  <li>Group Project – Software Engineering Simulation
+    <ul>
+          <li>Class Time + Outside</li>
+          <li>360 Process</li>
+    </ul>
+  </li>
+  <li>Individual Research Project</li>
+  <li>Importance of a Personal and Team Workback Schedule
+    <ul>
+      <li>Discussion Forum</li>
+      <li>Class Q&A</li>
+    </ul>
+  </li>
+</ul>
 
+![Know where to look for this slide's content](../ref.png)
+
+![Know the terminology used on this slide]
+
+![Key concept, should know this from memory](..bulb.png)
 
 
 ---

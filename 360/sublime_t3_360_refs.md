@@ -1,7 +1,8 @@
 
-![](./images/ref.png)
+![](../ref.png)
 
-![](./images/bulb.png)
+![](../bulb.png)
 
+![](../keyword.png)
 
 ##### Extra Slide Notes
