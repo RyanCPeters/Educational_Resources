@@ -10,10 +10,12 @@ Dr. Arnold (Arnie) Lund
 2 Today…
 ---
 
-- Meet Me:  Who am I? What do I do?
-- Meet You:  Who are you, and what do you want to do here?
-- Meet the Course:  What is this course about?  Course Structure and Logistics
-- Meet Software Engineering
+<ul>
+  <li>Meet Me:  Who am I? What do I do?</li>
+  <li>Meet You:  Who are you, and what do you want to do here?</li>
+  <li>Meet the Course:  What is this course about?  Course Structure and Logistics</li>
+  <li>Meet Software Engineering</li>
+</ul>
 
 
 ---
@@ -24,10 +26,12 @@ Dr. Arnold (Arnie) Lund
 
 ##### Extra Slide Notes
 
-Social justice as special sauce…
-Diversity for ideation
-Maximizing customer market (e.g., localization)
-Platform trends
+<ul>
+  <li>Social justice as special sauce…</li>
+  <li>Diversity for ideation</li>
+  <li>Maximizing customer market (e.g., localization)</li>
+  <li>Platform trends</li>
+</ul>
 
 ---
 4 
@@ -53,12 +57,13 @@ Platform trends
 
 ##### Extra Slide Notes
 
-5 min
-Small Devices
-Integrated into Partner Devices (e.g., Sonos)
-Mobile Devices like Car
-Eventually Expect Robotics
-API using for Industrial Applications
+<ul>
+  <li>Small Devices</li>
+  <li>Integrated into Partner Devices (e.g., Sonos)</li>
+  <li>Mobile Devices like Car</li>
+  <li>Eventually Expect Robotics</li>
+  <li>API using for Industrial Applications</li>
+</ul>
 
 Cloud Backend, Improving Speech Recognition Quality and Effectiveness
 Federated Skills to Other Service Providers
@@ -67,12 +72,15 @@ Federated Skills to Other Service Providers
 8
 ---
 ![](./images/slide8_image.png)
+
 ##### Extra Slide Notes
 
-Waterfall
-Agile and Paired Programming
-Lean
-Wagile
+<ul>
+  <li>Waterfall</li>
+  <li>Agile and Paired Programming</li>
+  <li>Lean</li>
+  <li>Wagile</li>
+</ul>
 
 ---
 9
@@ -143,30 +151,47 @@ Surveys the software engineering processes, tools, and techniques used in softwa
  
 Topics include life-cycle models, process modeling, requirements analysis and specification techniques, quality assurance techniques, verification and validation, testing, project planning, and management.
 
+![](./images/slide8_image.png)
+
 ---
 16 WHERE IT FITS IN CSS
 ---
 
 How to think and act like CS professionals:
-Management Perspectives and Skills (350)
-Software Engineering
-Process, Requirements, Design*
-Social and Professional Issues
-Ethics, History, Applications
-Algorithmic Thinking and Software Development
-Analysis and Design (370)
-Computer Science (HW, SW)
+<ul>
+  <li>Management Perspectives and Skills ()</li>
+  <li>Software Engineering
+    <ul>
+      <li>Process, Requirements, Design</li>
+      <li>Social and Professional Issues</li>
+      <li>Ethics, History, Applications</li>
+    </ul>
+  </li>
+  <li>Algorithmic Thinking and Software Development
+    <ul>
+      <li>Analysis and Design ()</li>
+    </ul>
+  </li>
+  <li>Computer Science (HW, SW)</li>
+</ul>
+
+##### Extra Slide Notes
+
+Not development per se
+Note:  Transferable for successful careers, learning how to learn the rules of the game
 
 ---
 17 COURSE LEARNING OBJECTIVES AND OUTCOMES
 ---
 
-CO‐1: Be able to define and describe software development projects, lifecycle methods, roles, and practices. 
-CO‐2: Be able to compare and contrast classical and agile development processes.
-CO‐3: Be able to use knowledge about the software process and software engineering practices to select and justify approaches to use given a project, its teams, and its constraints.
-CO‐4: Be able to examine trade‐offs between software engineering techniques and methods. 
-CO‐5: Be able to work with a team on creating software artifacts or work products.  - Communication and Collaboration!
-CO‐6: Be able to describe the ethical responsibilities of software engineers. 
+<ol>
+  <li1>Be able to define and describe software development projects, lifecycle methods, roles, and practices.</li1>
+  <li2>Be able to compare and contrast classical and agile development processes.</li2>
+  <li3>Be able to use knowledge about the software process and software engineering practices to select and justify approaches to use given a project, its teams, and its constraints.</li3>
+  <li4>Be able to examine trade‐offs between software engineering techniques and methods.</li4>
+  <li5>Be able to work with a team on creating software artifacts or work products.  - Communication and Collaboration!</li5>
+  <li6>Be able to describe the ethical responsibilities of software engineers.</li6>
+</ol>
 
 ---
 18 SYLLABUS, STRUCTURE AND SCHEDULE
