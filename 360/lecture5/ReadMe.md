@@ -1,6 +1,11 @@
 Lecture 5: Requirement Design
 ===
 
+Content by: Dr. Arnold Lund
+---
+
+[Back to Table of Contents](https://github.com/RyanCPeters/Educational_Resources/tree/master/360)
+
 Requirements
 ---
 

@@ -4,7 +4,8 @@ Topic 1: Introduction
 
 Dr. Arnold (Arnie) Lund
 ---
-[Back to Table of Contents](https://github.com/RyanCPeters/Educational_Resources/tree/master/360
+
+[Back to Table of Contents](https://github.com/RyanCPeters/Educational_Resources/tree/master/360)
 
 
 ---

@@ -3,7 +3,9 @@ Lecture 2: : Software Engineering Professional Issues
 
 Dr. Arnold (Arnie) Lund
 ---
+
 [Back to Table of Contents](https://github.com/RyanCPeters/Educational_Resources/tree/master/360)
+
 ![](./images/slide1_image.png)
 
 ---
