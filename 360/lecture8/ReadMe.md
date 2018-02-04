@@ -4,6 +4,7 @@ Lecture 8: Architecture Contd.
 
 Dr. Arnold (Arnie) Lund
 ---
+[Back to Table of Contents](https://github.com/RyanCPeters/Educational_Resources/tree/master/360
 
 
 ---
