@@ -78,6 +78,9 @@ As such, it will see more resources added as I get the time or as people choose 
 [4-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-16/IntroToCryptography_slides/
 [5-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-18/EncriptionHashing_slides/
 [6-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-23/public_key_cryptography_slides/
+[7-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-23/public_key_cryptography_slides/
+[8-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-23/public_key_cryptography_slides/
+[9-337]:https://github.com/RyanCPeters/Educational_Resources/tree/master/337/lecture1-23/public_key_cryptography_slides/
 
 <!-- 337 assignments -->
 
