@@ -232,9 +232,9 @@ My goal is for you to get these core objectives, and so I’ll adapt as needed t
 
 ![Know where to look for this slide's content](../ref.png)
 
-![Know the terminology used on this slide]
+![Know the terminology used on this slide](../keyword.png)
 
-![Key concept, should know this from memory](..bulb.png)
+![Key concept, should know this from memory](../bulb.png)
 
 
 ---
