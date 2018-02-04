@@ -524,7 +524,7 @@ What questions do you have about software engineering?
         <li>Group Selection (Tue)</li>
         <li>Class Customization Survey (Tue, optional extra credit)</li>
         <li>FoR2 – Reflections on Reading (Wed)</li>
-        <li>Industry Comparisons and Company Adoption (Frid)</li>
+        <li>Industry Comparisons and Company Adoption (Friday)</li>
       </ul>
   </li>
   <li>Note: Canvas Discussion Thread with Questions and Observations</li>
