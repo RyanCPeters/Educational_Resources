@@ -185,12 +185,12 @@ Note:  Transferable for successful careers, learning how to learn the rules of t
 ---
 
 <ol>
-  <li1>Be able to define and describe software development projects, lifecycle methods, roles, and practices.</li1>
-  <li2>Be able to compare and contrast classical and agile development processes.</li2>
-  <li3>Be able to use knowledge about the software process and software engineering practices to select and justify approaches to use given a project, its teams, and its constraints.</li3>
-  <li4>Be able to examine trade‐offs between software engineering techniques and methods.</li4>
-  <li5>Be able to work with a team on creating software artifacts or work products.  - Communication and Collaboration!</li5>
-  <li6>Be able to describe the ethical responsibilities of software engineers.</li6>
+  <li>Be able to define and describe software development projects, lifecycle methods, roles, and practices.</li>
+  <li>Be able to compare and contrast classical and agile development processes.</li>
+  <li>Be able to use knowledge about the software process and software engineering practices to select and justify approaches to use given a project, its teams, and its constraints.</li>
+  <li>Be able to examine trade‐offs between software engineering techniques and methods.</li>
+  <li>Be able to work with a team on creating software artifacts or work products.  - Communication and Collaboration!</li>
+  <li>Be able to describe the ethical responsibilities of software engineers.</li>
 </ol>
 
 ---
