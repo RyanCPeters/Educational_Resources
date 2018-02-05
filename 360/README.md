@@ -12,3 +12,4 @@ Table of Contents
 6. [Lecture 6](https://github.com/RyanCPeters/Educational_Resources/tree/master/360/lecture6)
 7. [Lecture 7](https://github.com/RyanCPeters/Educational_Resources/tree/master/360/lecture7)
 8. [Lecture 8](https://github.com/RyanCPeters/Educational_Resources/tree/master/360/lecture8)
+9. [accumulated light-bulb slides](./Light_Bulb_Slides.md)
