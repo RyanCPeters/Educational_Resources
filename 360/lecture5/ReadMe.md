@@ -74,7 +74,7 @@ Know thy user, and YOU are not thy user!
 9 Reqs. Contd. (bulb)
 ---
 
-<img src="../bulb.png" width="60" height="60" />
+<img src="../bulb.png" width="30" height="30" />
 
 - Everything that must be true about the software in order for it to be acceptable
 - And nothing else
