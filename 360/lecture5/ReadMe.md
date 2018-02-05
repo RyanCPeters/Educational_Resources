@@ -134,7 +134,7 @@ Note shall vs. should in ANSI
 13 Kano Model (bulb)
 ---
 
-<img src="../bulb.png" width="60" height="60" />
+<img src="../bulb.png" width="30" height="30" />
 
 ![](./images/slide13_image.png)
 
