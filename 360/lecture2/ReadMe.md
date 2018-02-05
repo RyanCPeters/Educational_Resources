@@ -75,7 +75,7 @@ What struck you as being particularly relevant to software engineer challenges t
 
 
 ---
-10 Large Scale IT Project
+10 Large Scale IT Project (bulb)
 ---
 
 #### McKinsey & Company Report (2012) 
@@ -116,7 +116,7 @@ Loss of Money
 Impact on Lives: e.g. Navigation, IoT in Medical Devices
 
 ---
-13 FOCUS OF SE
+13 FOCUS OF SE (bulb)
 ---
 
 Software engineering includes
@@ -171,7 +171,7 @@ Lifecycle system engineering
 
 
 ---
-19 ETHICAL PRINCIPLES
+19 ETHICAL PRINCIPLES (bulb)
 ---
  
 1. PUBLIC - Software engineers shall act consistently with the public interest.
@@ -235,7 +235,7 @@ Press issues of bias, harassment, transparency about slowing down your old iPhon
 
 
 ---
-24 EMPOYEE CONTRACTS: THE FINE PRINT
+24 EMPOYEE CONTRACTS: THE FINE PRINT (bulb)
 ---
 
 - Non-Disclosure Agreements (NDA)

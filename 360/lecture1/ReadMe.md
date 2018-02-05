@@ -211,7 +211,7 @@ Working with the other faculty to tweak in real-time to share best practices and
 My goal is for you to get these core objectives, and so I’ll adapt as needed to make sure that happens.
 
 ---
-19 OF NOTE
+19 OF NOTE (bulb)
 ---
 
 <ul>
@@ -319,7 +319,7 @@ https://pollev.com/arnoldmlund907
 
 
 ---
-28 CHANGING ROLE OF SOFTWARE
+28 CHANGING ROLE OF SOFTWARE (bulb)
 ---
 
 - Increasing role of software in all systems
