@@ -1,10 +1,10 @@
 Lecture 6:
 ===
 
-Created by: Dr. Arnold Lund
+Dr. Arnold (Arnie) Lund
 ---
 
-Formatted for GitHub's markdown syntax by Ryan Peters
+[Back to Table of Contents](https://github.com/RyanCPeters/Educational_Resources/tree/master/360)
 
 ---
 

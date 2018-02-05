@@ -1,6 +1,7 @@
+#### Winter 2017
+
 Topic 1: Introduction
 ===
-#### Winter 2017
 
 Dr. Arnold (Arnie) Lund
 ---
