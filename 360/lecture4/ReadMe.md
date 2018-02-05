@@ -38,7 +38,7 @@ Team Work
 5 SE’S KOBAYASHI MARU PROBLEM (bulb)
 ---
 
-<img src="../bulb.png" width="60" height="60" />
+<img src="../bulb.png" width="30" height="30" />
 
 ![](./images/slide5_image.png)
 
@@ -57,7 +57,7 @@ Team Work
 8 The Waterfall Model (bulb)
 ---
 
-<img src="../bulb.png" width="60" height="60" />
+<img src="../bulb.png" width="30" height="30" />
 
 ![](./images/slide8_image.png)
 
@@ -127,7 +127,7 @@ The customer hates it. The boss is mad at me for building what the document said
 19 COST OF CHANGE (bulb)
 ---
 
-<img src="../bulb.png" width="60" height="60" />
+<img src="../bulb.png" width="30" height="30" />
 
 ![](./images/slide19_image.png)
 
@@ -175,7 +175,7 @@ AT&T, walkthroughs inserted; challenge was “independent” platform team(s) [S
 22 FOOTNOTES (bulb)
 ---
 
-<img src="../bulb.png" width="60" height="60" />
+<img src="../bulb.png" width="30" height="30" />
 
 - What goes in, doesn’t necessarily come out (without extra process)
 - Observation: Waterfall is structurally adversarial
@@ -241,7 +241,7 @@ Meta-processes like requirements walkthroughs and sign-offs
 31 Manifesto for Agile Software Development (bulb)
 ---
 
-<img src="../bulb.png" width="60" height="60" />
+<img src="../bulb.png" width="30" height="30" />
 
 - **Individuals and interactions** over process and tools
 - **Working software** over comprehensive documentation
@@ -282,9 +282,9 @@ Changing Requirements
 34 SCRUM KEY TERMINOLOGY (bulb)
 ---
 
-<img src="../bulb.png" width="60" height="60" />
+<img src="../bulb.png" width="30" height="30" />
 
-![](../keyword.png)
+<img src="../keyword.png" width="30" height="30" />
 
 - Development Team
 - Product Owner
@@ -456,9 +456,9 @@ Usage of tools at Microsoft necessary – large team sizes (thousands), distribu
  59 Principles of lean Thinking (bulb)
 ---
 
-<img src="../bulb.png" width="60" height="60" />
+<img src="../bulb.png" width="30" height="30" />
 
-![](../keyword.png)
+<img src="../keyword.png" width="30" height="30" />
 
 <ol>
   <li>Eliminate Waste</li>
@@ -496,7 +496,7 @@ Usage of tools at Microsoft necessary – large team sizes (thousands), distribu
  64 CSAT
 ---
 
-![](../keyword.png)
+<img src="../keyword.png" width="30" height="30" />
 
 ![](./images/slide64_image.png)
 

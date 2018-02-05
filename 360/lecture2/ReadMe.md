@@ -91,7 +91,7 @@ What struck you as being particularly relevant to software engineer challenges t
   - 11%:	Execution (e.g., scheduling)
   - 6%:	  Unexplained
 
-<img src="../bulb.png" width="60" height="60" />
+<img src="../bulb.png" width="30" height="30" />
 
 ---
 11 IT Project Statistics
@@ -125,8 +125,10 @@ Determining what to build
 Software architecture
 Analysis and testing
 Lifecycle system engineering
+
 ![](./images/slide13_image.png)
-<img src="../bulb.png" width="60" height="60" />
+
+<img src="../bulb.png" width="30" height="30" />
 
 ---
 14 SOFTWARE ENGINEER: PROFESSIONAL ISSUES AND CONCERNS
@@ -154,7 +156,7 @@ Lifecycle system engineering
 - Members of these organisations sign up to the code of practice when they join.
 - The Code contains eight Principles related to the behaviour of and decisions made by professional software engineers, including practitioners, educators, managers, supervisors and policy makers, as well as trainees and students of the profession. 
 
-![](../ref.png)
+<img src="../ref.png" width="30" height="30" />
 
 ---
 18 THE ACM/IEEE CODE OF ETHICS 
@@ -183,8 +185,9 @@ Lifecycle system engineering
 7. COLLEAGUES - Software engineers shall be fair to and supportive of their colleagues.
 8. SELF - Software engineers shall participate in lifelong learning regarding the practice of their profession and shall promote an ethical approach to the practice of the profession.
 
-<img src="../bulb.png" width="60" height="60" />
-![](../ref.png)
+<img src="../bulb.png" width="30" height="30" />
+
+<img src="../ref.png" width="30" height="30" />
 
 ##### Extra Slide Notes
 
@@ -246,7 +249,7 @@ Press issues of bias, harassment, transparency about slowing down your old iPhon
   + Assigns ownership/non-ownership of work products
   + May include prior disclosure exhibits
 
-<img src="../bulb.png" width="60" height="60" />
+<img src="../bulb.png" width="30" height="30" />
 
 ##### Extra Slide notes
 
@@ -284,7 +287,7 @@ An individual / organization can have specific property rights on the intangible
 
 _**Does IP help innovation or hurt it?**_
 
-![](../keyword.png)
+<img src="../keyword.png" width="30" height="30" />
 
 #### Extra Slide Notes
 
@@ -357,7 +360,7 @@ Which category does software licenses fall?
 
 ![](./images/slide30_image.png)
 
-![](../keyword.png)
+<img src="../keyword.png" width="30" height="30" />
 
 
 ---

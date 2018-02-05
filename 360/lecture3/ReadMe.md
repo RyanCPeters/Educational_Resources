@@ -68,7 +68,7 @@ Not a software flaw, but a hardware flaw that manifests itself through software 
 8 Why is it difficult to get error free software systems? (bulb)
 ---
 
-<img src="../bulb.png" width="60" height="60" />
+<img src="../bulb.png" width="30" height="30" />
 
 - Four essential problems
   + Complexity
@@ -216,7 +216,7 @@ and from Ghezzi C. et. al. Fundamentals of Software Engineering, 2nd ed., 2003, 
 20 LIFE CYCLE OVERVIEW (bulb)
 ---
 
-<img src="../bulb.png" width="60" height="60" />
+<img src="../bulb.png" width="30" height="30" />
 
 | Requirements Analysis and Specification | Find out what the customer wants and decide what will be developed |
 |:-----:|:-----:|
@@ -234,12 +234,11 @@ and from Ghezzi C. et. al. Fundamentals of Software Engineering, 2nd ed., 2003, 
 21 Design Thinking Process (bulb)
 ---
 
-<img src="../bulb.png" width="60" height="60" />
+<img src="../bulb.png" width="30" height="30" />
 
 ![](./images/slide21_image.png)
 
-![](../keyword.png)
-
+<img src="../keyword.png" width="30" height="30" />
 
 
 
@@ -283,7 +282,7 @@ Note we will talk a bit more about what innovation looks like when we get into r
 26 USER AND PRODUCT REQUIREMENTS TO SYSTEM SPECIFICATIONS (bulb)
 ---
 
-<img src="../bulb.png" width="60" height="60" />
+<img src="../bulb.png" width="30" height="30" />
 
 ![](./images/slide26_image.png)
 
@@ -299,7 +298,7 @@ Will be diving deeper into requirements.
 27 4+1 MODEL OF ARCHITECTURE (bulb)
 ---
 
-<img src="../bulb.png" width="60" height="60" />
+<img src="../bulb.png" width="30" height="30" />
 
 ![](./images/slide27_image.png)
 
@@ -323,7 +322,7 @@ Will be diving deeper into requirements.
 30 ENABLING SERVICE ARCHITECTURES
 ---
 
-![](../keyword.png)
+<img src="../keyword.png" width="30" height="30" />
 
 ![](./images/slide30_image.png)
 
@@ -402,7 +401,7 @@ Note user experience example, with architecture early and details later.  Protot
 39
 ---
 
-![](../keyword.png)
+<img src="../keyword.png" width="30" height="30" />
 
 ![](./images/slide39_image.png)
 
@@ -420,9 +419,9 @@ Note Deming and Juran (culture of teams, 80-20 rule, useful many vs. vital few)
 41 SDLC PROCESS MODELS (bulb)
 ---
 
-![](../ref.png)
+<img src="../ref.png" width="30" height="30" />
 
-<img src="../bulb.png" width="60" height="60" />
+<img src="../bulb.png" width="30" height="30" />
 
 A software life cycle model is a high level process
 
@@ -453,7 +452,7 @@ Add the V-Model?
 42 MODEL CATEGORIES (bulb)
 ---
 
-<img src="../bulb.png" width="60" height="60" />
+<img src="../bulb.png" width="30" height="30" />
 
 - Prescriptive Models (e.g., Waterfall) – “heavyweight”
   + Aka “planned” approach

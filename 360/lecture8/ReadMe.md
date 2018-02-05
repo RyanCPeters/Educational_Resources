@@ -123,7 +123,7 @@ Design patterns in consumer products?
 ##### Extra Slide Notes
 _**Pattern**_ in architecture is the idea of _capturing architectural_ design ideas as archetypal and reusable descriptions. The term "pattern" in this context is usually attributed to _Christopher Alexander_,<sup>[1]</sup> an Austrian born _American architect_. The patterns serve as an aid to design _cities_ and _buildings_. The concept of having collections of "patterns", or typical samples as such, is much older. One can think of these collections as forming a _pattern language_, whereas the elements of this language may be combined, governed by certain rules.
 
-<img src="../bulb.png" width="60" height="60" />
+<img src="../bulb.png" width="30" height="30" />
 
 
 ---
