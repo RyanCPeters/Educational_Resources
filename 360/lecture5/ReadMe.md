@@ -181,50 +181,60 @@ Note the Customer is not necessarily the User, and it can be important to identi
 Why the why? Prioritization.
 
 ---
-Requirements Specification
+16 Requirements Specification (bulb)
 ---
+
+<img src="../bulb.png" width="30" height="30" />
+
+<img src="../keyword.png" width="30" height="30" />
 
 Process of "writing down" the user and system requirements in a requirements document. Specification helps avoid "ambiguity."
 
 - `User requirements` are defined as: 
   - Statements, in a natural language plus diagrams, of what services the system is expected to provide to system users and the constraints under which it must operate. The user requirements may vary from broad statements of the system features required to detailed, precise descriptions of the system functionality.
 - `System requirements` are defined as:
-  - Written in natural language, but also in formalized documentation languages. eg., UML
-  - Detailed descriptions of the software system’s functions, services, and operational constraints. The system requirements document (sometimes called a functional specification) should define exactly what is to be implemented. It may be part of the contract between the system buyer and the software developers.
+  + Written in natural language, but also in formalized documentation languages. eg., UML
+  + Detailed descriptions of the software system’s functions, services, and operational constraints. The system requirements document (sometimes called a functional specification) should define exactly what is to be implemented. It may be part of the contract between the system buyer and the software developers.
 
 ---
-
-User Req. Examples
+17 User Req. Examples
 ---
 
-On the first try, within 15 minutes, 75% of govt employees should be able to figure out system.
--
--
+The following top level list items are measurable success criteria
+
+- On their first try, within 15 minutes, 75% of Government travelers shall be able to correctly-
+  + Create a travel request form
+  + Select one departure flight and one return flight
+  + Designate one hotel 
+  + Reserve one rental car
+  + Forward the travel request form for approval . . 
+
+- By their second try, within 15 minutes, 90% shall be able to complete the tasks correctly
+
 
 
 ---
-
-System Req Examples
+18 System Req Examples
 ---
+
+The following third level list items are measurable success criteria
 
 - Processes
-  +Exampes:
-    - The student records...
-    - sd
+  + Exampes:
+    - The student records system mst calculate the GPA at the end of each semester
+    - As the final step in year-end processing, the payroll system must update employee salaries, bonuses, and benefits and produce tax data required by the IRS.
 - Performance
   + Examples:
-    -
-    -
+    - The system must support 25 users online simultaneously
+    - Response time must not exceed 4 seconds
 
 ---
-
-Business, domain, Regulatory, and other Reqs and Constraints
+19 Business, domain, Regulatory, and other Reqs and Constraints
 ---
-![](./images/biz-reqs.png)
+![](./images/slide19_image.png)
 
 ---
-
-Requirements Exercise
+20 Requirements Exercise
 ---
 Group exercise:
 
@@ -253,44 +263,66 @@ Interviewing person A:
 - must be able to handle voice or text input
   - needs to provide integration api for easy adaptation to systems like Canvas. 
 
+
+
+---
+21 Quiz And Break
 ---
 
-Shall is not Should
---
+nothing to see here :P
+
+---
+22 Shall is not Should
+---
+
+From “X wants…” to “The System shall…”
 
 very specific slide that just clarifies the title
 
 ---
-Functional Requirements
+23 Functional Requirements
 ---
 
-Describe the functionality or services that the system is expected to provide.
-
+- Describe the functionality or services that the system is expected to provide.
 Examples:
+  + “The user shall be able to search either all of the initial set of databases or select a subset from it”
+  + “The system shall provide appropriate viewers for the user to read documents in the document store”
 
--"The user ***shall*** be able to search either all of the initial set of databases or select a subset from it"
-- missed it
 
-then a table
+Agile Story Framework
+
+| "As a/an" (who) | "I want to..." (what) | "So that..." (why) |
+|:-----:|:-----:|:-----:|
+| Store Owner | Recieve an email when a customer submits an order | I can print the order, so it's ready to be filled |
+| Customer | Be able to place an order for a quantity of widgets | I can fill my desire to own lots of widgets |
+| Customer | View a history of orders I've placed. | I can print these out for tax purposes, and get an idea f my widget consumption over time |
+
 
 ---
-functional reqs contd.
+24 functional reqs contd.
 ---
 
-Big blob of text here
+A functional specification (also, functional spec, specs, functional specifications document (FSD), functional requirements specification) in systems engineering and software development is a document that specifies **the functions that a system or component must perform** (often part of a requirements specification). – ISO/IEC/IEEE 24765-2010
+
 
 ***Challenges***
 
 - Making precise - ambiguous requirements may have different interpretations.
 - achieving completeness
-  + completeness - all services requres by the user should be defined.
+  + completeness - all services requires by the user should be defined.
 - achieving consistency 
   + consistency - requirements should not have contradictory definitions.
 
 
 ---
-Non-functional Reqs
+25 Non-functional Reqs
 ---
+- Requirements that are not directly concerned with specific functions, but relate to emergent system properties, such as reliability, response time, security, etc.
+- May be more critical than a functional requirement
+  + If a functional requirement is not satisfied, users can find work-arounds*
+  + But if a non-functional requirement, e.g. reliability, is not met  system is unusable
+    + Aircraft system does not meet reliability requirement  unsafe to use
+
 
 - Requirements that are not directly concerned with specific functios, but relate to emergent system properties, such as reliability, response time, security, etc.
 - May be more critical than a functional req
@@ -298,21 +330,36 @@ Non-functional Reqs
   + but if a non-functional req , eg reliability, is not met -> sysem becomes unuseable
     - Aircraft system does not meet reliability req -> unsafe to use
 
+- Challenges
+  + May be difficult to determine whether a non-functional requirement is met
+    + Using a metric can solve this problem
+
+*Note bug prioritization and the recognition that “can find” doesn’t mean “will find.”  See Kano model and business case.*
+
+
 ---
-non-functional requirements table
+26 non-functional requirements table
 --
-![]() <!--- image of different non-functional reqs -->
+<img src="../ref.png" width="30" height="30" />
+
+<img src="./images/slide26_image.png" width="500" height="500" />
 
 ---
-missed slide
+27 Example Non-FunctionalRequirements Metrics
 ---
 
+<img src="./images/slide27_image.png" width="500" height="500" />
 
 
-#### Hint: Sometimes can transofrm non-functional into functional properties
+---
+28 Hint: Sometimes can transofrm non-functional into functional properties
+---
 
-- Another approach is 
-- missed
+- Another approach is to restate non-functional as functional to allow for easier testing and quality assurance
+- For example, operationalize:
+  + “Secure System” 
+  + “The system should verify a user ID and password should before allowing access to…”
+
 
 ---
 Practice
@@ -320,50 +367,55 @@ Practice
 
 - All text must be red.
   + Non-functional
-- 90% of novice user can learn to operate major use cases without outside assistance
-  + non-func
-- screen 1 can print on screen data to printer
-  + functional
-- members of the data entry group can enter requests but can not approve or delete requests
-  + functional
-- field 2 only accepts dates before the current date.
-  + functional
-- the database will have a functional audit trail.
-  + functional
-- the system must adapt to changes in any input record format without the 
-  + non-functional?
+- 90% of novice users can learn to operate major use cases without outside assistance.
+  + Non-functional
+- Screen 1 can print on-screen data to the printer.
+  + Functional
+- Members of the Data entry group can enter requests but can not approve or delete requests.
+  + Functional
+- Field 2 only accepts dates before the current date.
+  + Functional
+- The database will have a functional audit trail.
+  + Functional
+- The system must adapt to changes in any input record format without the need to recompile any code.
+  + Non-functional
 
 ---
 practice contd.
 ---
 
-- the spreadhseet can secure data with electronit sigs
-  + functional
-- all menus must have a consisten format
-  + non-func
-- the mean time to change data presentation (no new data entities) will be <1 person-onth for a senior system developer
-  + non-func
-- Dr. Cerf shall be satisfied with the user interrace
-  + nonfunc
-- the system will limiit acess to authorized users.
-  + functional
-- the displayed clock rate must be within 5h of actual clock rate.
-  + non-func
-- clicking the approve button moves the request to the approval workflow
-  + functional
-- the product can switch between english and metric units without recompiling nor rebuilding the program.
-  + non-functional
-
----
-Requirements Engineering Process (Spiral View)
----
-
-![](./images/spiral-diagram.png) <!--- Spiral diagram as was in textbook, between 4.1 and 4.3 -->
+- The spreadsheet can secure data with electronic signatures.
+  + Functional
+- All menus must have a consistent format.
+  + Non-functional
+- The Mean Time to Change data presentation (no new data entities) will be <1 person-month for a senior system developer.
+  + Non-functional
+- Dr. Cerf shall be satisfied with the user interface.
+  + Non-functional
+- The system will limit access to authorized users.
+  + Functional
+- The displayed clock rate must be within 5 Hz of the actual clock rate.
+  + Non-functional
+- Clicking the Approve button moves the request to the Approval Workflow.
+  + Functional
+- The product can switch between English and metric units without recompiling nor rebuilding the program.
+  + Non-functional
 
 
 ---
-Feasibility study
+31 Requirements Engineering Process (Spiral View)
 ---
+
+<img src="../ref.png" width="30" height="30" />
+
+<img src="./images/slide31_image.png" width="500" height="500" />
+
+
+---
+32 Feasibility study
+---
+
+<img src="../ref.png" width="30" height="30" />
 
 - A feasibility study decides whether or not the worthwhile proposed system is doable
 - checks whether
@@ -372,11 +424,27 @@ Feasibility study
   + system can be integrated with other systems that are used
   + define scope (what features do we ***NEED*** to implement)
 
----
-Complicating res: constraints
----
+<img src="./images/slide32_image.png" width="30" height="30" />
 
-![]() <!--- uml image of common examples -->
+- Common Examples
+  + Budget
+  + Schedules
+  + Technology
+  + Development
+  + Operations
+  + Team and Organization
+  + Software Process
+
+
+---
+33 Complicating res: constraints
+---
+- Limitations on the design or on the project itself
+  + The system shall be written in C++
+  + The system must be installed and operational by April 15th
+- Constraints may be changed arbitrarily by management (alas, just the way it is, they’re the boss…)
+
+<img src="./images/slide33_image.png" width="500" height="500" />
 
 - Limitations on the design or on the project itself
   + the system shall be written in c++
@@ -384,10 +452,10 @@ Complicating res: constraints
 - Constrains may be changed arbitrarily by the management,( alas, just the way it is, they're the boss )
 
 ---
-Title less slide with books images
+34 Title less slide with books images
 ---
 
-maybe many images, maybe one...  dunno yet.
+<img src="./images/slide34_image.png" width="500" height="500" />
 
 ---
 Team Time

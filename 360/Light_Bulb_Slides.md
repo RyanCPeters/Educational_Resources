@@ -368,6 +368,75 @@ From Lecture Deck 5
 ===
 
 
+---
+9 Reqs. Contd. (bulb)
+---
+
+<img src="../bulb.png" width="30" height="30" />
+
+- Everything that must be true about the software in order for it to be acceptable
+- And nothing else
+- “What” but not “how”
+
+**Where can they come from?**
+
+#### Extra Slide Notes
+
+Class discussion in teams.  Then across class.
+
+And nothing else – impt to define the boundary
+Focus on what needs to be done, what is the problem, instead of how it will be done
+
+
+
+---
+13 Kano Model (bulb)
+---
+
+<img src="../bulb.png" width="30" height="30" />
+
+![](./images/slide13_image.png)
+
+
+
+---
+16 Requirements Specification (bulb)
+---
+
+<img src="../bulb.png" width="30" height="30" />
+
+<img src="../keyword.png" width="30" height="30" />
+
+Process of "writing down" the user and system requirements in a requirements document. Specification helps avoid "ambiguity."
+
+- `User requirements` are defined as: 
+  - Statements, in a natural language plus diagrams, of what services the system is expected to provide to system users and the constraints under which it must operate. The user requirements may vary from broad statements of the system features required to detailed, precise descriptions of the system functionality.
+- `System requirements` are defined as:
+  + Written in natural language, but also in formalized documentation languages. eg., UML
+  + Detailed descriptions of the software system’s functions, services, and operational constraints. The system requirements document (sometimes called a functional specification) should define exactly what is to be implemented. It may be part of the contract between the system buyer and the software developers.
+
+
+
+---
+23 Functional Requirements
+---
+
+- Describe the functionality or services that the system is expected to provide.
+Examples:
+  + “The user shall be able to search either all of the initial set of databases or select a subset from it”
+  + “The system shall provide appropriate viewers for the user to read documents in the document store”
+
+
+Agile Story Framework
+
+| "As a/an" (who) | "I want to..." (what) | "So that..." (why) |
+|:-----:|:-----:|:-----:|
+| Store Owner | Recieve an email when a customer submits an order | I can print the order, so it's ready to be filled |
+| Customer | Be able to place an order for a quantity of widgets | I can fill my desire to own lots of widgets |
+| Customer | View a history of orders I've placed. | I can print these out for tax purposes, and get an idea f my widget consumption over time |
+
+
+
 
 
 ---
