@@ -149,7 +149,7 @@ In lecture, we identified the following. 1) Complexity: no two software parts ar
 | Repeat (Evolution) | |
 
 
-<img src="./lecture3/images/slide20_image.png" width="800" height="300" />
+<img src="./lecture3/images/slide20_image.png" width="800" height="400" />
 
 
 
@@ -158,7 +158,7 @@ In lecture, we identified the following. 1) Complexity: no two software parts ar
 ---
 
 
-<img src="./lecture3/images/slide21_image.png" width="800" height="300" />
+<img src="./lecture3/images/slide21_image.png" width="800" height="400" />
 
 
 
@@ -167,7 +167,7 @@ In lecture, we identified the following. 1) Complexity: no two software parts ar
 ---
 
 
-<img src="./lecture3/images/slide26_image.png" width="300" height="300" />
+<img src="./lecture3/images/slide26_image.png" width="500" height="500" />
 
 #### Extra Slide Notes
 
@@ -182,7 +182,7 @@ Will be diving deeper into requirements.
 ---
 
 
-<img src="./lecture3/images/slide27_image.png" width="300" height="300" />
+<img src="./lecture3/images/slide27_image.png" width="500" height="500" />
 
 ##### Searchable text boxes from image:
 - Shows key abstractions as objects or object classes.
