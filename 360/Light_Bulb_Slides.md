@@ -149,7 +149,7 @@ In lecture, we identified the following. 1) Complexity: no two software parts ar
 | Repeat (Evolution) | |
 
 
-<img src="./lecture3/images/slide20_image.png" width="800" height="400" />
+<img src="./lecture3/images/slide20_image.png" width="800" height="300" />
 
 
 
