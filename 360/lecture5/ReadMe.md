@@ -342,7 +342,7 @@ A functional specification (also, functional spec, specs, functional specificati
 --
 <img src="../ref.png" width="30" height="30" />
 
-<img src="./images/slide26_image.png" width="500" height="500" />
+<img src="./images/slide26_image.png" width="600" height="500" />
 
 ---
 27 Example Non-FunctionalRequirements Metrics
