@@ -446,6 +446,7 @@ Usage of tools at Microsoft necessary – large team sizes (thousands), distribu
 ---
 
 ![](./images/slide57_image.png)
+
 ---
  58 Rule of 10 (bulb)
 ---

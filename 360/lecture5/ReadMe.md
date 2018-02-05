@@ -1,20 +1,90 @@
 Lecture 5: Requirement Design
 ===
 
-Dr. Arnold (Arnie) Lund
+Content by: Dr. Arnold Lund
 ---
 
 [Back to Table of Contents](https://github.com/RyanCPeters/Educational_Resources/tree/master/360)
 
-Requirements
+
+
 ---
+3 Today…
+---
+
+- Requirements Intro
+- Quiz
+- Team Work
+
+---
+4 Next Stage of Team Project
+---
+
+- 1/8 Company Adoption – done
+- 1/17 Finalize company, SDLC interest and brainstorm product ideas - don
+- 1/19 SDLC priorities – done
+- 1/22 Finalize product description, Persona description(s) and exchange by 1/24
+- 1/24 Flesh out Persona persona for other team’s product
+- 1/29 In class requirements interviews
+- 2/5 Analyze data, generate requirements, sketch scenario and storyboard, collect observations
+- 2/12 and 2/14 Work on requirements specification deliverable (due 2/16)
+
+
+---
+5 REQUIREMENTS INTRO
+---
+blank slide
+
+---
+6 SYSTEM DEVELOPMENT COST DRIVERS
+---
+![](./images/slide6_image.png)
+
+---
+7 ANALYSIS & REQUIREMENTS
+---
+![](../keyword.png)
+
+Also known as:
+
+- Requirements engineering
+- Requirements analysis
+- Specification or Specs
+- Systems analysis
+- Structured analysis
+- Object-oriented analysis
+
+
+
+---
+8 Requirements
+---
+
+![](./images/slide8_image.png)
+
+Know thy user, and YOU are not thy user!
+
+
+
+---
+9 Reqs. Contd. (bulb)
+---
+
+![](../bulb.png)
+
+- Everything that must be true about the software in order for it to be acceptable
+- And nothing else
+- “What” but not “how”
+
+**Where can they come from?**
+
 
 - What the users require, and nothing else
 
 ### Iso 9000 defines requirement as:
 "A requirement is a need or expectation that is stated, generally implied or obligatory"
 
->#### Requirement
+#### Requirement
 >A requirement is a need, expectation, or obligation. It can be stated or implied by an organiztion, its customers, or other interested parties. A specified requirement is one that has been stated ( in a document for example), ...
 
 ---
