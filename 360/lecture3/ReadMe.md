@@ -68,7 +68,7 @@ Not a software flaw, but a hardware flaw that manifests itself through software 
 8 Why is it difficult to get error free software systems? (bulb)
 ---
 
-![](../bulb.png)
+<img src="../bulb.png" width="60" height="60" />
 
 - Four essential problems
   + Complexity
@@ -216,7 +216,7 @@ and from Ghezzi C. et. al. Fundamentals of Software Engineering, 2nd ed., 2003, 
 20 LIFE CYCLE OVERVIEW (bulb)
 ---
 
-![](../bulb.png)
+<img src="../bulb.png" width="60" height="60" />
 
 | Requirements Analysis and Specification | Find out what the customer wants and decide what will be developed |
 |:-----:|:-----:|
@@ -234,7 +234,7 @@ and from Ghezzi C. et. al. Fundamentals of Software Engineering, 2nd ed., 2003, 
 21 Design Thinking Process (bulb)
 ---
 
-![](../bulb.png)
+<img src="../bulb.png" width="60" height="60" />
 
 ![](./images/slide21_image.png)
 
@@ -283,7 +283,7 @@ Note we will talk a bit more about what innovation looks like when we get into r
 26 USER AND PRODUCT REQUIREMENTS TO SYSTEM SPECIFICATIONS (bulb)
 ---
 
-![](../bulb.png)
+<img src="../bulb.png" width="60" height="60" />
 
 ![](./images/slide26_image.png)
 
@@ -299,7 +299,7 @@ Will be diving deeper into requirements.
 27 4+1 MODEL OF ARCHITECTURE (bulb)
 ---
 
-![](../bulb.png)
+<img src="../bulb.png" width="60" height="60" />
 
 ![](./images/slide27_image.png)
 
@@ -422,7 +422,7 @@ Note Deming and Juran (culture of teams, 80-20 rule, useful many vs. vital few)
 
 ![](../ref.png)
 
-![](../bulb.png)
+<img src="../bulb.png" width="60" height="60" />
 
 A software life cycle model is a high level process
 
@@ -453,7 +453,7 @@ Add the V-Model?
 42 MODEL CATEGORIES (bulb)
 ---
 
-![](../bulb.png)
+<img src="../bulb.png" width="60" height="60" />
 
 - Prescriptive Models (e.g., Waterfall) – “heavyweight”
   + Aka “planned” approach

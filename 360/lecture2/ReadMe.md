@@ -91,7 +91,7 @@ What struck you as being particularly relevant to software engineer challenges t
   - 11%:	Execution (e.g., scheduling)
   - 6%:	  Unexplained
 
-![](../bulb.png)
+<img src="../bulb.png" width="60" height="60" />
 
 ---
 11 IT Project Statistics
@@ -126,7 +126,7 @@ Software architecture
 Analysis and testing
 Lifecycle system engineering
 ![](./images/slide13_image.png)
-![](../bulb.png)
+<img src="../bulb.png" width="60" height="60" />
 
 ---
 14 SOFTWARE ENGINEER: PROFESSIONAL ISSUES AND CONCERNS
@@ -183,7 +183,7 @@ Lifecycle system engineering
 7. COLLEAGUES - Software engineers shall be fair to and supportive of their colleagues.
 8. SELF - Software engineers shall participate in lifelong learning regarding the practice of their profession and shall promote an ethical approach to the practice of the profession.
 
-![](../bulb.png)
+<img src="../bulb.png" width="60" height="60" />
 ![](../ref.png)
 
 ##### Extra Slide Notes
@@ -246,7 +246,7 @@ Press issues of bias, harassment, transparency about slowing down your old iPhon
   + Assigns ownership/non-ownership of work products
   + May include prior disclosure exhibits
 
-![](../bulb.png)
+<img src="../bulb.png" width="60" height="60" />
 
 ##### Extra Slide notes
 

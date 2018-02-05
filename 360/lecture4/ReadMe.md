@@ -38,7 +38,7 @@ Team Work
 5 SE’S KOBAYASHI MARU PROBLEM (bulb)
 ---
 
-![](../bulb.png)
+<img src="../bulb.png" width="60" height="60" />
 
 ![](./images/slide5_image.png)
 
@@ -57,7 +57,7 @@ Team Work
 8 The Waterfall Model (bulb)
 ---
 
-![](../bulb.png)
+<img src="../bulb.png" width="60" height="60" />
 
 ![](./images/slide8_image.png)
 
@@ -127,7 +127,7 @@ The customer hates it. The boss is mad at me for building what the document said
 19 COST OF CHANGE (bulb)
 ---
 
-![](../bulb.png)
+<img src="../bulb.png" width="60" height="60" />
 
 ![](./images/slide19_image.png)
 
@@ -175,7 +175,7 @@ AT&T, walkthroughs inserted; challenge was “independent” platform team(s) [S
 22 FOOTNOTES (bulb)
 ---
 
-![](../bulb.png)
+<img src="../bulb.png" width="60" height="60" />
 
 - What goes in, doesn’t necessarily come out (without extra process)
 - Observation: Waterfall is structurally adversarial
@@ -241,7 +241,7 @@ Meta-processes like requirements walkthroughs and sign-offs
 31 Manifesto for Agile Software Development (bulb)
 ---
 
-![](../bulb.png)
+<img src="../bulb.png" width="60" height="60" />
 
 - **Individuals and interactions** over process and tools
 - **Working software** over comprehensive documentation
@@ -282,7 +282,7 @@ Changing Requirements
 34 SCRUM KEY TERMINOLOGY (bulb)
 ---
 
-![](../bulb.png)
+<img src="../bulb.png" width="60" height="60" />
 
 ![](../keyword.png)
 
@@ -456,7 +456,7 @@ Usage of tools at Microsoft necessary – large team sizes (thousands), distribu
  59 Principles of lean Thinking (bulb)
 ---
 
-![](../bulb.png)
+<img src="../bulb.png" width="60" height="60" />
 
 ![](../keyword.png)
 

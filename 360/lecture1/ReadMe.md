@@ -328,7 +328,7 @@ https://pollev.com/arnoldmlund907
 - Pervasive collection, manipulation, and use of digital data and information
 - Importance of software and intellectual property to the economy
 
-![](../bulb.png)
+<img src="../bulb.png" width="60" height="60" />
 
 ---
 29 The Internet of Things

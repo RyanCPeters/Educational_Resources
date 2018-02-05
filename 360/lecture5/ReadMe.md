@@ -74,7 +74,7 @@ Know thy user, and YOU are not thy user!
 9 Reqs. Contd. (bulb)
 ---
 
-![](../bulb.png)
+<img src="../bulb.png" width="60" height="60" />
 
 - Everything that must be true about the software in order for it to be acceptable
 - And nothing else
@@ -134,9 +134,9 @@ Note shall vs. should in ANSI
 13 Kano Model (bulb)
 ---
 
-![](../bulb.png)
+<img src="../bulb.png" width="60" height="60" />
 
-![](./images/kano-model.png) <!-- Kano Model image of design flow -->
+![](./images/slide13_image.png)
 
 ---
 14 Terms
@@ -165,41 +165,22 @@ Note the Customer is not necessarily the User, and it can be important to identi
 
 
 ---
-Requirement: Analysis-Discovery-Engineering
+15 Requirement: Analysis-Discovery-Engineering
 ---
 
-3x3 table
-<table>
-    <tr>
-        <th>
-          heading a
-        </th>
-        <th>
-          heading b
-        </th>
-        <th>
-          heading c
-        </th>
-    </tr>
-    <tr>
-        <th>
-          criteria a
-        </th>
-        <td> data ab </td>
-        <td> data ac </td>
-    </tr>
-    <tr>
-        <th>
-          criteria b
-        </th>        
-        <td> data bb </td>
-        <td> data bc </td>
-    </tr>
-    
-</table>
+
+| "As a/an" (who) | "I want to..." (what) | "So that..." (why) |
+|:-----:|:-----:|:-----:|
+| Store Owner | Recieve an email when a customer submits an order | I can print the order, so it's ready to be filled |
+| Customer | Be able to place an order for a quantity of widgets | I can fill my desire to own lots of widgets |
+| Customer | View a history of orders I've placed. | I can print these out for tax purposes, and get an idea f my widget consumption over time |
+
+
+#### extra slide notes
+
+Why the why? Prioritization.
 
 ---
-
 Requirements Specification
 ---
 
