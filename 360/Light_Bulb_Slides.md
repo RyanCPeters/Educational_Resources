@@ -254,7 +254,7 @@ From Lecture Deck 4
 5 SE’S KOBAYASHI MARU PROBLEM
 ---
 
-<img src="./lecture4/images/slide5_image.png" width="400" height="400" />
+<img src="./lecture4/images/slide5_image.png" width="200" height="220" />
 
 
 
@@ -263,14 +263,14 @@ From Lecture Deck 4
 ---
 
 
-<img src="./lecture4/images/slide8_image.png" width="400" height="400" />
+<img src="./lecture4/images/slide8_image.png" width="300" height="400" />
 
 
 ---
 19 COST OF CHANGE
 ---
 
-<img src="./lecture4/images/slide19_image.png" width="400" height="400" />
+<img src="./lecture4/images/slide19_image.png" width="300" height="500" />
 
 #### Extra Slide Notes
 From http://www.agilemodeling.com/essays/costOfChange.htm
@@ -293,7 +293,7 @@ Why do you think the curve looks like this? Think the construction of a building
   + Over time, pressure is on incremental improvement; constrained by previous development
 - Process Improvement: Software 6 Sigma
 
-<img src="./lecture4/images/slide22_image.png" width="400" height="400" />
+<img src="./lecture4/images/slide22_image.png" width="400" height="500" />
 
 #### Extra Slide Notes
 Implications for team and organizational functioning
@@ -359,7 +359,7 @@ They would rather respond to change, rather than following a plan that may no lo
   <li>See the Whole</li>
 </ol>
 
-<img src="./lecture4/images/slide59_image.png" width="400" height="400" />
+<img src="./lecture4/images/slide59_image.png" width="600" height="400" />
 
 
 
@@ -401,4 +401,3 @@ Design patterns in consumer products?
 ##### Extra Slide Notes
 _**Pattern**_ in architecture is the idea of _capturing architectural_ design ideas as archetypal and reusable descriptions. The term "pattern" in this context is usually attributed to _Christopher Alexander_,<sup>[1]</sup> an Austrian born _American architect_. The patterns serve as an aid to design _cities_ and _buildings_. The concept of having collections of "patterns", or typical samples as such, is much older. One can think of these collections as forming a _pattern language_, whereas the elements of this language may be combined, governed by certain rules.
 
-![](../bulb.png)
