@@ -35,6 +35,10 @@ Content by: Dr. Arnold Lund
 ---
 blank slide
 
+#### Extra Slide Notes
+
+Portions taken and adapted from M.Kochanski, Ian Sommerville’s  Software Engineering  9th  edition  
+
 ---
 6 SYSTEM DEVELOPMENT COST DRIVERS
 ---
@@ -78,6 +82,19 @@ Know thy user, and YOU are not thy user!
 
 **Where can they come from?**
 
+#### Extra Slide Notes
+
+Class discussion in teams.  Then across class.
+
+And nothing else – impt to define the boundary
+Focus on what needs to be done, what is the problem, instead of how it will be done
+
+
+
+---
+10 Reqs. Contd.
+---
+
 
 - What the users require, and nothing else
 
@@ -85,40 +102,69 @@ Know thy user, and YOU are not thy user!
 "A requirement is a need or expectation that is stated, generally implied or obligatory"
 
 #### Requirement
->A requirement is a need, expectation, or obligation. It can be stated or implied by an organiztion, its customers, or other interested parties. A specified requirement is one that has been stated ( in a document for example), ...
+>A requirement is a need, expectation, or obligation. It can be stated or implied by an organization, its customers, or other interested parties. A specified requirement is one that has been stated (in a document for example), whereas an implied requirement is a need, expectation, or obligation that is common practice or customary.
+
+>There are many types of requirements. Some of these include customer requirements, quality requirements, quality management requirements, management requirements, product requirements, service requirements, contractual requirements, statutory requirements, and regulatory requirements. – ISO 9000 2015 Definitions in Plain English - Praxiom
+
+ISO 9000 is a set of international standards on quality management and quality assurance developed to help companies effectively document the quality system elements to be implemented to maintain an efficient quality system.
+
+#### Extra Slide notes
+Note shall vs. should in ANSI
 
 ---
-
-Misunderstandings
----
-![](./images/misunderstanding-cartoon.png)<!-- cartoon slide -->
-
-
+11 Misunderstandings
 ---
 
-The Waterfall Model
+![](./images/slide11_image.png)
+
+
 ---
-![](./images/waterfall-model.png)<!-- Waterfall model diagram goes here -->
+12 The Waterfall Model
+---
+![](./images/slide12_image.png)
 
 - Requirements definition
   - System and software design
     - Implementation and unit testing
       - Integration and system testing
-        - bah, missed it :P
+        - operation and maintenance
+
 
 ---
-
-Kano Model
+13 Kano Model (bulb)
 ---
+
+![](../bulb.png)
+
 ![](./images/kano-model.png) <!-- Kano Model image of design flow -->
 
 ---
-Terms
----
-I missed the deets here
-
+14 Terms
 ---
 
+![](../keyword.png)
+
+- Requirements _analysis/engineering_
+  + Activity of unearthing a customer’s needs
+- Requirements **specification (aka specs, often but not always)**
+  + Document describing your customer’s needs
+
+- The descriptions of the services that a system should provide and the constraints on its operation, reflecting the needs of customers for a system (Sommerville, Ch.4)
+  + User Requirements:
+    + Statements of what services the system is expected to provide, and the constraints
+  + System Requirements:
+    + More detailed descriptions of the software system’s functions, services, and operational constraints
+
+#### Extra Slide Notes
+
+Note the Customer is not necessarily the User, and it can be important to identify and distinguish the different sets of requirements.
+
+- Requirements specification
+  + Document describing a customer’s needs
+
+
+
+---
 Requirement: Analysis-Discovery-Engineering
 ---
 
