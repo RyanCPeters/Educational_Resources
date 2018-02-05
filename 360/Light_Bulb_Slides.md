@@ -5,7 +5,7 @@ From Lecture Deck 1
 
 
 ---
-19 OF NOTE (bulb)
+19 OF NOTE
 ---
 
 <ul>
@@ -31,11 +31,10 @@ From Lecture Deck 1
 
 ![Know the terminology used on this slide](./keyword.png)
 
-![Key concept, should know this from memory](./bulb.png)
 
 
 ---
-28 CHANGING ROLE OF SOFTWARE (bulb)
+28 CHANGING ROLE OF SOFTWARE
 ---
 
 - Increasing role of software in all systems
@@ -44,7 +43,6 @@ From Lecture Deck 1
 - Pervasive collection, manipulation, and use of digital data and information
 - Importance of software and intellectual property to the economy
 
-![](./bulb.png)
 
 
 
@@ -54,7 +52,7 @@ From Lecture Deck 2
 
 
 ---
-10 Large Scale IT Project (bulb)
+10 Large Scale IT Project
 ---
 
 #### McKinsey & Company Report (2012) 
@@ -70,11 +68,10 @@ From Lecture Deck 2
   - 11%:  Execution (e.g., scheduling)
   - 6%:   Unexplained
 
-![](./bulb.png)
 
 
 ---
-13 FOCUS OF SE (bulb)
+13 FOCUS OF SE
 ---
 
 Software engineering includes
@@ -84,11 +81,10 @@ Software architecture
 Analysis and testing
 Lifecycle system engineering
 ![](./lecture2/images/slide13_image.png)
-![](./bulb.png)
 
 
 ---
-19 ETHICAL PRINCIPLES (bulb)
+19 ETHICAL PRINCIPLES
 ---
  
 1. PUBLIC - Software engineers shall act consistently with the public interest.
@@ -100,7 +96,6 @@ Lifecycle system engineering
 7. COLLEAGUES - Software engineers shall be fair to and supportive of their colleagues.
 8. SELF - Software engineers shall participate in lifelong learning regarding the practice of their profession and shall promote an ethical approach to the practice of the profession.
 
-![](./bulb.png)
 ![](./ref.png)
 
 ##### Extra Slide Notes
@@ -113,7 +108,7 @@ Press issues of bias, harassment, transparency about slowing down your old iPhon
 
 
 ---
-24 EMPOYEE CONTRACTS: THE FINE PRINT (bulb)
+24 EMPOYEE CONTRACTS: THE FINE PRINT
 ---
 
 - Non-Disclosure Agreements (NDA)
@@ -124,7 +119,6 @@ Press issues of bias, harassment, transparency about slowing down your old iPhon
   + Assigns ownership/non-ownership of work products
   + May include prior disclosure exhibits
 
-![](./bulb.png)
 
 ##### Extra Slide notes
 
@@ -144,10 +138,9 @@ From Lecture Deck 3
 
 
 ---
-8 Why is it difficult to get error free software systems? (bulb)
+8 Why is it difficult to get error free software systems?
 ---
 
-![](./bulb.png)
 
 - Four essential problems
   + Complexity
@@ -173,10 +166,9 @@ In lecture, we identified the following. 1) Complexity: no two software parts ar
 
 
 ---
-20 LIFE CYCLE OVERVIEW (bulb)
+20 LIFE CYCLE OVERVIEW
 ---
 
-![](./bulb.png)
 
 | Requirements Analysis and Specification | Find out what the customer wants and decide what will be developed |
 |:-----:|:-----:|
@@ -191,10 +183,9 @@ In lecture, we identified the following. 1) Complexity: no two software parts ar
 
 
 ---
-21 Design Thinking Process (bulb)
+21 Design Thinking Process
 ---
 
-![](./bulb.png)
 
 ![](./lecture3/images/slide21_image.png)
 
@@ -203,10 +194,9 @@ In lecture, we identified the following. 1) Complexity: no two software parts ar
 
 
 ---
-26 USER AND PRODUCT REQUIREMENTS TO SYSTEM SPECIFICATIONS (bulb)
+26 USER AND PRODUCT REQUIREMENTS TO SYSTEM SPECIFICATIONS
 ---
 
-![](./bulb.png)
 
 ![](./lecture3/images/slide26_image.png)
 
@@ -219,10 +209,9 @@ Clarify all aspects of the problem.  What input data?  Who will use it?  To do w
 Will be diving deeper into requirements.
 
 ---
-27 4+1 MODEL OF ARCHITECTURE (bulb)
+27 4+1 MODEL OF ARCHITECTURE
 ---
 
-![](./bulb.png)
 
 ![](./lecture3/images/slide27_image.png)
 
@@ -235,12 +224,11 @@ Will be diving deeper into requirements.
 
 
 ---
-41 SDLC PROCESS MODELS (bulb)
+41 SDLC PROCESS MODELS
 ---
 
 ![](./ref.png)
 
-![](./bulb.png)
 
 A software life cycle model is a high level process
 
@@ -268,10 +256,9 @@ Add the V-Model?
 
 
 ---
-42 MODEL CATEGORIES (bulb)
+42 MODEL CATEGORIES
 ---
 
-![](./bulb.png)
 
 - Prescriptive Models (e.g., Waterfall) – “heavyweight”
   + Aka “planned” approach
@@ -296,28 +283,25 @@ From Lecture Deck 4
 ===
 
 ---
-5 SE’S KOBAYASHI MARU PROBLEM (bulb)
+5 SE’S KOBAYASHI MARU PROBLEM
 ---
 
-![](./bulb.png)
 
 ![](./lecture4/images/slide5_image.png)
 
 
 ---
-8 The Waterfall Model (bulb)
+8 The Waterfall Model
 ---
 
-![](./bulb.png)
 
 ![](./lecture4/images/slide8_image.png)
 
 
 ---
-19 COST OF CHANGE (bulb)
+19 COST OF CHANGE
 ---
 
-![](./bulb.png)
 
 ![](./lecture4/images/slide19_image.png)
 
@@ -330,10 +314,9 @@ Why do you think the curve looks like this? Think the construction of a building
 
 
 ---
-22 FOOTNOTES (bulb)
+22 FOOTNOTES
 ---
 
-![](./bulb.png)
 
 - What goes in, doesn’t necessarily come out (without extra process)
 - Observation: Waterfall is structurally adversarial
@@ -352,10 +335,9 @@ Meta-processes like requirements walkthroughs and sign-offs
 
 
 ---
-31 Manifesto for Agile Software Development (bulb)
+31 Manifesto for Agile Software Development
 ---
 
-![](./bulb.png)
 
 - **Individuals and interactions** over process and tools
 - **Working software** over comprehensive documentation
@@ -376,10 +358,9 @@ They would rather respond to change, rather than following a plan that may no lo
 
 
 ---
-34 SCRUM KEY TERMINOLOGY (bulb)
+34 SCRUM KEY TERMINOLOGY
 ---
 
-![](./bulb.png)
 
 ![](./keyword.png)
 
@@ -396,15 +377,14 @@ They would rather respond to change, rather than following a plan that may no lo
 
 
 ---
- 58 Rule of 10 (bulb)
+ 58 Rule of 10
 ---
 
 
 ---
- 59 Principles of lean Thinking (bulb)
+ 59 Principles of lean Thinking
 ---
 
-![](./bulb.png)
 
 ![](./keyword.png)
 
@@ -446,3 +426,18 @@ From Lecture Deck 7
 ---
 From Lecture Deck 8
 ===
+
+
+---
+12
+---
+
+![](./images/slide12_image.png)
+
+What do you think might be examples of architectural patterns in physical buildings?  
+Design patterns in consumer products?
+
+##### Extra Slide Notes
+_**Pattern**_ in architecture is the idea of _capturing architectural_ design ideas as archetypal and reusable descriptions. The term "pattern" in this context is usually attributed to _Christopher Alexander_,<sup>[1]</sup> an Austrian born _American architect_. The patterns serve as an aid to design _cities_ and _buildings_. The concept of having collections of "patterns", or typical samples as such, is much older. One can think of these collections as forming a _pattern language_, whereas the elements of this language may be combined, governed by certain rules.
+
+![](../bulb.png)
