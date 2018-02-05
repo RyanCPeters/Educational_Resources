@@ -254,7 +254,7 @@ From Lecture Deck 4
 5 SE’S KOBAYASHI MARU PROBLEM
 ---
 
-<img src="./lecture4/images/slide5_image.png" width="200" height="220" />
+<img src="./lecture4/images/slide5_image.png" width="220" height="200" />
 
 
 
@@ -263,14 +263,14 @@ From Lecture Deck 4
 ---
 
 
-<img src="./lecture4/images/slide8_image.png" width="300" height="400" />
+<img src="./lecture4/images/slide8_image.png" width="500" height="300" />
 
 
 ---
 19 COST OF CHANGE
 ---
 
-<img src="./lecture4/images/slide19_image.png" width="300" height="500" />
+<img src="./lecture4/images/slide19_image.png" width="500" height="300" />
 
 #### Extra Slide Notes
 From http://www.agilemodeling.com/essays/costOfChange.htm
@@ -293,7 +293,7 @@ Why do you think the curve looks like this? Think the construction of a building
   + Over time, pressure is on incremental improvement; constrained by previous development
 - Process Improvement: Software 6 Sigma
 
-<img src="./lecture4/images/slide22_image.png" width="400" height="500" />
+<img src="./lecture4/images/slide22_image.png" width="500" height="400" />
 
 #### Extra Slide Notes
 Implications for team and organizational functioning
