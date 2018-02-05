@@ -254,8 +254,8 @@ From Lecture Deck 4
 5 SE’S KOBAYASHI MARU PROBLEM
 ---
 
+<img src="./lecture4/images/slide5_image.png" width="200" height="200" />
 
-![](./lecture4/images/slide5_image.png)
 
 
 ---
