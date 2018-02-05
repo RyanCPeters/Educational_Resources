@@ -351,12 +351,23 @@ Note Rich vs. Reach experiences as this connects with hardware
 
 
 ---
-33
+33 IMPLEMENTATION (aka Coding) NOTES
 ---
+- Coding is a relatively minor (but still critical) “phase” of the end-to-end cycle (esp. since it is reasonably well defined)
+- Good coding style and appropriate comments reduce possible errors and make modification easier
+  + Use descriptive variable names
+  + Use proper indentation in the loop and if-then interiors
+  + Insert blank lines between distinct functions, between code blocks, etc.
+  + Remove redundant code
+  + Use functions for identifiable and recurring tasks
+  + Avoid tricky codes
+  + Adhere to consistent coding style
+
+
 
 
 ---
-34
+34 Top 4 Software Development Best Practices
 ---
 
 
@@ -376,11 +387,16 @@ Note Rich vs. Reach experiences as this connects with hardware
 
 
 ---
-38
+38 COSTS ACROSS THE PROCESS
 ---
+
+![](./images/slide38_image.png)
 
 
 #### Extra Slide Notes
+
+Note user experience example, with architecture early and details later.  Prototyping and context, and predictability.
+
 
 ---
 39
@@ -388,7 +404,11 @@ Note Rich vs. Reach experiences as this connects with hardware
 
 ![](../keyword.png)
 
+![](./images/slide39_image.png)
+
 #### Extra Slide Notes
+
+Note Deming and Juran (culture of teams, 80-20 rule, useful many vs. vital few)
 
 ---
 40 INTRO TO PROCESS TYPES
@@ -435,15 +455,15 @@ Add the V-Model?
 
 ![](../bulb.png)
 
-Prescriptive Models (e.g., Waterfall) – “heavyweight”
-Aka “planned” approach
-An ordered approach to the software process with a defined structure and expected set of activities and work products
-Promote controls that improve project acceptance, decision making, and project management
-Agile Models – “lightweight”
-Simpler to learn
-Adaptive software processes
-Emphasize unique aspects of software development
-Underlying social values or constructs
+- Prescriptive Models (e.g., Waterfall) – “heavyweight”
+  + Aka “planned” approach
+  + An ordered approach to the software process with a defined structure and expected set of activities and work products
+  + Promote controls that improve project acceptance, decision making, and project management
+- Agile Models – “lightweight”
+  + Simpler to learn
+  + Adaptive software processes
+  + Emphasize unique aspects of software development
+  + Underlying social values or constructs
 
 
 #### Extra Slide Notes
@@ -462,13 +482,24 @@ We can categorize the various models into two groups:
 44 Analysis of SDLC Models
 ---
 
-Prescriptive Models
-Waterfall Model
-Spiral Model
-Sashimi
-Spiral into waterfall
-Staged delivery
+- Prescriptive Models
+  + Waterfall Model
+  + Spiral Model
+  + Sashimi
+  + Spiral into waterfall
+  + Staged delivery
 
+- Agile Models
+  + Extreme Programming (XP)
+  + Scrum
+  + Kanban
+  + DSDM
+  + Lean
+
+- Uncategorized
+  + Code-and-Fix
+  + Evolutionary Prototyping
+  + UP or RUP
 
 ---
 45 SDLC METHOD ADOPTION
@@ -483,15 +514,41 @@ https://www.planbox.com/blog/agile/scrum/research/2013-Study-reveals-Statistics-
 
 
 ---
-46 
+46 Questions?
 ---
 
 
 ---
-47 
+47 Next Class/Week
 ---
+
+- Company Comparison (this Friday)
+- Holiday (Yay!) – time to breathe and do good works
+- Topics
+  + Plan-driven and Agile Methods
+- Assignments
+  + Reading
+    + Sommerville Ch. 3
+  + Due
+    + FoR3 – Reflections on Reading
+    + Activity #1: System Comparison Visual and SDLC Preferences
+
+
 
 
 ---
-48 
+48 ARCHITECTURE EXERCISE
 ---
+#### Activity #1 (Due Next Week)
+
+Description:
+ 
+1.  iLearn and Canvas Comparison - A Digital Learning Environment for Schools
+  - Read Section 1.3.4 (A Digital Learning Environment for Schools) on Sommerville pp.24-25.
+  - Compare and contrast this iLearn system with the UW Canvas. i.e. identify and describe 3 similarities and 3 differences between iLearn and UW Canvas.
+    + 3 Similarities
+    + 3 Differences
+  - Complete the visual diagram of the UW Canvas architecture, in a similar form given in Sommerville Figure 1.8
+
+2. SDLC Preferences (based on adopted company) 
+  - think about the unique characteristics of your company that drive its software engineering culture, and the product space you’d like to explore (potential bonus points for thinking out of the box)
