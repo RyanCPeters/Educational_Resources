@@ -254,7 +254,7 @@ From Lecture Deck 4
 5 SE’S KOBAYASHI MARU PROBLEM
 ---
 
-<img src="./lecture4/images/slide5_image.png" width="200" height="200" />
+<img src="./lecture4/images/slide5_image.png" width="400" height="400" />
 
 
 
@@ -263,15 +263,14 @@ From Lecture Deck 4
 ---
 
 
-![](./lecture4/images/slide8_image.png)
+<img src="./lecture4/images/slide8_image.png" width="400" height="400" />
 
 
 ---
 19 COST OF CHANGE
 ---
 
-
-![](./lecture4/images/slide19_image.png)
+<img src="./lecture4/images/slide19_image.png" width="400" height="400" />
 
 #### Extra Slide Notes
 From http://www.agilemodeling.com/essays/costOfChange.htm
@@ -294,7 +293,7 @@ Why do you think the curve looks like this? Think the construction of a building
   + Over time, pressure is on incremental improvement; constrained by previous development
 - Process Improvement: Software 6 Sigma
 
-![](./lecture4/images/slide22_image.png)
+<img src="./lecture4/images/slide22_image.png" width="400" height="400" />
 
 #### Extra Slide Notes
 Implications for team and organizational functioning
@@ -360,7 +359,7 @@ They would rather respond to change, rather than following a plan that may no lo
   <li>See the Whole</li>
 </ol>
 
-![](./lecture4/images/slide59_image.png)
+<img src="./lecture4/images/slide59_image.png" width="400" height="400" />
 
 
 
@@ -394,7 +393,7 @@ From Lecture Deck 8
 12
 ---
 
-![](./images/slide12_image.png)
+<img src="./lecture8/images/slide12_image.png" width="400" height="400" />
 
 What do you think might be examples of architectural patterns in physical buildings?  
 Design patterns in consumer products?
