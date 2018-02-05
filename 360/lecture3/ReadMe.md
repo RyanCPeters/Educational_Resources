@@ -65,7 +65,7 @@ https://www.tricentis.com/resource-assets/software-fail-watch-2016/
 Not a software flaw, but a hardware flaw that manifests itself through software and that needs to be solved with software.
 
 ---
-8 Why is it difficult to get error free software systems?
+8 Why is it difficult to get error free software systems? (bulb)
 ---
 
 ![](../bulb.png)
@@ -213,7 +213,7 @@ and from Ghezzi C. et. al. Fundamentals of Software Engineering, 2nd ed., 2003, 
 ![](./images/slide19_image.png)
 
 ---
-20 LIFE CYCLE OVERVIEW
+20 LIFE CYCLE OVERVIEW (bulb)
 ---
 
 ![](../bulb.png)
@@ -231,7 +231,7 @@ and from Ghezzi C. et. al. Fundamentals of Software Engineering, 2nd ed., 2003, 
 
 
 ---
-21 Design Thinking Process 
+21 Design Thinking Process (bulb)
 ---
 
 ![](../bulb.png)
@@ -280,7 +280,7 @@ and from Ghezzi C. et. al. Fundamentals of Software Engineering, 2nd ed., 2003, 
 Note we will talk a bit more about what innovation looks like when we get into requirements, and discuss the Kano model
 
 ---
-26 USER AND PRODUCT REQUIREMENTS TO SYSTEM SPECIFICATIONS
+26 USER AND PRODUCT REQUIREMENTS TO SYSTEM SPECIFICATIONS (bulb)
 ---
 
 ![](../bulb.png)
@@ -296,7 +296,7 @@ Clarify all aspects of the problem.  What input data?  Who will use it?  To do w
 Will be diving deeper into requirements.
 
 ---
-27 4+1 MODEL OF ARCHITECTURE
+27 4+1 MODEL OF ARCHITECTURE (bulb)
 ---
 
 ![](../bulb.png)
@@ -397,7 +397,7 @@ Note Rich vs. Reach experiences as this connects with hardware
 
 
 ---
-41 SDLC PROCESS MODELS
+41 SDLC PROCESS MODELS (bulb)
 ---
 
 ![](../ref.png)
@@ -430,7 +430,7 @@ Add the V-Model?
 
 
 ---
-42 MODEL CATEGORIES
+42 MODEL CATEGORIES (bulb)
 ---
 
 ![](../bulb.png)
