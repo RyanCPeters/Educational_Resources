@@ -4,7 +4,7 @@ From Lecture Deck 1
 ===
 
 ---
-28 CHANGING ROLE OF SOFTWARE
+1-28 CHANGING ROLE OF SOFTWARE
 ---
 
 - Increasing role of software in all systems
@@ -22,7 +22,7 @@ From Lecture Deck 2
 
 
 ---
-10 Large Scale IT Project
+2-10 Large Scale IT Project
 ---
 
 #### McKinsey & Company Report (2012) 
@@ -41,7 +41,7 @@ From Lecture Deck 2
 
 
 ---
-13 FOCUS OF SE
+2-13 FOCUS OF SE
 ---
 
 Software engineering includes
@@ -55,7 +55,7 @@ Lifecycle system engineering
 
 
 ---
-19 ETHICAL PRINCIPLES
+2-19 ETHICAL PRINCIPLES
 ---
  
 1. PUBLIC - Software engineers shall act consistently with the public interest.
@@ -78,7 +78,7 @@ Press issues of bias, harassment, transparency about slowing down your old iPhon
 
 
 ---
-24 EMPOYEE CONTRACTS: THE FINE PRINT
+2-24 EMPOYEE CONTRACTS: THE FINE PRINT
 ---
 
 - Non-Disclosure Agreements (NDA)
@@ -108,7 +108,7 @@ From Lecture Deck 3
 
 
 ---
-8 Why is it difficult to get error free software systems?
+3-8 Why is it difficult to get error free software systems?
 ---
 
 
@@ -136,7 +136,7 @@ In lecture, we identified the following. 1) Complexity: no two software parts ar
 
 
 ---
-20 LIFE CYCLE OVERVIEW
+3-20 LIFE CYCLE OVERVIEW
 ---
 
 
@@ -154,7 +154,7 @@ In lecture, we identified the following. 1) Complexity: no two software parts ar
 
 
 ---
-21 Design Thinking Process
+3-21 Design Thinking Process
 ---
 
 
@@ -163,7 +163,7 @@ In lecture, we identified the following. 1) Complexity: no two software parts ar
 
 
 ---
-26 USER AND PRODUCT REQUIREMENTS TO SYSTEM SPECIFICATIONS
+3-26 USER AND PRODUCT REQUIREMENTS TO SYSTEM SPECIFICATIONS
 ---
 
 
@@ -178,7 +178,7 @@ Clarify all aspects of the problem.  What input data?  Who will use it?  To do w
 Will be diving deeper into requirements.
 
 ---
-27 4+1 MODEL OF ARCHITECTURE
+3-27 4+1 MODEL OF ARCHITECTURE
 ---
 
 
@@ -193,7 +193,7 @@ Will be diving deeper into requirements.
 
 
 ---
-41 SDLC PROCESS MODELS
+3-41 SDLC PROCESS MODELS
 ---
 
 
@@ -224,7 +224,7 @@ Add the V-Model?
 
 
 ---
-42 MODEL CATEGORIES
+3-42 MODEL CATEGORIES
 ---
 
 
@@ -251,7 +251,7 @@ From Lecture Deck 4
 ===
 
 ---
-5 SE’S KOBAYASHI MARU PROBLEM
+4-5 SE’S KOBAYASHI MARU PROBLEM
 ---
 
 <img src="./lecture4/images/slide5_image.png" width="220" height="200" />
@@ -259,7 +259,7 @@ From Lecture Deck 4
 
 
 ---
-8 The Waterfall Model
+4-8 The Waterfall Model
 ---
 
 
@@ -267,7 +267,7 @@ From Lecture Deck 4
 
 
 ---
-19 COST OF CHANGE
+4-19 COST OF CHANGE
 ---
 
 <img src="./lecture4/images/slide19_image.png" width="500" height="300" />
@@ -281,7 +281,7 @@ Why do you think the curve looks like this? Think the construction of a building
 
 
 ---
-22 FOOTNOTES
+4-22 FOOTNOTES
 ---
 
 
@@ -302,7 +302,7 @@ Meta-processes like requirements walkthroughs and sign-offs
 
 
 ---
-31 Manifesto for Agile Software Development
+4-31 Manifesto for Agile Software Development
 ---
 
 
@@ -325,7 +325,7 @@ They would rather respond to change, rather than following a plan that may no lo
 
 
 ---
-34 SCRUM KEY TERMINOLOGY
+4-34 SCRUM KEY TERMINOLOGY
 ---
 
 - Development Team
@@ -341,12 +341,12 @@ They would rather respond to change, rather than following a plan that may no lo
 
 
 ---
- 58 Rule of 10
+4-58 Rule of 10
 ---
 
 
 ---
- 59 Principles of lean Thinking
+4-59 Principles of lean Thinking
 ---
 
 <ol>
@@ -369,7 +369,7 @@ From Lecture Deck 5
 
 
 ---
-9 Reqs. Contd. (bulb)
+5-9 Reqs. Contd. (bulb)
 ---
 
 <img src="../bulb.png" width="30" height="30" />
@@ -390,7 +390,7 @@ Focus on what needs to be done, what is the problem, instead of how it will be d
 
 
 ---
-13 Kano Model (bulb)
+5-13 Kano Model (bulb)
 ---
 
 <img src="../bulb.png" width="30" height="30" />
@@ -400,7 +400,7 @@ Focus on what needs to be done, what is the problem, instead of how it will be d
 
 
 ---
-16 Requirements Specification (bulb)
+5-16 Requirements Specification (bulb)
 ---
 
 <img src="../bulb.png" width="30" height="30" />
@@ -418,7 +418,7 @@ Process of "writing down" the user and system requirements in a requirements doc
 
 
 ---
-23 Functional Requirements
+5-23 Functional Requirements
 ---
 
 - Describe the functionality or services that the system is expected to provide.
@@ -459,7 +459,7 @@ From Lecture Deck 8
 
 
 ---
-12
+8-12
 ---
 
 <img src="./lecture8/images/slide12_image.png" width="400" height="400" />
