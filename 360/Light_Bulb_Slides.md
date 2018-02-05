@@ -50,6 +50,7 @@ Determining what to build
 Software architecture
 Analysis and testing
 Lifecycle system engineering
+
 ![](./lecture2/images/slide13_image.png)
 
 
@@ -146,6 +147,7 @@ In lecture, we identified the following. 1) Complexity: no two software parts ar
 | Testing/QA and Validation | Check if you conformed to your plan (verification) and if you met customer expectations (validation) | 
 | Deployment and Maintenance | Ongoing changes to the system |
 | Repeat (Evolution) | |
+
 
 ![](./lecture3/images/slide20_image.png)
 
