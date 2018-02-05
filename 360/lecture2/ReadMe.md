@@ -56,12 +56,12 @@ IT’S A MATTER OF SCALE
 
 
 ---
-7 
+7 Just pictures
 ---
 
 
 ---
-8 
+8 More pictures
 ---
 
 
@@ -186,6 +186,14 @@ Lifecycle system engineering
 ![](../bulb.png)
 ![](../ref.png)
 
+##### Extra Slide Notes
+
+Which do you think may be the hardest to uphold in your professional life?  Why?
+
+Note that corporations also have policies and ethical principles.
+
+Press issues of bias, harassment, transparency about slowing down your old iPhone, Facebook and Twitter algorithms, etc.
+
 ---
 20 GROUP DISCUSSION EXAMPLES
 ---
@@ -240,6 +248,17 @@ Lifecycle system engineering
 
 ![](../bulb.png)
 
+##### Extra Slide notes
+
+What is the challenge?  When you move to a new job?  How do you handle it?
+
+Note tools for companies to protect themselves.  Automatic searches and monitoring traffic.
+
+Work for hire – freelancers or contractors
+Note Microsoft story, and GE arrangements; implications for corporate budgets and management
+
+Note Bonus/Stock footnotes
+
 
 ---
 25 DEMONSTRATING COMPETENCE: BEYOND THE DEGREE 
@@ -267,6 +286,25 @@ _**Does IP help innovation or hurt it?**_
 
 ![](../keyword.png)
 
+#### Extra Slide Notes
+
+Does IP help innovation or hurt it?
+
+Bell Labs and cheap licensing
+Ameritech and Microsoft – defensive protection; and defensive publication – patent troll phenomenon
+Shifting landscape – harder to get some kinds of ideas protected, cost to maintain a patent, so companies are starting to release patents for anyone to use
+More dynamic world where a product or service might be constructed with other people’s protected components or systems, open source, and then proprietary/patented components
+What Chesbrough calls Open Innovation
+
+Note Corporate IP Protection Technologies
+Note Philosophy of Open Source vs. Protected Code vs. Mixed
+Note Open Innovation
+Note Costs and Time
+Note changing legal environment
+Expirations
+Maintaining IP
+
+Source: Alspaugh, T., Asuncion, H, Scacchi, W. Intellectual Property Rights for Heterogeneously-Licensed Systems. International Requirements Engineering Conference 2009.
 
 ---
 27 IP contd. 
@@ -285,6 +323,18 @@ In the US, IP is defined by:
 Note patent board, generic architecture, business case/trading issues, etc.
 Also design patents.
 
+Note telephone keys, that was standardized through an international standards body
+The time passing donut could have been protected as a design patent, but part of why it spread was it was given away so no one could patent anything close to it
+
+Standardizing the trash can
+NeXT (Steve Jobs) created a black hole. That was design patented, and there COULD have been a functional patent developed if it had richer functionality
+
+Company rewards and encouragement – filing, and then granting several years later
+Part of performance review, fairly low barrier to submit typically, though a fair amount of work to refine with the lawyers
+
+Lund Examples, and Wind Farm Story
+
+Source: Alspaugh, T., Asuncion, H, Scacchi, W. Intellectual Property Rights for Heterogeneously-Licensed Systems. International Requirements Engineering Conference 2009.
 
 
 ---
