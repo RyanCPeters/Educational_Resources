@@ -3,36 +3,6 @@
 From Lecture Deck 1
 ===
 
-
----
-19 OF NOTE
----
-
-<ul>
-  <li>Syllabus and Schedule will Evolve</li>
-  <li>Focus on Reading Check-ins, and prepare for class discussion</li>
-  <li>Icon Coding and Supplemental Content</li>
-  <li>Group Project – Software Engineering Simulation
-    <ul>
-          <li>Class Time + Outside</li>
-          <li>360 Process</li>
-    </ul>
-  </li>
-  <li>Individual Research Project</li>
-  <li>Importance of a Personal and Team Workback Schedule
-    <ul>
-      <li>Discussion Forum</li>
-      <li>Class Q&A</li>
-    </ul>
-  </li>
-</ul>
-
-![Know where to look for this slide's content](./ref.png)
-
-![Know the terminology used on this slide](./keyword.png)
-
-
-
 ---
 28 CHANGING ROLE OF SOFTWARE
 ---
@@ -96,7 +66,6 @@ Lifecycle system engineering
 7. COLLEAGUES - Software engineers shall be fair to and supportive of their colleagues.
 8. SELF - Software engineers shall participate in lifelong learning regarding the practice of their profession and shall promote an ethical approach to the practice of the profession.
 
-![](./ref.png)
 
 ##### Extra Slide Notes
 
@@ -187,9 +156,7 @@ In lecture, we identified the following. 1) Complexity: no two software parts ar
 ---
 
 
-![](./lecture3/images/slide21_image.png)
-
-![](./keyword.png)
+![](./lecture3/images/slide21_image.png
 
 
 
@@ -227,7 +194,6 @@ Will be diving deeper into requirements.
 41 SDLC PROCESS MODELS
 ---
 
-![](./ref.png)
 
 
 A software life cycle model is a high level process
@@ -361,9 +327,6 @@ They would rather respond to change, rather than following a plan that may no lo
 34 SCRUM KEY TERMINOLOGY
 ---
 
-
-![](./keyword.png)
-
 - Development Team
 - Product Owner
 - Scrum Master:
@@ -384,9 +347,6 @@ They would rather respond to change, rather than following a plan that may no lo
 ---
  59 Principles of lean Thinking
 ---
-
-
-![](./keyword.png)
 
 <ol>
   <li>Eliminate Waste</li>
