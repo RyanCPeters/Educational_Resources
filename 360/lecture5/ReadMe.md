@@ -415,7 +415,7 @@ practice contd.
 32 Feasibility study
 ---
 
-<img src="../ref.png" width="30" height="30" />
+<img src="../ref.png" width="400" height="400" />
 
 - A feasibility study decides whether or not the worthwhile proposed system is doable
 - checks whether
