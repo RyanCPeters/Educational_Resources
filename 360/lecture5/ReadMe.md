@@ -415,7 +415,7 @@ practice contd.
 32 Feasibility study
 ---
 
-<img src="../ref.png" width="400" height="400" />
+<img src="../ref.png" width="30" height="30" />
 
 - A feasibility study decides whether or not the worthwhile proposed system is doable
 - checks whether
@@ -424,7 +424,7 @@ practice contd.
   + system can be integrated with other systems that are used
   + define scope (what features do we ***NEED*** to implement)
 
-<img src="./images/slide32_image.png" width="30" height="30" />
+<img src="./images/slide32_image.png" width="400" height="400" />
 
 - Common Examples
   + Budget
