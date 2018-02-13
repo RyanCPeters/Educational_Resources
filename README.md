@@ -33,37 +33,38 @@ As such, it will see more resources added as I get the time or as people choose 
     + [January 3][1-343]
     + [January 8][2-343]
     + [January 10][3-343]
-    + [January 15][4-343]
-    + [January 17][5-343]
-    + [January 22][6-343]
-    + [January 24][7-343]
-    + [January 29][8-343]
-    + [January 31][9-343]
-    + February 5 
+    + January 15 -- no lecture, MLK Day
+    + [January 17][4-343]
+    + [January 22][5-343]
+    + [January 24][6-343]
+    + [January 29][7-343]
+    + [January 31][8-343]
+    + [February 5][9-343] 
     + February 7
     + February 12
     + February 14
-    + February 19
+    + February 19 -- no lecture, Presidents day
     + February 21
   - Assignments
     + [1: TurtleProgram]
     + [2: BinarySearchTree]
+    + 3: GraphTraversalProgram
 + CSS 360
   - Lectures
     + [January 3][1-360]
     + [January 8][2-360]
     + [January 10][3-360]
-    + [January 15][4-360]
-    + [January 17][5-360]
-    + [January 22][6-360]
-    + [January 24][7-360]
-    + [January 29][8-360]
-    + [January 31][9-360]
-    + February 5 
+    + January 15 -- no lecture, MLK Day
+    + [January 17][4-360]
+    + [January 22][5-360]
+    + [January 24][6-360]
+    + [January 29][7-360]
+    + [January 31][8-360]
+    + [February 5][9-360] 
     + February 7
     + February 12
     + February 14
-    + February 19
+    + February 19 -- no lecture, Presidents day
     + February 21
   - Assignments
     +
