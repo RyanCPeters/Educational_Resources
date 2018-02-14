@@ -18,7 +18,7 @@ As such, it will see more resources added as I get the time or as people choose 
     + [January 23][6-337]
     + [January 25][7-337]
     + [January 30][8-337]
-    + [February 1][9-337]
+    + [February 1][9-337] not yet implemented
     + February 6 
     + February 8
     + February 13
@@ -37,9 +37,9 @@ As such, it will see more resources added as I get the time or as people choose 
     + [January 17][4-343]
     + [January 22][5-343]
     + [January 24][6-343]
-    + [January 29][7-343]
-    + [January 31][8-343]
-    + [February 5][9-343] 
+    + [January 29][7-343] not yet implemented
+    + [January 31][8-343] not yet implemented
+    + [February 5][9-343]  not yet implemented
     + February 7
     + February 12
     + February 14
@@ -60,7 +60,7 @@ As such, it will see more resources added as I get the time or as people choose 
     + [January 24][6-360]
     + [January 29][7-360]
     + [January 31][8-360]
-    + [February 5][9-360] 
+    + [February 5][9-360] not yet implemented
     + February 7
     + February 12
     + February 14
