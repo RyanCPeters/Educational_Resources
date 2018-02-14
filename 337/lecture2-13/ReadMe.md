@@ -521,13 +521,25 @@ Disadvantages:
 Significant effort to identify and review new malware to create signatures
 inability to detect zero-day attacks
 
-Analysis Approaches
+
+---
+29 Analysis Approaches
+---
+
 Anomaly Detection:
 Involves the collection of data relating to the behavior of legitimate users over a period of time
 Current observed behavior is analyzed to determine whether this behavior is that of a legitimate user or that of an intruder
 
-Anomaly Detection Example
-Anomaly Detection Advantages & Disadvantages
+
+---
+30 Anomaly Detection Example
+---
+
+
+---
+31 Anomaly Detection Advantages & Disadvantages
+---
+
 Advantages:
 Able to detect unknown, zero-day attacks
 
@@ -536,24 +548,39 @@ High False positives rate
 They are generally trained on legitimate data
 This limits the effectiveness of some of the techniques discussed. 
 
-IDS principles
-Assumption: intruder behavior differs from legitimate users
-Expect overlap as shown
-    for legit users:
-   Observe major deviations
-  from past history
-Problems of:
-false positives
-false negatives
-must compromise
-IDS Evaluation Metrics
-False positive: An event, incorrectly identified by the IDS as being an intrusion when none has occurred
-False negative: An event that the IDS fails to identify as an intrusion when one has in fact occurred
-True Positives : An event the IDS accurately identifies as intrusion
-IDS Goals:
-Maximize True positives
-Minimize false positives, false negatives
-Minimize time spent verifying attacks, looking for them
+
+---
+32 IDS principles
+---
+
+- Assumption: intruder behavior differs from legitimate users
+  + Expect overlap as shown for legit users:
+  +    Observe major deviations from past history
+
+![](./images/slide32.png)
+
+- Problems of:
+  + false positives
+  + false negatives
+  + must compromise
+
+
+
+#### additional slide notes
+
+Intrusion detection is based on the assumption that the behavior of the intruder differs from that of a legitimate user in ways that can be quantified. Of course, we cannot expect that there will be a crisp, exact distinction between an attack by an intruder and the normal use of resources by an authorized user. Rather, we must expect that there will be some overlap, as shown by Figure. Patterns of legitimate user behavior can be established by observing past history, and significant deviation from such patterns can possibly be detected. Although the typical behavior of an intruder differs from the typical behavior of an authorized user, there is an overlap in these behaviors. Thus, a loose interpretation of intruder behavior, which will catch more intruders, will also lead to a number of false positives, or authorized users identified as intruders. On the other hand, an attempt to limit false positives by a tight interpretation of intruder behavior will lead to an increase in false negatives, or intruders not identified as intruders. Thus, there is an element of compromise and art in the practice of intrusion detection. 
+
+---
+33 IDS Evaluation Metrics
+---
+
+- False positive: An event, incorrectly identified by the IDS as being an intrusion when none has occurred
+- False negative: An event that the IDS fails to identify as an intrusion when one has in fact occurred
+- True Positives : An event the IDS accurately identifies as intrusion
+- IDS Goals:
+  + Maximize True positives
+  + Minimize false positives, false negatives
+  + Minimize time spent verifying attacks, looking for them
 
 
 
