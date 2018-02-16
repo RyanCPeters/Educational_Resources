@@ -78,6 +78,8 @@ System 1 sends SYN packet to System 2.
 System 2 responds with SYN/ACK packet.
 System 1 sends ACK packet  to System 2 and communications can then proceed.
 
+![](./images/slide5.png)
+
 #### additional slide notes
 
 First, System 1 sends a SYN packet to System 2 indicating a desire to communicate with the system.
@@ -107,7 +109,7 @@ However, if the attacker is able to send this type of communication requests qui
 7 SYN Flood Attack
 ---
 
-![](./images)
+![](./images/slide7.png)
 
 #### additional slide notes
 This illustration shows a SYN flood attack as described in the previous slide.
@@ -116,10 +118,10 @@ This illustration shows a SYN flood attack as described in the previous slide.
 8 Distributed Denial-of-Service Attack (DDoS)
 ---
 
-   Goal is to deny access or service to authorized users
-Uses resources of many systems combined into an attack network
-Overwhelms target system or network
-With enough attack agents, even simple web traffic can quickly affect a large website
+- Goal is to deny access or service to authorized users
+  + Uses resources of many systems combined into an attack network
+  + Overwhelms target system or network
+  + With enough attack agents, even simple web traffic can quickly affect a large website
 
 #### additional slide notes
 Security + Objective 2.1h DDoS attacks
@@ -135,7 +137,7 @@ If the attack network is large enough, even simple web traffic can quickly overw
 9 Denial-of-Service Attack
 ---
 
-![]()
+![](./images/slide9.png)
 
 #### additional slide notes
 Security + Objective 2.1h DDoS attacks
@@ -146,11 +148,11 @@ This illustration shows a DDoS attack as described in the previous slide.
 10 Ping of Death (POD)
 ---
 
-Another example of a DoS attack.
-Illustrates an attack targeting a specific application.
-Attacker sends (ICMP) ping packet > 64KB.
-This ping packet size should not occur naturally.
-ICMP packet will crash certain systems unable to handle it.
+- Another example of a DoS attack.
+  + Illustrates an attack targeting a specific application.
+- Attacker sends (ICMP) ping packet > 64KB.
+  + This ping packet size should not occur naturally.
+- ICMP packet will crash certain systems unable to handle it.
 
 #### additional slide notes
 A Ping of Death attack (POD) is an example of a DoS attack which targets a specific protocol or operating system.
@@ -164,26 +166,26 @@ Some systems cannot handle the packet and will hang or crash.
 11 Buffer Overflow Attack
 ---
 
-Buffer or memory pool is a necessity in programming applications
-Example: login application – need memory space to accept user input and password
-application error or Buffer overflow occurs when more data is sent to a buffer than it can handle
-Buffer overflow causes
- DoS attack or
-can make the target system execute instructions, or 
-the attacker can take advantage of some other unintended consequence of the failure
-Examples:
-Sending oversized ICMP request packets(ping of death)
+- Buffer or memory pool is a necessity in programming applications
+- Example: login application – need memory space to accept user input and password
+- application error or Buffer overflow occurs when more data is sent to a buffer than it can handle
+- Buffer overflow causes
+  + DoS attack or
+  + can make the target system execute instructions, or 
+  + the attacker can take advantage of some other unintended consequence of the failure
+- Examples:
+  + Sending oversized ICMP request packets(ping of death)
 
 
 ---
 12 Sniffing
 ---
 
-Attacker observes all network traffic.
-Software, hardware, or combination of the two
-Ability to target specific protocol, service, string of characters, etc.
-May be able to modify some or all traffic in route
-Network administrators can use to monitor and troubleshoot network performance.
+- Attacker observes all network traffic.
+  + Software, hardware, or combination of the two
+  + Ability to target specific protocol, service, string of characters, etc.
+  + May be able to modify some or all traffic in route
+- Network administrators can use to monitor and troubleshoot network performance.
 
 #### additional slide notes
 TCP/IP protocols were originally developed to operate in a friendly environment where each system connected to the network used the protocols as they were designed.  However, as time went on, the protocols began to be abused as is illustrated by network-traffic sniffing programs, sometimes referred to as sniffers.
@@ -198,7 +200,7 @@ Network administrators may also use sniffers to analyze network traffic, identif
 13 Sniffing (continued)
 ---
 
-![]()
+![](./images/slide13.png)
 
 #### additional slide notes
 This illustration depicts an internal attacker with the ability to observe all network traffic.
