@@ -4,10 +4,6 @@ Lecture 6: Network Recconaissance
 Lecture by: [Dr. Geethapriya Thamilarasu](http://faculty.washington.edu/geetha/)
 ---
 
-
-
-
-
 ---
 Reconnaissance
 ---
