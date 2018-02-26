@@ -212,12 +212,12 @@ This is another reason that physical security is an important part of informatio
 14 Spoofing
 ---
 
-True source of data is disguised:
-Commonly accomplished by altering packet header information with false information
-Can be used for a variety of purposes
-Spoofing e-mail:
-From address differs from sending system
-Recipients rarely question authenticity of the e-mail
+- True source of data is disguised:
+  + Commonly accomplished by altering packet header information with false information
+  + Can be used for a variety of purposes
+- Spoofing e-mail:
+  + From address differs from sending system
+  + Recipients rarely question authenticity of the e-mail
 
 #### additional slide notes
 Security + Objective 2.1d spoofing
@@ -233,13 +233,13 @@ Recipients can use several methods to determine whether an e-mail message was se
 15 IP Spoofing figure
 ---
 
-![]()
+![](./images/slide15.png)
 
 ---
 16 IP Address Spoofing
 ---
 
-![]()
+![](./images/slide16.png)
 
 #### additional slide notes
 Security + Objective 2.1d spoofing
@@ -265,7 +265,7 @@ All the systems on these networks reply to the victim with ICMP echo replies. Th
 18 Spoofing and Trusted Relationships
 ---
 
-![]()
+![](./images/slide18.png)
 
 #### additional slide notes
 Security + Objective 2.1d spoofing
@@ -313,7 +313,7 @@ If the data being intercepted from the target hosts is encrypted, the attacker m
 ---
 20 Man-in-the-Middle Attack (continued)
 ---
-![]()
+![](./images/slide20.png)
 
 #### additional slide notes
 Security + Objective 2.1e Man in the middle attacks
