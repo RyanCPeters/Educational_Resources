@@ -28,7 +28,7 @@ NIST 800-83 defines malware as:
 4 Taxonomy of Malicious Programs
 ---
 
-![]()
+![](./images/slide4.png)
 
 ---
 5 What is a Virus?
@@ -694,7 +694,11 @@ Helps prevent the spread of rogue programs
 True access needs to be managed through  multiuser operating system that allows the system administrator to set up file permission levels on a user-by-user basis
 Access control will not remove or even detect the existence of a rogue program.
 Only resists the infection
-Preventive Measures
+
+---
+55 Preventive Measures
+---
+
 Checksum Verification
 A checksum, or cyclic redundancy check (CRC), is a mathematical verification of the data within a file.
 A checksum allows the contents of the file to be expressed as a numeric quantity. 
@@ -702,20 +706,32 @@ If a single byte of data within the file changes, the checksum value changes, ev
 Helpful against cavity viruses
 CRC is then performed at regular intervals to look for file changes.
 Drawbacks: cannot detect or clean file infection
-Preventive Measures
+
+---
+56 Preventive Measures
+---
+
 Process Monitoring
 Process monitoring observes system activity and intercepts anything that looks suspicious.
 Example: BIOS Virus warning
 When enabled, this setting allows the computer to intercept all write attempts to the master boot record. 
 If a boot sector virus attempts to save itself to this area, the BIOS interrupts the request and prompts the user for approval.
-Preventive Measures
+
+---
+57 Preventive Measures
+---
+
 Problems with Process Monitoring
 Viruses and normal programs share a lot of similar attributes
 Difficult to distinguish
 Requires user intervention and proficiency
 
 
-Preventive Measures
+
+---
+58 Preventive Measures
+---
+
 Virus Scanners
 Virus scanners use signature files to locate viruses in infected files.
  A signature file is simply a database that lists all known viruses, along with their specific attributes. 
@@ -723,7 +739,11 @@ Attributes include samples of each virus’s code, the types of files it infects
 When a scanner checks a file, it looks to see if any of the code in the file matches any of the entries in the signature file.
 If a match is found, the virus scanner notifies the user that a virus has been detected. 
 Most scanners can then run a separate process that can clean the virus, as well.
-Preventive Measures
+
+---
+59 Preventive Measures
+---
+
 Virus Scanners
 Drawbacks:
 Can detect only known viruses
@@ -733,7 +753,11 @@ On-demand
  Memory-resident
 
 Tested AV sites: http://av-comparatives.org/
-Preventive Measures
+
+---
+60 Preventive Measures
+---
+
 Virus Scanners
 On-demand scanners:
 Manual or automatic process that typically searches an entire drive or system for viruses.
@@ -744,14 +768,22 @@ Whenever a file is accessed, a memory resident scanner intercepts the file call 
 On demand scanners work after the virus is detected
 Memory resident has a tradeoff with cost and performance
 
-Preventive Measures
+
+---
+61 Preventive Measures
+---
+
 Heuristic Scanners
 Heuristic scanners perform a statistical analysis to determine the likelihood that a file contains program code that may indicate a virus. 
 A heuristic scanner does not compare code with a signature file as a virus scanner does; it uses a grading system to determine the probability that the program code being analyzed is a virus. 
 If the program code scores enough points, the heuristic scanner notifies the user that a virus has been detected.
 Advantage: Can detect new unknown viruses
 Disadvantage: High false positives rate
-Preventive Measures
+
+---
+62 Preventive Measures
+---
+
 Application-Level Virus Scanners
 Responsible for securing a specific service throughout an organization.
 InterScan VirusWall (in SMTP) can perform a full virus scan of all attachments before relaying them to an internal mail host.

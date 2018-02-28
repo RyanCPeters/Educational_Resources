@@ -1,0 +1,16 @@
+
+Joy2::
+Send {4 down}   ; Press the 4 key down.
+SetTimer, WaitForJoy2, 30  ; Reduce the number 30 to 20 or 10 to send keys faster. Increase it to send slower.
+return
+
+WaitForJoy2:
+if not GetKeyState("Joy2")  ; The button has been released.
+{
+    Send {4 up}  ; Release the 4.
+    SetTimer, WaitForJoy2, Off  ; Stop monitoring the button.
+    return
+}
+; Since above didn't "return", the button is still being held down.
+Send {4 down}  ; Send another 4 keystroke.
+return
