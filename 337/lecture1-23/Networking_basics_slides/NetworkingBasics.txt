@@ -1,244 +1,174 @@
-Slide 1
-
-
-
-
-
-
-Slide 2
-
-
-
-
-
-
-Slide 3
-
-
-
-
-
-
-Slide 4
-
-
-
-
-
-
-Slide 5
-
-
-
-
-
-
-Slide 6
-
-
-
-
-
-
-Slide 7
-
-
-
-
-
-
-Slide 8
-
-
-
-
-
-
-Slide 9
-
-
-
-
-
-
-Slide 10
-
-
-
-
-
-
-Slide 11
-
-
-
-
-
-
-Slide 12
-
-
-
-
-
-
-Slide 13
-
-
-
-
-
-
-Slide 14
-
-
-
-
-
-
-Slide 15
-
-
-
-
-
-
-Slide 16
-
-
-
-
-
-
-Slide 17
-
-
-
-
-
-
-Slide 18
-
-
-
-
-
-
-Slide 19
-
-
-
-
-
-
-Slide 20
-
-
-
-
-
-
-Slide 21
-
-
-
-
-
-
-Slide 22
-
-
-
-
-
-
-Slide 23
-
-
-
-
-
-
-Slide 24
-
-
-
-
-
-
-Slide 25
-
-
-
-
-
-
-Slide 26
-
-
-
-
-
-
-Slide 27
-
-
-
-
-
-
-Slide 28
-
-
-
-
-
-
-Slide 29
-
-
-
-
-
-
-Slide 30
-
-
-
-
-
-
-Slide 31
-
-
-
-
-
-
-Slide 32
-
-
-
-
-
-
-Slide 33
-
-
-
-
-
-
-Slide 34
-
-
-
-
-
-
-Slide 35
-
-
-
-
-
+Networking Basics
+===
+
+Created By: [Dr. Geethapriya Thamilarasu](http://faculty.washington.edu/geetha/)
+---
+
+##### Formatted to work in GitHub's markdown syntax by Ryan Peters
+
+
+---
+2 What’s a protocol?
+---
+
+
+human protocols:
+“what’s the time?”
+“I have a question”
+introductions
+
+… specific msgs sent
+… specific actions taken when msgs received, or other events
+network protocols:
+machines rather than humans
+all communication activity in Internet governed by protocols
+
+a human protocol and a computer network protocol:
+
+Protocol Layering
+A protocol defines the rules that both the sender and receiver and all intermediate devices need to follow to be able to communicate effectively. 
+When communication is simple, we may need only one simple protocol; when the communication is complex, we need a protocol at each layer, or protocol layering
+
+Organization of air travel
+a series of steps
+Layering of airline functionality
+layers: each layer implements a service
+via its own internal-layer actions
+relying on services provided by layer below
+
+Why layering?
+Dealing with complex systems:
+explicit structure allows identification, relationship of complex system’s  pieces
+layered reference model for discussion
+modularization eases maintenance, updating of system
+change of implementation of layer’s service transparent to rest of system
+e.g., change in gate procedure doesn’t affect rest of system
+layering considered harmful?
+
+TCP/IP Protocol Suite
+TCP/IP is a protocol suite used in the Internet today. It is a hierarchical protocol made up of interactive modules, each of which provides a specific functionality. 
+The term hierarchical means that each upper level protocol is supported by the services provided by one or more lower level protocols. 
+The original TCP/IP protocol suite was defined as four software layers built upon the hardware. 
+Today, however, TCP/IP is thought of as a five-layer model. 
+
+
+Application Layer
+An application-layer protocol is distributed over multiple end systems, with the application in one end system using the protocol to exchange packets of information with the application in another end system.
+Communication is between two processes (two programs)
+Protocols at the TCP/IP Application layer include:
+Hypertext Transfer Protocol (HTTP) – web access
+Simple Mail Transfer Protocol (SMTP) - transfer of e-mail messages
+File Transfer Protocol (FTP) – transfer files from one host to another
+Terminal emulation protocol (telnet) – remote access
+Domain Name System (DNS) – find network address
+Packets in Application layer are called Messages
+Transport Layer
+Performs end-to-end packet delivery, reliability, and flow control
+Responsible for providing services to the application layer
+Application layer message encapsulated in transport layer packet (segment or user datagram)
+Protocols:
+TCP provides reliable, connection-oriented communications between two hosts
+Requires more network overhead
+Provides flow control, error control, congestion control
+UDP provides connectionless datagram services between two hosts
+Faster but less reliable
+Reliability is left to the Application layer
+Internet/ Network Layer
+Responsible for connection between the source host and destination host
+Communication at the network layer is host-to-host
+Routers in the path between source and destination responsible for determining the best route for each packet
+Four main protocols function at this layer
+Internet Protocol (IP) - responsible for addressing and routing
+Internet Control Message Protocol (ICMP) – report problems with routing a packet
+Address Resolution Protocol (ARP) – translate IP address to link layer address of a host or router
+Reverse Address Resolution Protocol (RARP)
+Packets in network layer are called Datagrams
+
+
+
+
+Network Interface Layer
+Plays the same role as the Data Link and Physical layers of the OSI model
+Responsible for taking the datagram and moving it across the link
+Link can be wired LAN with a link layer switch, wireless LAN,  wired WAN or wireless WAN
+Packets in datalink layer are called Frames
+The MAC address, network card drivers, and specific interfaces for the network card function at this level 
+No specific IP functions exist at this layer
+Because the layer’s focus is on communication with the network card and other networking hardware
+Physical Layer
+Responsible for carrying individual bits in a frame across the link
+Two devices are connected by a transmission medium  (cable, air)
+Protocols Involved in a day in the Life of a Web Page Request
+DHCP (Dynamic host configuration protocol)
+IP addresses: how to get one?
+Q: How does a host get IP address?
+
+hard-coded by system admin in a file
+Windows: control-panel->network->configuration->tcp/ip->properties
+UNIX: /etc/rc.config
+
+DHCP: Dynamic Host Configuration Protocol: dynamically get address from a server
+“plug-and-play” 
+
+
+DHCP: Dynamic Host Configuration Protocol
+goal: allow host to dynamically obtain its IP address from network server when it joins network
+can renew its lease on address in use
+allows reuse of addresses (only hold address while connected/“on”)
+support for mobile users who want to join network (more shortly)
+DHCP overview:
+host broadcasts “DHCP discover” msg [optional]
+DHCP server responds with “DHCP offer” msg [optional]
+host requests IP address: “DHCP request” msg
+DHCP server sends address: “DHCP ack” msg 
+
+DHCP client-server scenario
+DHCP client-server scenario
+DHCP: more than IP addresses
+DHCP can return more than just allocated IP address on subnet:
+address of first-hop router (default gateway) for client
+name and IP address of DNS sever
+network mask (indicating network versus host portion of address)
+DNS (Domain name system)
+Example:    User requests the URL www.someschool.edu/index.html 
+User machine runs the client side of the DNS application.
+The browser extracts the hostname, www.someschool.edu, from the URL and passes the hostname to the client side of the DNS application.
+The DNS client sends a query containing the hostname to a DNS server.
+The DNS client eventually receives a reply, which includes the IP address for the hostname.
+Once the browser receives the IP address from DNS, it can initiate a TCP connection to the HTTP server process located at port 80 at that IP address.
+DNS: a distributed, hierarchical database
+client wants IP for www.amazon.com; 
+client queries root server to find .com DNS server
+client queries .com TLD DNS server to get amazon.com DNS server
+client queries amazon.com authoritative DNS server to get  IP address for www.amazon.com
+TLD, authoritative servers
+top-level domain (TLD) servers:
+responsible for com, org, net, edu, aero, jobs, museums, and all top-level country domains, e.g.: uk, fr, ca, jp
+Network Solutions maintains servers for .com TLD
+Educause for .edu TLD
+
+authoritative DNS servers: 
+organization’s own DNS server(s), providing authoritative hostname to IP mappings for organization’s named hosts 
+can be maintained by organization or service provider
+
+Local DNS name server
+Does not strictly belong to hierarchy
+Each ISP (residential ISP, company, university) has one
+also called “default name server”
+When host makes DNS query, query is sent to its local DNS server
+has local cache of recent name-to-address translation pairs (but may be out of date!)
+acts as proxy, forwards query into hierarchy
+
+DNS name resolution example
+host at cis.poly.edu wants IP address for gaia.cs.umass.edu
+A day in the life: scenario
+A day in the life… connecting to the Internet
+ Connecting laptop needs to get its own IP address, address of first-hop router, address of DNS server: use DHCP
+A day in the life… connecting to the Internet
+DHCP server formulates DHCP ACK containing client’s IP address, IP address of first-hop router for client, name & IP address of DNS server
+
+A day in the life… ARP (before DNS, before HTTP)
+before sending HTTP request, need IP address of www.google.com:  DNS
+A day in the life… using DNS
+A day in the life…TCP connection carrying HTTP
+A day in the life… HTTP request/reply 
