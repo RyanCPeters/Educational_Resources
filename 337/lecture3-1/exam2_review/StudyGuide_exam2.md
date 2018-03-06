@@ -1,6 +1,52 @@
 CSS 337: Exam 2 Study Guide
 ===
 
+0. Review of Sec. Principles:
+
+  + Least privilege
+    * enforce policies that limit individual user access an authority to the least necessary for them to conduct legitimate business
+
+  + Separation of duties
+    * For any given task, more than one individual needs to be involved. 
+    * Applicable to physical environments as well as network and host security. 
+    * No single individual can abuse the system.
+    * ensure that member of security team only control small potions of the project, thus preventing any one member from knowing all details about the entire security system.
+
+  + Fail safe defaults or Implicit deny
+    * It's impossible to create black-list rules for all possible threats, so the only alternative is to instead set default actions to deny anything but on the limited white-list of permissible actions.
+
+  + Job rotation
+    * The rotation of individuals through different tasks and duties in the organization's IT department.
+    * The individuals gain a better perspective of all the elements of how the various parts of the IT department can help or hinder the organization.
+    * Prevents a single point of failure, where only one employee knows mission critical job tasks.
+    * In line with separation of duties, it's important to rotate members of a team through different duties in the system so that they don't get to have a full breadth understanding of how even a specific element in the system works.
+
+  + Layered security (Complete Mediation)
+    * Layered security implements different access controls and utilizing various tools and devices within a security system on multiple levels. 
+    * Like a fortress, you need fall back layers of defense to prevent any attackers that may be able to breach the outer defenses from having full access to the system by using a single exploit.
+
+  + Defense in depth (Diversity of Defense)
+    * Use different security strategies at each level of the layered security, otherwise attacker can just repeat the same strategy over and over again.
+
+  + Security through obscurity
+    * doesn't work, don't trust in it.
+
+  + Keep It Simple (Economy of Mechanism)
+    * The simple security rule is the practice of keeping security processes and tools is simple and elegant. 
+    * Security processes and tools should be simple to use, simple to administer, and easy to troubleshoot.
+    * A system should only run the services that it needs to provide and no more.
+    
+  + Least common mechanism
+    * Minimize the amount of mechanism common to more than one user and depended on by all users.
+    * Every shared mechanism (especially one involving shared variables) represents a potential information path between users and must be designed with great care to be sure it does not unintentionally compromise security. 
+    * Further, any mechanism serving all users must be certified to the satisfaction of every user, a job presumably harder than satisfying only one or a few users. 
+    * For example, given the choice of implementing a new function as a supervisor procedure shared by all users or as a library procedure that can be handled as though it were the user's own, choose the latter course. 
+    * Then, if one or a few users are not satisfied with the level of certification of the function, they can provide a substitute or not use it at all. Either way, they can avoid being harmed by a mistake in it. 
+    
+  + Psychological acceptability
+    * It is essential that the human interface be designed for ease of use, so that users routinely and automatically apply the protection mechanisms correctly
+    * The security system must still be understandable for humans, as they will need to be able to update the system regularly, and it must provide intuitive access structures for users to be able to conduct their business.
+
 1. What is reconnaissance? What are active and passive recon?
 	+ 
 2. What is Google hacking? Give examples
@@ -103,3 +149,8 @@ CSS 337: Exam 2 Study Guide
 	+ 
 51. How is a chroot jail used to improve application security?
 	+ 
+
+
+
+port addresses:
+25  TCP, UDP  SMTP (Simple Mail Transport Protocol) - used for e-mail routing between mailservers
