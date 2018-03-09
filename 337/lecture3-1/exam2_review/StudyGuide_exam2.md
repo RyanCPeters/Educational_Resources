@@ -48,39 +48,97 @@ CSS 337: Exam 2 Study Guide
     * The security system must still be understandable for humans, as they will need to be able to update the system regularly, and it must provide intuitive access structures for users to be able to conduct their business.
 
 1. What is reconnaissance? What are active and passive recon?
-	+ 
+  + To gather information on a possible target for attack.
+	+ Active Recon – actively interact with target
+    * Target may record your IP address and log activity
+    * Higher likelihood of being detected
+    * ie., actually touching the target
+  + Passive Recon – makes use of vast amount of information available on the web
+    * No interaction with target
+    * Target has no way of knowing, recording or logging your activity
+    * observing the target in such a way as to not be recorded by the target as having interacted with them
 2. What is Google hacking? Give examples
-	+ 
+	+  use special search operators in Google in order to narrow down our search results and find very specific files, usually with a known format
 3. What are some examples of reconnaissance tools? What information do they provide? How can this information be used by a hacker?
-	+ 
+	+ dig
+    - 
+  + whois
+    - references a database for 
+  + THE HARVESTER
+    - email collector... and other shit?
+  + nslookup
+    - nslookup is an useful command to find the information about DNS server including IP addresses, MX records etc.
+
 4. What is a firewall? What are their benefits and limitations?
-	+ 
+  +
+ 
 5. List three design goals for a firewall.
-	+ 
+  + can't be penetrated
+  + authorized traffic is allowed
+  + unauthorized traffic is disallowed
+  
 6. List four characteristics used by firewalls to control access and enforce a security policy.
 	+ 
+  
 7. What information is used by a typical packet filtering firewall?
-	+ 
+	+ port numbers
+  + addresses
+  + header information 
+  
 8. What are some weaknesses of a packet filtering firewall?
-	+ 
+	+ can't stop connections to networks nearby but outside the firewall
+  + can't prevent infected portable devices from infecting internal network 
+  
 9. What is an application-level gateway?
-	+ 
+	+ server that is application specific, filters data by looking into application layer 
+  
 10. What are the common characteristics of a bastion host?
-	+ 
+	+ Exposed to the wilds of the internet
+  + externally located gateway 
+  + includes routers and firewalls
+    - located outside the dmz
+    - open to attacks
+    - secure against penetration (hardened os)
+    - responsible for only 1 thing: like DNS server, SMTP server, DATABASE server, etc;  
+  
 11. Why is it useful to have host-based firewalls?
-	+ 
+	+ permits OS specific 
+  + detail specific to the host
+  + independent of topology, don't have to know shit about the network
+  + software module designed to protect a single host
+  + filters and restricts the flow of packets
+  
 12. What is a DMZ network and what types of systems would you expect to find on such networks?
-	+ 
+	+ A section of the local network that is surrounded by 2 or more firewalls
+  + where you would typically find Bastion-hosts 
+  
 13. How do you write firewall rule set? See class problems and assignment.
-	+ 
+	+ source port
+  + source address
+  + destination port
+  + destination address
+  + tcp/udp 
+  + action: permit/deny
+
 14. What are the limitations of intrusion prevention systems?
-	+ 
+	+ firewall cannot detect security breaches associated with traffic that does not pass through it.
+  + not all access to the internet occurs through the firewall
+  + firewall does not inspect the content of the permitted traffic
+  + cryptographic measures cannot protect against insider attacks
+   
 15. List and briefly describe the steps typically used by intruders when attacking a system.
-	+ 
+	+ target acquisition and information gathering
+  + initial access
+  + privilege escalation
+  + information gathering or other system exploit
+  + maintaining access
+  + covering tracks 
+  
 16. Describe the logical components of an IDS.
 	+ 
+  
 17. Describe the differences between a host-based IDS and a network-based IDS. How can their advantages be combined into a single system?
-	+ 
+	+ host based ids will 
 18. What are three benefits that can be provided by an IDS?
 	+ 
 19. What is the difference between a false positive and a false negative in the context of an IDS?
@@ -106,19 +164,32 @@ CSS 337: Exam 2 Study Guide
 29. What is a “logic bomb”?
 	+ 
 30. What is the difference between a backdoor, a bot, a keylogger and a spyware? Can they all be present in the same malware?
-	+ 
+	+ backdoor allows persistant access to a system
+  + bot can be used to forward transmissions and execute attacks remotely
+  + keylogger is input specific
+  + spyware is just a general intelligence acquisition tool. 
+  
 31. What are the differences between DAC and RBAC?
-	+ 
+	+ discretionary access control: some entity is given a specified level of access, which can be modified by any entitity with that authority
+  + role-based access control: access control scheme based upon predefined roles. a given entity can be assigned 1 or more roles.
+  
 32. List and define the three classes of subject in an access control system.
-	+ 
+	+ user, group, and world
+  
 33. In the context of access control, what is the difference between a subject and an object?
-	+ 
+	+ subject: entity that can be assigned a a level of access privilege in a DAC or a role in an RBAC
+  + object: an entity that has access rules for what subject may interact with it and how. 
+  
 34. What is an access right?
-	+ 
+	+ the rules defining the way a subject may access an object
+  
 35. What is the difference between an access control list and a capability ticket?
-	+ 
-36. What is Attribute based access control? Explain in detail
-	+ 
+	+ A capability ticket specifies authorized objects and operations for a particular user. Each user has a number of tickets and may be authorized to loan or give them to others. Because tickets may be dispersed around the system, they present a greater security problem than access control lists. The integrity of the ticket must be protected, and guaranteed (usually by the operating system).
+  
+36. What is Attribute based access control? Explain in detail 	+ A relatively recent development in access control technology is the attribute-based
+access control (ABAC) model. An ABAC model can define authorizations that express conditions on properties of both the resource and the subject. For example,
+consider a configuration in which each resource has an attribute that identifies the subject that created the resource. Then, a single access rule can specify the ownership privilege for all the creators of every resource. The strength of the ABAC approach is its flexibility and expressive power. [PLAT13] points out that the main obstacle to its adoption in real systems has been concern about the performance impact of evaluating predicates on both resource and user properties for each access. However, for applications such as cooperating Web services and cloud computing, this increased performance cost is less noticeable because there is already a relatively high performance cost for each access. Thus, Web services have been pioneering technologies for implementing ABAC models, especially through the introduction of the eXtensible Access Control Markup Language (XAMCL) [BEUC13], and there is considerable interest in applying the ABAC model to cloud services [IQBA12, YANG12].
+  
 37. What are the basic steps needed in the process of securing a system?
 	+ 
 38. What is the aim of system security planning?
@@ -154,3 +225,9 @@ CSS 337: Exam 2 Study Guide
 
 port addresses:
 25  TCP, UDP  SMTP (Simple Mail Transport Protocol) - used for e-mail routing between mailservers
+http 80
+https 443
+pop3 110
+pop3s 995
+dns 53
+smtp 25
